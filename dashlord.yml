@@ -24,4 +24,16 @@ tools:
   budget_page: true
   betagouv: true
 urls:
-  - url: http://policenationale.ddev.site
+  - url: https://vaucluse.gouv.fr
+  - url: https://vendee.gouv.fr
+  - url: https://vienne.gouv.fr
+  - url: https://vie-publique.fr
+  - url: https://vigicrues.gouv.fr
+  - url: https://voeux2022.gouv.fr
+  - url: https://vosges.gouv.fr
+  - url: https://wallis-et-futuna.gouv.fr
+  - url: https://www-dev.onisep.fr
+  - url: https://www-preprod.onisep.fr
+  - url: https://www-recette.cynodex.interieur.gouv.fr
+  - url: https://yonne.gouv.fr
+  - url: https://yvelines.gouv.fr
