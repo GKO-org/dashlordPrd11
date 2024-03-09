@@ -1,0 +1,4 @@
+# Nmap 7.92 scan initiated Sat Mar  9 15:15:24 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www-recette.cynodex.interieur.gouv.fr
+Host: 5.39.7.193 (ipfo-02.pool.proxeeguard.net)	Status: Up
+Host: 5.39.7.193 (ipfo-02.pool.proxeeguard.net)	Ports: 80/open/tcp//http//nginx/, 443/open/tcp//ssl|http//nginx/	Ignored State: filtered (998)
+# Nmap done at Sat Mar  9 15:16:01 2024 -- 1 IP address (1 host up) scanned in 37.05 seconds
