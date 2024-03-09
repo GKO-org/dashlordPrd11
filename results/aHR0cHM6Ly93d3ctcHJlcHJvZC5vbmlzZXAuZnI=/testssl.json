@@ -1,0 +1,1033 @@
+[
+         {
+              "id"           : "service",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "HTTP"
+          }
+,         {
+              "id"           : "pre_128cipher",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No 128 cipher limit bug"
+          }
+,         {
+              "id"           : "SSLv2",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "SSLv3",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_1",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "TLS1_2",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "TLS1_3",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered with final"
+          }
+,         {
+              "id"           : "ALPN_HTTP2",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "h2"
+          }
+,         {
+              "id"           : "ALPN",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http/1.1"
+          }
+,         {
+              "id"           : "cipherlist_NULL",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_aNULL",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_EXPORT",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_LOW",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-327",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_3DES_IDEA",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-310",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_OBSOLETED",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cwe"          : "CWE-310",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_NOFS",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cipherlist_STRONG_FS",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "cipher_order-tls1_2",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "cipherorder_TLSv1_2",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "cipher_order",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "server"
+          }
+,         {
+              "id"           : "FS",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "offered"
+          }
+,         {
+              "id"           : "FS_ciphers",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-SHA256 DHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384"
+          }
+,         {
+              "id"           : "FS_ECDHE_curves",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "prime256v1"
+          }
+,         {
+              "id"           : "TLS_extensions",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'supported versions/#43' 'key share/#51' 'application layer protocol negotiation/#16'"
+          }
+,         {
+              "id"           : "TLS_session_ticket",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "valid for 7200 seconds only (<daily)"
+          }
+,         {
+              "id"           : "SSL_sessionID_support",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "yes"
+          }
+,         {
+              "id"           : "sessionresumption_ticket",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "sessionresumption_ID",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "TLS_timestamp",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "random"
+          }
+,         {
+              "id"           : "certificate_compression",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "clientAuth",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "none"
+          }
+,         {
+              "id"           : "cert_numbers",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "cert_signatureAlgorithm",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "SHA256 with RSA"
+          }
+,         {
+              "id"           : "cert_keySize",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "RSA 2048 bits (exponent is 65537)"
+          }
+,         {
+              "id"           : "cert_keyUsage",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Digital Signature, Key Encipherment"
+          }
+,         {
+              "id"           : "cert_extKeyUsage",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLS Web Client Authentication, TLS Web Server Authentication"
+          }
+,         {
+              "id"           : "cert_serialNumber",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "010625483CCCD08DCEC397C35BF553D2D619B3B4"
+          }
+,         {
+              "id"           : "cert_serialNumberLen",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "20"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA1",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "FD735A83F840367E25F48920ABFAC36D690C400A"
+          }
+,         {
+              "id"           : "cert_fingerprintSHA256",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "C06447D35A5ADEA408891430C57807C4DF9C61A10B398DE0FB8F282204896C50"
+          }
+,         {
+              "id"           : "cert",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEnjCCA4agAwIBAgIUAQYlSDzM0I3Ow5fDW/VT0tYZs7QwDQYJKoZIhvcNAQELBQAwgYsxCzAJBgNVBAYTAlVTMRkwFwYDVQQKExBDbG91ZEZsYXJlLCBJbmMuMTQwMgYDVQQLEytDbG91ZEZsYXJlIE9yaWdpbiBTU0wgQ2VydGlmaWNhdGUgQXV0aG9yaXR5MRYwFAYDVQQHEw1TYW4gRnJhbmNpc2NvMRMwEQYDVQQIEwpDYWxpZm9ybmlhMB4XDTIyMDgzMDEzNTIwMFoXDTM3MDgyNjEzNTIwMFowYjEZMBcGA1UEChMQQ2xvdWRGbGFyZSwgSW5jLjEdMBsGA1UECxMUQ2xvdWRGbGFyZSBPcmlnaW4gQ0ExJjAkBgNVBAMTHUNsb3VkRmxhcmUgT3JpZ2luIENlcnRpZmljYXRlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAkBY131HsB5GVXaFf1c9UDq0ZsbXToBa+rcN0P5jyn9k0KDL5uLzYIo1XsPVkwriqaZsf0bCQ4FcJN6Zj7K9YpzM4C2xuy+ZPBZ/tCxLrQgPS11vdGAUIow//m1ITTOg37Rls1zW9iaPqb86pM3T7JH7iHRkPtQx5uX/HaeRZZ+gj0kuSl6EHVfX8Bil/4duNKju1Szp9kf6SgoSvfOIkiheTpMdQ2BnRmN+TaJNhN6v+NUKm9ImtW2b0IcQst/5G/7jy9yaMGCkd/0R5NEsROM7Jm0AD+zD1rCfAkVLbKo2uYfD8zYVvIid1NcUWApAPwvOarb83SkaFb3ilLwhmPQIDAQABo4IBIDCCARwwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBSISjs0EvXTdFWMXTsX/yZJTocCMDAfBgNVHSMEGDAWgBQk6FNXXXw0QIep65TbuuEWePwppDBABggrBgEFBQcBAQQ0MDIwMAYIKwYBBQUHMAGGJGh0dHA6Ly9vY3NwLmNsb3VkZmxhcmUuY29tL29yaWdpbl9jYTAhBgNVHREEGjAYggsqLm9uaXNlcC5mcoIJb25pc2VwLmZyMDgGA1UdHwQxMC8wLaAroCmGJ2h0dHA6Ly9jcmwuY2xvdWRmbGFyZS5jb20vb3JpZ2luX2NhLmNybDANBgkqhkiG9w0BAQsFAAOCAQEAF7y86DJUNA/PaOSfzmJv3AbuyrI/gWgwPfhLHzhF5XZoHSxcA4i1R74p9EfjX0tOc9ZTqOXsXmN7l2Ru/A0wylyB4bKwKbqt5c7XO+e9DnupZ+WwPzfeHDzWkpvJ39RKBx2xwNS4yk8nYEJR5dM3ICr4Web1Fne8m3J5B4Z+efbsdkxzq1O/NVallhdwbMfdMKeSfUDnzyAswvhwTu3LPDEKUjSNtEo9msBFicHtsSPNFVX74FuNkCQS5cZGAIHm/Pc2JTMiCnnq6wdFvk/ujZrjocURC6BHsB440aH/FVgBSE4AVQKqwMRh8lN5MlWzPxdFlYC5DUtbE5PAoDliyA==\n-----END CERTIFICATE-----"
+          }
+,         {
+              "id"           : "cert_commonName",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "CloudFlare Origin Certificate"
+          }
+,         {
+              "id"           : "cert_commonName_wo_SNI",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "*.onisep-preprod.fr"
+          }
+,         {
+              "id"           : "cert_subjectAltName",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "*.onisep.fr onisep.fr"
+          }
+,         {
+              "id"           : "cert_trust",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "Ok via SAN wildcard (SNI mandatory)"
+          }
+,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
+              "id"           : "cert_chain_of_trust",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "CRITICAL",
+              "finding"      : "failed (chain incomplete)."
+          }
+,         {
+              "id"           : "cert_certificatePolicies_EV",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_expirationStatus",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "4917 >= 60 days"
+          }
+,         {
+              "id"           : "cert_notBefore",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "2022-08-30 13:52"
+          }
+,         {
+              "id"           : "cert_notAfter",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "2037-08-26 13:52"
+          }
+,         {
+              "id"           : "cert_extlifeSpan",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "HIGH",
+              "finding"      : "5475 days"
+          }
+,         {
+              "id"           : "cert_eTLS",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "not present"
+          }
+,         {
+              "id"           : "cert_crlDistributionPoints",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://crl.cloudflare.com/origin_ca.crl"
+          }
+,         {
+              "id"           : "cert_ocspURL",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "http://ocsp.cloudflare.com/origin_ca"
+          }
+,         {
+              "id"           : "OCSP_stapling",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "cert_mustStapleExtension",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "DNS_CAArecord",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certificate_transparency",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "certs_countServer",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "1"
+          }
+,         {
+              "id"           : "certs_list_ordering_problem",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "no"
+          }
+,         {
+              "id"           : "cert_caIssuers",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "(CloudFlare, Inc. from US)"
+          }
+,         {
+              "id"           : "intermediate_cert_badOCSP",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "intermediate certificate(s) is/are ok"
+          }
+,         {
+              "id"           : "HTTP_status_code",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "301 Moved Permanently ('/')"
+          }
+,         {
+              "id"           : "HTTP_clock_skew",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Got no HTTP time, maybe try different URL?"
+          }
+,         {
+              "id"           : "HSTS",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "not offered"
+          }
+,         {
+              "id"           : "HPKP",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No support for HTTP Public Key Pinning"
+          }
+,         {
+              "id"           : "banner_server",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No Server banner line in header, interesting!"
+          }
+,         {
+              "id"           : "banner_application",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No application banner found"
+          }
+,         {
+              "id"           : "cookie_count",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
+          }
+,         {
+              "id"           : "security_headers",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "MEDIUM",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "banner_reverseproxy",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cwe"          : "CWE-200",
+              "finding"      : "--"
+          }
+,         {
+              "id"           : "heartbleed",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0160",
+              "cwe"          : "CWE-119",
+              "finding"      : "not vulnerable, no heartbeat extension"
+          }
+,         {
+              "id"           : "CCS",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-0224",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ticketbleed",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-9244",
+              "cwe"          : "CWE-200",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "ROBOT",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
+              "cwe"          : "CWE-203",
+              "finding"      : "not vulnerable, no RSA key transport cipher"
+          }
+,         {
+              "id"           : "secure_renego",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cwe"          : "CWE-310",
+              "finding"      : "supported"
+          }
+,         {
+              "id"           : "secure_client_renego",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-1473",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "CRIME_TLS",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2012-4929",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "BREACH",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-3587",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no gzip/deflate/compress/br HTTP compression  - only supplied '/' tested"
+          }
+,         {
+              "id"           : "POODLE_SSL",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-3566",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no SSLv3"
+          }
+,         {
+              "id"           : "fallback_SCSV",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "no protocol below TLS 1.2 offered"
+          }
+,         {
+              "id"           : "SWEET32",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-2183 CVE-2016-6329",
+              "cwe"          : "CWE-327",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "FREAK",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-0204",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "DROWN",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable on this host and port"
+          }
+,         {
+              "id"           : "DROWN_hint",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2016-0800 CVE-2016-0703",
+              "cwe"          : "CWE-310",
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=C06447D35A5ADEA408891430C57807C4DF9C61A10B398DE0FB8F282204896C50"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "HAProxy"
+          }
+,         {
+              "id"           : "LOGJAM",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "BEAST",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2011-3389",
+              "cwe"          : "CWE-20",
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
+          }
+,         {
+              "id"           : "LUCKY13",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "cve"          : "CVE-2013-0169",
+              "cwe"          : "CWE-310",
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
+          }
+,         {
+              "id"           : "winshock",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2014-6321",
+              "cwe"          : "CWE-94",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "RC4",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2013-2566 CVE-2015-2808",
+              "cwe"          : "CWE-310",
+              "finding"      : "not vulnerable"
+          }
+,         {
+              "id"           : "clientsimulation-android_60",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-android_70",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_81",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_90",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_X",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_11",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-android_12",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_79_win10",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-chrome_101_win10",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_66_win81",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-firefox_100_win10",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_6_xp",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_win7",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_8_xp",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win7",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win81",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_winphone81",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-SHA256"
+          }
+,         {
+              "id"           : "clientsimulation-ie_11_win10",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_15_win10",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-edge_101_win10_21h2",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_121_ios_122",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_130_osx_10146",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-safari_154_osx_1231",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java_7u25",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "No connection"
+          }
+,         {
+              "id"           : "clientsimulation-java_8u161",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java1102",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-java1703",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-go_1178",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-libressl_283",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_102e",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_110l",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_111d",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-openssl_303",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-apple_mail_16_0",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+          }
+,         {
+              "id"           : "clientsimulation-thunderbird_91_9",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "rating_spec",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
+          }
+,         {
+              "id"           : "rating_doc",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
+          }
+,         {
+              "id"           : "protocol_support_score",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "protocol_support_score_weighted",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "key_exchange_score",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "key_exchange_score_weighted",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "cipher_strength_score",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "cipher_strength_score_weighted",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "final_score",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "0"
+          }
+,         {
+              "id"           : "overall_grade",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "CRITICAL",
+              "finding"      : "T"
+          }
+,         {
+              "id"           : "grade_cap_reason_1",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to T. Issues with the chain of trust (chain incomplete)"
+          }
+,         {
+              "id"           : "grade_cap_reason_2",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "Grade capped to A. HSTS is not offered"
+          }
+,         {
+              "id"           : "scanTime",
+              "ip"           : "www-preprod.onisep.fr/213.91.3.180",
+              "port"         : "443",
+              "severity"     : "INFO",
+              "finding"      : "72"
+          }
+]
