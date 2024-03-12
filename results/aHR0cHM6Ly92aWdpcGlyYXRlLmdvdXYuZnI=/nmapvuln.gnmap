@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Mon Mar 11 19:48:53 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln vigipirate.gouv.fr
+# Nmap 7.92 scan initiated Tue Mar 12 10:37:59 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln vigipirate.gouv.fr
 Host: 87.98.148.216 (vigipirate.gouv.fr)	Status: Up
 Host: 87.98.148.216 (vigipirate.gouv.fr)	Ports: 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (998)
-# Nmap done at Mon Mar 11 19:49:15 2024 -- 1 IP address (1 host up) scanned in 21.83 seconds
+# Nmap done at Tue Mar 12 10:38:25 2024 -- 1 IP address (1 host up) scanned in 26.58 seconds
