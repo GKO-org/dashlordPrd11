@@ -27,12 +27,12 @@ urls:
   - url: https://stationnement.gouv.fr
   - url: https://insp.gouv.fr
   - url: https://secnumacademie.gouv.fr
-  - url: https://systeme-de-design.gouv.fr
+  - url: https://www.systeme-de-design.gouv.fr
   - url: https://tarifs-bancaires.gouv.fr
   - url: https://tarn.gouv.fr
   - url: https://tarn-et-garonne.gouv.fr
   - url: https://territoire-de-belfort.gouv.fr
-  - url: https://tourisme-handicap.gouv.fr
+  - url: https://www.tourisme-handicap.gouv.fr
   - url: https://ssi.gouv.fr
   - url: https://transformation.gouv.fr
   - url: https://travail-emploi.gouv.fr
@@ -45,7 +45,7 @@ urls:
   - url: https://vaucluse.gouv.fr
   - url: https://vendee.gouv.fr
   - url: https://vienne.gouv.fr
-  - url: https://vigicrues.gouv.fr
+  - url: https://www.vigicrues.gouv.fr
   - url: https://voeux2022.gouv.fr
   - url: https://vosges.gouv.fr
   - url: https://wallis-et-futuna.gouv.fr
