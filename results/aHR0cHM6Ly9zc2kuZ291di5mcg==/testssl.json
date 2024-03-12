@@ -339,7 +339,7 @@
               "ip"           : "ssi.gouv.fr/193.70.123.152",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "192 >= 60 days"
+              "finding"      : "191 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,7 +500,7 @@
               "ip"           : "ssi.gouv.fr/193.70.123.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710185858"
+              "finding"      : "1710238906"
           }
 ,         {
               "id"           : "HSTS",
@@ -1056,6 +1056,6 @@
               "ip"           : "ssi.gouv.fr/193.70.123.152",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "61"
+              "finding"      : "99"
           }
 ]
