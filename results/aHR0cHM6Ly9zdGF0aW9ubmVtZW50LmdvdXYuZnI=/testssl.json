@@ -339,7 +339,7 @@
               "ip"           : "stationnement.gouv.fr/160.92.148.108",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "253 >= 60 days"
+              "finding"      : "252 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -542,7 +542,7 @@
               "ip"           : "stationnement.gouv.fr/160.92.148.108",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1710184938"
+              "finding"      : "1710237944"
           }
 ,         {
               "id"           : "HSTS",
@@ -1112,6 +1112,6 @@
               "ip"           : "stationnement.gouv.fr/160.92.148.108",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "56"
+              "finding"      : "55"
           }
 ]
