@@ -24,30 +24,16 @@ tools:
   budget_page: true
   betagouv: true
 urls:
-  - url: https://stationnement.gouv.fr
-  - url: https://insp.gouv.fr
-  - url: https://secnumacademie.gouv.fr
-  - url: https://www.systeme-de-design.gouv.fr
-  - url: https://tarifs-bancaires.gouv.fr
-  - url: https://tarn.gouv.fr
-  - url: https://tarn-et-garonne.gouv.fr
-  - url: https://territoire-de-belfort.gouv.fr
-  - url: https://www.tourisme-handicap.gouv.fr
-  - url: https://ssi.gouv.fr
-  - url: https://transformation.gouv.fr
-  - url: https://travail-emploi.gouv.fr
-  - url: https://strategie.gouv.fr
-  - url: https://vigipirate.gouv.fr
-  - url: https://vae.gouv.fr
-  - url: https://val-de-marne.gouv.fr
-  - url: https://val-doise.gouv.fr
-  - url: https://var.gouv.fr
-  - url: https://vaucluse.gouv.fr
-  - url: https://vendee.gouv.fr
-  - url: https://vienne.gouv.fr
-  - url: https://www.vigicrues.gouv.fr
-  - url: https://voeux2022.gouv.fr
-  - url: https://vosges.gouv.fr
-  - url: https://wallis-et-futuna.gouv.fr
-  - url: https://yonne.gouv.fr
-  - url: https://yvelines.gouv.fr
+  - url: https://www.info.gouv.fr
+  - url: https://ira-bastia.gouv.fr
+  - url: https://www.ira-lille.gouv.fr
+  - url: https://www.ira-lyon.gouv.fr
+  - url: https://www.ira-nantes.gouv.fr
+  - url: http://lasuite.numerique.gouv.fr
+  - url: https://mieuxrespirerenville.gouv.fr
+  - url: https://pacte-industrie.ademe.fr
+  - url: https://www.agora.gouv.fr
+  - url: https://anticiperlesjeux.gouv.fr
+  - url: https://audience.communication.gouv.fr
+  - url: https://recrutement.ademe.fr
+  - url: https://recherche.ademe.fr
