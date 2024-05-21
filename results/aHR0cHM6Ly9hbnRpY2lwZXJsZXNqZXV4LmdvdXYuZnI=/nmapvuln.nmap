@@ -1,0 +1,201 @@
+# Nmap 7.92 scan initiated Tue May 21 13:19:14 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln anticiperlesjeux.gouv.fr
+Nmap scan report for anticiperlesjeux.gouv.fr (54.38.64.213)
+Host is up (0.080s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http      nginx
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 500 Internal Server Error
+|     server: nginx
+|     date: Tue, 21 May 2024 13:19:23 GMT
+|     content-type: text/html
+|     content-length: 170
+|     x-iplb-request-id: 14372EC5:B801_362640D5:0050_664C9F5B_100C857:3A6B
+|     x-iplb-instance: 52932
+|     connection: close
+|     <html>
+|     <head><title>500 Internal Server Error</title></head>
+|     <body>
+|     <center><h1>500 Internal Server Error</h1></center>
+|     <hr><center>nginx</center>
+|     </body>
+|     </html>
+|   GetRequest: 
+|     HTTP/1.1 403 Forbidden
+|     server: nginx
+|     date: Tue, 21 May 2024 13:19:22 GMT
+|     content-type: text/html
+|     content-length: 146
+|     keep-alive: timeout=5
+|     vary: Accept-Encoding
+|     x-iplb-request-id: 14372EC5:B7C4_362640D5:0050_664C9F54_100C7B1:3A6B
+|     x-iplb-instance: 52932
+|     connection: close
+|     <html>
+|     <head><title>403 Forbidden</title></head>
+|     <body>
+|     <center><h1>403 Forbidden</h1></center>
+|     <hr><center>nginx</center>
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.1 405 Not Allowed
+|     server: nginx
+|     date: Tue, 21 May 2024 13:19:22 GMT
+|     content-type: text/html
+|     content-length: 150
+|     keep-alive: timeout=5
+|     x-iplb-request-id: 14372EC5:B803_362640D5:0050_664C9F5A_100C83B:3A6B
+|     x-iplb-instance: 52932
+|     connection: close
+|     <html>
+|     <head><title>405 Not Allowed</title></head>
+|     <body>
+|     <center><h1>405 Not Allowed</h1></center>
+|     <hr><center>nginx</center>
+|     </body>
+|     </html>
+|   RTSPRequest, X11Probe: 
+|     HTTP/1.1 400 Bad request
+|     content-length: 90
+|     cache-control: no-cache
+|     content-type: text/html
+|     connection: close
+|     <html><body><h1>400 Bad request</h1>
+|     Your browser sent an invalid request.
+|_    </body></html>
+|_http-server-header: nginx
+443/tcp open  ssl/https nginx
+| fingerprint-strings: 
+|   FourOhFourRequest: 
+|     HTTP/1.1 500 Internal Server Error
+|     server: nginx
+|     date: Tue, 21 May 2024 13:19:29 GMT
+|     content-type: text/html
+|     content-length: 170
+|     x-iplb-request-id: 14372EC5:B7C0_362640D5:01BB_664C9F61_10128B9:0D67
+|     x-iplb-instance: 52978
+|     connection: close
+|     <html>
+|     <head><title>500 Internal Server Error</title></head>
+|     <body>
+|     <center><h1>500 Internal Server Error</h1></center>
+|     <hr><center>nginx</center>
+|     </body>
+|     </html>
+|   GetRequest: 
+|     HTTP/1.1 403 Forbidden
+|     server: nginx
+|     date: Tue, 21 May 2024 13:19:28 GMT
+|     content-type: text/html
+|     content-length: 146
+|     keep-alive: timeout=5
+|     vary: Accept-Encoding
+|     x-iplb-request-id: 14372EC5:B811_362640D5:01BB_664C9F5A_10127F2:0D67
+|     x-iplb-instance: 52978
+|     connection: close
+|     <html>
+|     <head><title>403 Forbidden</title></head>
+|     <body>
+|     <center><h1>403 Forbidden</h1></center>
+|     <hr><center>nginx</center>
+|     </body>
+|     </html>
+|   HTTPOptions: 
+|     HTTP/1.1 405 Not Allowed
+|     server: nginx
+|     date: Tue, 21 May 2024 13:19:28 GMT
+|     content-type: text/html
+|     content-length: 150
+|     keep-alive: timeout=5
+|     x-iplb-request-id: 14372EC5:B81F_362640D5:01BB_664C9F60_10128B5:0D67
+|     x-iplb-instance: 52978
+|     connection: close
+|     <html>
+|     <head><title>405 Not Allowed</title></head>
+|     <body>
+|     <center><h1>405 Not Allowed</h1></center>
+|     <hr><center>nginx</center>
+|     </body>
+|     </html>
+|   RTSPRequest, tor-versions: 
+|     HTTP/1.1 400 Bad request
+|     content-length: 90
+|     cache-control: no-cache
+|     content-type: text/html
+|     connection: close
+|     <html><body><h1>400 Bad request</h1>
+|     Your browser sent an invalid request.
+|_    </body></html>
+|_http-server-header: nginx
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.92%I=7%D=5/21%Time=664C9F5A%P=x86_64-alpine-linux-musl%r
+SF:(GetRequest,1AD,"HTTP/1\.1\x20403\x20Forbidden\r\nserver:\x20nginx\r\nd
+SF:ate:\x20Tue,\x2021\x20May\x202024\x2013:19:22\x20GMT\r\ncontent-type:\x
+SF:20text/html\r\ncontent-length:\x20146\r\nkeep-alive:\x20timeout=5\r\nva
+SF:ry:\x20Accept-Encoding\r\nx-iplb-request-id:\x2014372EC5:B7C4_362640D5:
+SF:0050_664C9F54_100C7B1:3A6B\r\nx-iplb-instance:\x2052932\r\nconnection:\
+SF:x20close\r\n\r\n<html>\r\n<head><title>403\x20Forbidden</title></head>\
+SF:r\n<body>\r\n<center><h1>403\x20Forbidden</h1></center>\r\n<hr><center>
+SF:nginx</center>\r\n</body>\r\n</html>\r\n")%r(HTTPOptions,19C,"HTTP/1\.1
+SF:\x20405\x20Not\x20Allowed\r\nserver:\x20nginx\r\ndate:\x20Tue,\x2021\x2
+SF:0May\x202024\x2013:19:22\x20GMT\r\ncontent-type:\x20text/html\r\nconten
+SF:t-length:\x20150\r\nkeep-alive:\x20timeout=5\r\nx-iplb-request-id:\x201
+SF:4372EC5:B803_362640D5:0050_664C9F5A_100C83B:3A6B\r\nx-iplb-instance:\x2
+SF:052932\r\nconnection:\x20close\r\n\r\n<html>\r\n<head><title>405\x20Not
+SF:\x20Allowed</title></head>\r\n<body>\r\n<center><h1>405\x20Not\x20Allow
+SF:ed</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\
+SF:n")%r(RTSPRequest,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\ncontent-len
+SF:gth:\x2090\r\ncache-control:\x20no-cache\r\ncontent-type:\x20text/html\
+SF:r\nconnection:\x20close\r\n\r\n<html><body><h1>400\x20Bad\x20request</h
+SF:1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></htm
+SF:l>\n")%r(X11Probe,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\ncontent-len
+SF:gth:\x2090\r\ncache-control:\x20no-cache\r\ncontent-type:\x20text/html\
+SF:r\nconnection:\x20close\r\n\r\n<html><body><h1>400\x20Bad\x20request</h
+SF:1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\n</body></htm
+SF:l>\n")%r(FourOhFourRequest,1A3,"HTTP/1\.1\x20500\x20Internal\x20Server\
+SF:x20Error\r\nserver:\x20nginx\r\ndate:\x20Tue,\x2021\x20May\x202024\x201
+SF:3:19:23\x20GMT\r\ncontent-type:\x20text/html\r\ncontent-length:\x20170\
+SF:r\nx-iplb-request-id:\x2014372EC5:B801_362640D5:0050_664C9F5B_100C857:3
+SF:A6B\r\nx-iplb-instance:\x2052932\r\nconnection:\x20close\r\n\r\n<html>\
+SF:r\n<head><title>500\x20Internal\x20Server\x20Error</title></head>\r\n<b
+SF:ody>\r\n<center><h1>500\x20Internal\x20Server\x20Error</h1></center>\r\
+SF:n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=5/21%Time=664C9F60%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,1AD,"HTTP/1\.1\x20403\x20Forbidden\r\nserver:\x20ngi
+SF:nx\r\ndate:\x20Tue,\x2021\x20May\x202024\x2013:19:28\x20GMT\r\ncontent-
+SF:type:\x20text/html\r\ncontent-length:\x20146\r\nkeep-alive:\x20timeout=
+SF:5\r\nvary:\x20Accept-Encoding\r\nx-iplb-request-id:\x2014372EC5:B811_36
+SF:2640D5:01BB_664C9F5A_10127F2:0D67\r\nx-iplb-instance:\x2052978\r\nconne
+SF:ction:\x20close\r\n\r\n<html>\r\n<head><title>403\x20Forbidden</title><
+SF:/head>\r\n<body>\r\n<center><h1>403\x20Forbidden</h1></center>\r\n<hr><
+SF:center>nginx</center>\r\n</body>\r\n</html>\r\n")%r(HTTPOptions,19C,"HT
+SF:TP/1\.1\x20405\x20Not\x20Allowed\r\nserver:\x20nginx\r\ndate:\x20Tue,\x
+SF:2021\x20May\x202024\x2013:19:28\x20GMT\r\ncontent-type:\x20text/html\r\
+SF:ncontent-length:\x20150\r\nkeep-alive:\x20timeout=5\r\nx-iplb-request-i
+SF:d:\x2014372EC5:B81F_362640D5:01BB_664C9F60_10128B5:0D67\r\nx-iplb-insta
+SF:nce:\x2052978\r\nconnection:\x20close\r\n\r\n<html>\r\n<head><title>405
+SF:\x20Not\x20Allowed</title></head>\r\n<body>\r\n<center><h1>405\x20Not\x
+SF:20Allowed</h1></center>\r\n<hr><center>nginx</center>\r\n</body>\r\n</h
+SF:tml>\r\n")%r(FourOhFourRequest,1A3,"HTTP/1\.1\x20500\x20Internal\x20Ser
+SF:ver\x20Error\r\nserver:\x20nginx\r\ndate:\x20Tue,\x2021\x20May\x202024\
+SF:x2013:19:29\x20GMT\r\ncontent-type:\x20text/html\r\ncontent-length:\x20
+SF:170\r\nx-iplb-request-id:\x2014372EC5:B7C0_362640D5:01BB_664C9F61_10128
+SF:B9:0D67\r\nx-iplb-instance:\x2052978\r\nconnection:\x20close\r\n\r\n<ht
+SF:ml>\r\n<head><title>500\x20Internal\x20Server\x20Error</title></head>\r
+SF:\n<body>\r\n<center><h1>500\x20Internal\x20Server\x20Error</h1></center
+SF:>\r\n<hr><center>nginx</center>\r\n</body>\r\n</html>\r\n")%r(tor-versi
+SF:ons,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\ncontent-length:\x2090\r\n
+SF:cache-control:\x20no-cache\r\ncontent-type:\x20text/html\r\nconnection:
+SF:\x20close\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20br
+SF:owser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n")%r(RTSPR
+SF:equest,CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\ncontent-length:\x2090\
+SF:r\ncache-control:\x20no-cache\r\ncontent-type:\x20text/html\r\nconnecti
+SF:on:\x20close\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x2
+SF:0browser\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue May 21 13:19:45 2024 -- 1 IP address (1 host up) scanned in 31.74 seconds
