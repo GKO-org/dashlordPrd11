@@ -1,70 +1,70 @@
 [
          {
               "id"           : "service",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "HTTP"
           }
 ,         {
               "id"           : "pre_128cipher",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No 128 cipher limit bug"
           }
 ,         {
               "id"           : "SSLv2",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "SSLv3",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_1",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_2",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
               "id"           : "TLS1_3",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "not offered + downgraded to weaker protocol"
+              "severity"     : "OK",
+              "finding"      : "offered with final"
           }
 ,         {
               "id"           : "ALPN",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not offered"
+              "finding"      : "http/1.1"
           }
 ,         {
               "id"           : "cipherlist_NULL",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -72,7 +72,7 @@
           }
 ,         {
               "id"           : "cipherlist_aNULL",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -80,7 +80,7 @@
           }
 ,         {
               "id"           : "cipherlist_EXPORT",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -88,7 +88,7 @@
           }
 ,         {
               "id"           : "cipherlist_LOW",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-327",
@@ -96,7 +96,7 @@
           }
 ,         {
               "id"           : "cipherlist_3DES_IDEA",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-310",
@@ -104,477 +104,652 @@
           }
 ,         {
               "id"           : "cipherlist_OBSOLETED",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
-              "severity"     : "INFO",
+              "severity"     : "LOW",
               "cwe"          : "CWE-310",
-              "finding"      : "not offered"
+              "finding"      : "offered"
           }
 ,         {
               "id"           : "cipherlist_STRONG_NOFS",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "not offered"
+              "severity"     : "OK",
+              "finding"      : "offered"
           }
 ,         {
               "id"           : "cipherlist_STRONG_FS",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
               "id"           : "cipher_order-tls1_2",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "NOT a cipher order configured"
           }
 ,         {
               "id"           : "cipher-tls1_2_xc030",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "TLSv1.2   xc030   ECDHE-RSA-AES256-GCM-SHA384       ECDH 521   AESGCM      256      TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384"
           }
 ,         {
+              "id"           : "cipher-tls1_2_xc028",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc028   ECDHE-RSA-AES256-SHA384           ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc014",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc014   ECDHE-RSA-AES256-SHA              ECDH 521   AES         256      TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
               "id"           : "cipher-tls1_2_x9f",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "TLSv1.2   x9f     DHE-RSA-AES256-GCM-SHA384         DH 2048    AESGCM      256      TLS_DHE_RSA_WITH_AES_256_GCM_SHA384"
           }
 ,         {
+              "id"           : "cipher-tls1_2_x6b",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x6b     DHE-RSA-AES256-SHA256             DH 2048    AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x39",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x39     DHE-RSA-AES256-SHA                DH 2048    AES         256      TLS_DHE_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc077",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc077   ECDHE-RSA-CAMELLIA256-SHA384      ECDH 521   Camellia    256      TLS_ECDHE_RSA_WITH_CAMELLIA_256_CBC_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc4",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc4     DHE-RSA-CAMELLIA256-SHA256        DH 2048    Camellia    256      TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x88",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x88     DHE-RSA-CAMELLIA256-SHA           DH 2048    Camellia    256      TLS_DHE_RSA_WITH_CAMELLIA_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9d",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9d     AES256-GCM-SHA384                 RSA        AESGCM      256      TLS_RSA_WITH_AES_256_GCM_SHA384"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x3d",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x3d     AES256-SHA256                     RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x35",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x35     AES256-SHA                        RSA        AES         256      TLS_RSA_WITH_AES_256_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc0",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc0     CAMELLIA256-SHA256                RSA        Camellia    256      TLS_RSA_WITH_CAMELLIA_256_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x84",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x84     CAMELLIA256-SHA                   RSA        Camellia    256      TLS_RSA_WITH_CAMELLIA_256_CBC_SHA"
+          }
+,         {
               "id"           : "cipher-tls1_2_xc02f",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "TLSv1.2   xc02f   ECDHE-RSA-AES128-GCM-SHA256       ECDH 521   AESGCM      128      TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256"
           }
 ,         {
+              "id"           : "cipher-tls1_2_xc027",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc027   ECDHE-RSA-AES128-SHA256           ECDH 521   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc013",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc013   ECDHE-RSA-AES128-SHA              ECDH 521   AES         128      TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
               "id"           : "cipher-tls1_2_x9e",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "TLSv1.2   x9e     DHE-RSA-AES128-GCM-SHA256         DH 2048    AESGCM      128      TLS_DHE_RSA_WITH_AES_128_GCM_SHA256"
           }
 ,         {
+              "id"           : "cipher-tls1_2_x67",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x67     DHE-RSA-AES128-SHA256             DH 2048    AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x33",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x33     DHE-RSA-AES128-SHA                DH 2048    AES         128      TLS_DHE_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xc076",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xc076   ECDHE-RSA-CAMELLIA128-SHA256      ECDH 521   Camellia    128      TLS_ECDHE_RSA_WITH_CAMELLIA_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xbe",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xbe     DHE-RSA-CAMELLIA128-SHA256        DH 2048    Camellia    128      TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x45",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x45     DHE-RSA-CAMELLIA128-SHA           DH 2048    Camellia    128      TLS_DHE_RSA_WITH_CAMELLIA_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x9c",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "OK",
+              "finding"      : "TLSv1.2   x9c     AES128-GCM-SHA256                 RSA        AESGCM      128      TLS_RSA_WITH_AES_128_GCM_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x3c",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x3c     AES128-SHA256                     RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x2f",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x2f     AES128-SHA                        RSA        AES         128      TLS_RSA_WITH_AES_128_CBC_SHA"
+          }
+,         {
+              "id"           : "cipher-tls1_2_xba",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   xba     CAMELLIA128-SHA256                RSA        Camellia    128      TLS_RSA_WITH_CAMELLIA_128_CBC_SHA256"
+          }
+,         {
+              "id"           : "cipher-tls1_2_x41",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "TLSv1.2   x41     CAMELLIA128-SHA                   RSA        Camellia    128      TLS_RSA_WITH_CAMELLIA_128_CBC_SHA"
+          }
+,         {
               "id"           : "supportedciphers_TLSv1_2",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA DHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-SHA256 DHE-RSA-AES256-SHA ECDHE-RSA-CAMELLIA256-SHA384 DHE-RSA-CAMELLIA256-SHA256 DHE-RSA-CAMELLIA256-SHA AES256-GCM-SHA384 AES256-SHA256 AES256-SHA CAMELLIA256-SHA256 CAMELLIA256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-SHA256 DHE-RSA-AES128-SHA ECDHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA AES128-GCM-SHA256 AES128-SHA256 AES128-SHA CAMELLIA128-SHA256 CAMELLIA128-SHA"
           }
 ,         {
               "id"           : "cipher_order",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "NOT a cipher order configured"
           }
 ,         {
               "id"           : "FS",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
               "id"           : "FS_ciphers",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES128-SHA256 DHE-RSA-AES128-SHA DHE-RSA-AES256-GCM-SHA384 DHE-RSA-AES256-SHA256 DHE-RSA-AES256-SHA DHE-RSA-CAMELLIA128-SHA256 DHE-RSA-CAMELLIA128-SHA DHE-RSA-CAMELLIA256-SHA256 DHE-RSA-CAMELLIA256-SHA ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES128-SHA ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384 ECDHE-RSA-AES256-SHA ECDHE-RSA-CAMELLIA128-SHA256 ECDHE-RSA-CAMELLIA256-SHA384"
           }
 ,         {
               "id"           : "FS_ECDHE_curves",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "secp256k1 prime256v1 secp384r1 secp521r1"
+              "finding"      : "prime256v1 secp384r1 secp521r1"
           }
 ,         {
               "id"           : "TLS_extensions",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'server name/#0' 'renegotiation info/#65281' 'EC point formats/#11' 'session ticket/#35' 'heartbeat/#15'"
+              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'supported versions/#43' 'key share/#51' 'supported_groups/#10' 'max fragment length/#1' 'application layer protocol negotiation/#16' 'encrypt-then-mac/#22' 'extended master secret/#23'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "valid for 7200 seconds only (<daily)"
+              "finding"      : "no -- no lifetime advertised"
           }
 ,         {
               "id"           : "SSL_sessionID_support",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "yes"
           }
 ,         {
               "id"           : "sessionresumption_ticket",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "sessionresumption_ID",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "random"
           }
 ,         {
-              "id"           : "cert_compression",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "id"           : "certificate_compression",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "N/A"
+              "finding"      : "none"
           }
 ,         {
               "id"           : "clientAuth",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "none"
           }
 ,         {
               "id"           : "cert_numbers",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "1"
           }
 ,         {
               "id"           : "cert_signatureAlgorithm",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "SHA256 with RSA"
+              "finding"      : "SHA384 with RSA"
           }
 ,         {
               "id"           : "cert_keySize",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "RSA 2048 bits (exponent is 65537)"
           }
 ,         {
               "id"           : "cert_keyUsage",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "Digital Signature, Key Encipherment"
           }
 ,         {
               "id"           : "cert_extKeyUsage",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLS Web Server Authentication, TLS Web Client Authentication"
           }
 ,         {
               "id"           : "cert_serialNumber",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "03443CAFCB9BF19401C6F62DFD9E5A611B62"
+              "finding"      : "B2B2EE5208C29147859A82CA9038B0A1"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "18"
+              "finding"      : "16"
           }
 ,         {
               "id"           : "cert_fingerprintSHA1",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "AF2E18415A2A6CD85E91F6E1E1FE0AE3DDF0E053"
+              "finding"      : "F32B41D515BD6796DACEEF7951B22D8A0CD40F02"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "45A88EFAC442BEF4435CD1AC993209A449B6661B0CCAC1D3644368C7B98135A9"
+              "finding"      : "BEFE51DDF75112183ADB23C09513A7B1F5027E541F18C74A4FA9C2F08F72F9AA"
           }
 ,         {
               "id"           : "cert",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE+jCCA+KgAwIBAgISA0Q8r8ub8ZQBxvYt/Z5aYRtiMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yNDA0MDIxMDAxMzFaFw0yNDA3MDExMDAxMzBaMCExHzAdBgNVBAMTFnd3dy5pcmEtbmFudGVzLmdvdXYuZnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDd8xUpViUX8VQnIMbZ4UQ2DB9tjr6NTa5C5NPT64ydTD/e7xN5yPIQj+kbrfgw7oEW1DOr4hGHAazB+el0ACJraGCyZ5O3lB3a3oAPsVNlQ44b/SnZr7faCkBygNverwFBAVWTfDYG3I08lC4YYkQ86ktzghzXYZ3YLEJRcF+gzNLZ0p6bHW3HLcm5mK9fXtALPxPpZrdMjh+UtW2CRsoRwLPhioPlf9vCAwQZ/CNA9ULQMmBwdmQ87hpid08AxmobGo1EQ4Gi5OxsPr1WgB0WutqtlWEv1DlB/asTx4w3W/fvvi0cPoxsi3SP9V3vzEn/DxCztmtU6PrSVdyk+BexAgMBAAGjggIZMIICFTAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFLLTmKhXpmKcXcg19QLvMTbRpobQMB8GA1UdIwQYMBaAFBQusxe3WFbLrlAJQOYfr52LFMLGMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL3IzLm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vcjMuaS5sZW5jci5vcmcvMCEGA1UdEQQaMBiCFnd3dy5pcmEtbmFudGVzLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwggEFBgorBgEEAdZ5AgQCBIH2BIHzAPEAdwBIsONr2qZHNA/lagL6nTDrHFIBy1bdLIHZu7+rOdiEcwAAAY6eeKhxAAAEAwBIMEYCIQDbQMQUZq6V5jKBCnWD1ONtlq/E0Dmc83YWdGHvMAOCIgIhAJATKEgbSAuNAZTJBZnL/ECOklsZzIKAuV9+gWfHacNjAHYAO1N3dT4tuYBOizBbBv5AO2fYT8P0x70ADS1yb+H61BcAAAGOnnioegAABAMARzBFAiEAsG9FcEfjavao/J5BmR1v+22LYWJcrRAHugmnUoh29bQCIH4kgmOBfJWT0VQgs/QQCWsZdheHfoiGgi5gyBt/VR7wMA0GCSqGSIb3DQEBCwUAA4IBAQB0E4QaHDY60G55pG+QM8+7UC7QX8WQFWvBa2CuNG5Ec5O/OzabgWaX0OodXozB6grZoEKV0koL3G0kGcNneecH7GBeIAXSIT+MBenSWQmxDnfljtvmM2yDL5KwWGFuFrnna6CFo7ARoze/Q7owZoMy3VlZ4fW0mfI7WMB/e27U93fo6lQxL2Nr6u64qCQbs3StI5oEOWyEQD0UD4FSV/VbVQSCAf++21PjK5RBAyuQDD9fCgFN8wUrI06wcDPDb+pPRWZ+4XwQIZBgWf3tiIC4nKRr5lO959D1brH5dqJqWxKs/Utke+tVwIXDXjj+eo3u69RFgOHJr/Jj5N1znirK\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "www.ira-nantes.gouv.fr"
+              "finding"      : "*.ira-nantes.gouv.fr"
           }
 ,         {
               "id"           : "cert_commonName_wo_SNI",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.ira-nantes.gouv.fr"
+              "finding"      : "*.ira-nantes.gouv.fr"
           }
 ,         {
               "id"           : "cert_subjectAltName",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "www.ira-nantes.gouv.fr"
+              "finding"      : "*.ira-nantes.gouv.fr ira-nantes.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "Ok via SAN and CN (same w/o SNI)"
+              "finding"      : "Ok via SAN wildcard and CN wildcard (same w/o SNI)"
+          }
+,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
           }
 ,         {
               "id"           : "cert_chain_of_trust",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "passed."
           }
 ,         {
               "id"           : "cert_certificatePolicies_EV",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "no"
           }
 ,         {
               "id"           : "cert_expirationStatus",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "40 >= 30 days"
+              "finding"      : "141 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-04-02 10:01"
+              "finding"      : "2023-11-27 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-07-01 10:01"
+              "finding"      : "2024-12-05 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "certificate has no extended life time according to browser forum"
           }
 ,         {
               "id"           : "cert_eTLS",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "not present"
           }
 ,         {
               "id"           : "cert_crlDistributionPoints",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "--"
           }
 ,         {
               "id"           : "cert_ocspURL",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://r3.o.lencr.org"
+              "finding"      : "http://ocsp.sectigo.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "LOW",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "cert_mustStapleExtension",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "--"
           }
 ,         {
               "id"           : "DNS_CAArecord",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "LOW",
               "finding"      : "--"
           }
 ,         {
               "id"           : "certificate_transparency",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "yes (certificate extension)"
           }
 ,         {
               "id"           : "certs_countServer",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "2"
           }
 ,         {
               "id"           : "certs_list_ordering_problem",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "no"
           }
 ,         {
               "id"           : "cert_caIssuers",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "R3 (Let's Encrypt from US)"
+              "finding"      : "Gandi RSA Domain Validation Secure Server CA 3 (Gandi from FR)"
           }
 ,         {
               "id"           : "intermediate_cert <#1>",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFFjCCAv6gAwIBAgIRAJErCErPDBinU/bWLiWnX1owDQYJKoZIhvcNAQELBQAwTzELMAkGA1UEBhMCVVMxKTAnBgNVBAoTIEludGVybmV0IFNlY3VyaXR5IFJlc2VhcmNoIEdyb3VwMRUwEwYDVQQDEwxJU1JHIFJvb3QgWDEwHhcNMjAwOTA0MDAwMDAwWhcNMjUwOTE1MTYwMDAwWjAyMQswCQYDVQQGEwJVUzEWMBQGA1UEChMNTGV0J3MgRW5jcnlwdDELMAkGA1UEAxMCUjMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC7AhUozPaglNMPEuyNVZLD+ILxmaZ6QoinXSaqtSu5xUyxr45r+XXIo9cPR5QUVTVXjJ6oojkZ9YI8QqlObvU7wy7bjcCwXPNZOOftz2nwWgsbvsCUJCWH+jdxsxPnHKzhm+/b5DtFUkWWqcFTzjTIUu61ru2P3mBw4qVUq7ZtDpelQDRrK9O8ZutmNHz6a4uPVymZ+DAXXbpyb/uBxa3Shlg9F8fnCbvxK/eG3MHacV3URuPMrSXBiLxgZ3Vms/EY96Jc5lP/Ooi2R6X/ExjqmAl3P51T+c8B5fWmcBcUr2Ok/5mzk53cU6cG/kiFHaFpriV1uxPMUgP17VGhi9sVAgMBAAGjggEIMIIBBDAOBgNVHQ8BAf8EBAMCAYYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0OBBYEFBQusxe3WFbLrlAJQOYfr52LFMLGMB8GA1UdIwQYMBaAFHm0WeZ7tuXkAXOACIjIGlj26ZtuMDIGCCsGAQUFBwEBBCYwJDAiBggrBgEFBQcwAoYWaHR0cDovL3gxLmkubGVuY3Iub3JnLzAnBgNVHR8EIDAeMBygGqAYhhZodHRwOi8veDEuYy5sZW5jci5vcmcvMCIGA1UdIAQbMBkwCAYGZ4EMAQIBMA0GCysGAQQBgt8TAQEBMA0GCSqGSIb3DQEBCwUAA4ICAQCFyk5HPqP3hUSFvNVneLKYY611TR6WPTNlclQtgaDqw+34IL9fzLdwALduO/ZelN7kIJ+m74uyA+eitRY8kc607TkC53wlikfmZW4/RvTZ8M6UK+5UzhK8jCdLuMGYL6KvzXGRSgi3yLgjewQtCPkIVz6D2QQzCkcheAmCJ8MqyJu5zlzyZMjAvnnAT45tRAxekrsu94sQ4egdRCnbWSDtY7kh+BImlJNXoB1lBMEKIq4QDUOXoRgffuDghje1WrG9ML+Hbisq/yFOGwXD9RiX8F6sw6W4avAuvDszue5L3sz85K+EC4Y/wFVDNvZo4TYXao6Z0f+lQKc0t8DQYzk1OXVu8rp2yJMC6alLbBfODALZvYH7n7do1AZls4I9d1P4jnkDrQoxB3UqQ9hVl3LEKQ73xF1OyK5GhDDX8oVfGKF5u+decIsH4YaTw7mP3GFxJSqv3+0lUFJoi5Lc5da149p90IdshCExroL1+7mryIkXPeFM5TgO9r0rvZaBFOvV2z0gp35Z0+L4WPlbuEjN/lxPFin+HlUjr8gRsI3qfJOQFy/9rKIJR0Y/8Omwt/8oTWgy1mdeHmmjk7j1nYsvC9JSQ6ZvMldlTTKB3zhThV1+XWYp6rjd5JW1zbVWEkLNxE7GJThEUG3szgBVGP7pSWTUTsqXnLRbwHOoq7hHwg==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIGXDCCBESgAwIBAgIRAOkH5f+AdSJBCZB9ZyjKABAwDQYJKoZIhvcNAQEMBQAwgYgxCzAJBgNVBAYTAlVTMRMwEQYDVQQIEwpOZXcgSmVyc2V5MRQwEgYDVQQHEwtKZXJzZXkgQ2l0eTEeMBwGA1UEChMVVGhlIFVTRVJUUlVTVCBOZXR3b3JrMS4wLAYDVQQDEyVVU0VSVHJ1c3QgUlNBIENlcnRpZmljYXRpb24gQXV0aG9yaXR5MB4XDTIzMDgwMjAwMDAwMFoXDTMzMDgwMTIzNTk1OVowVjELMAkGA1UEBhMCRlIxDjAMBgNVBAoTBUdhbmRpMTcwNQYDVQQDEy5HYW5kaSBSU0EgRG9tYWluIFZhbGlkYXRpb24gU2VjdXJlIFNlcnZlciBDQSAzMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAwrwuXKdKIiD9eu4fsNjLN0mS8HsTdDFyPPB5F5uUd6SJGutc7sqDd3T/p+gnVoAZERvzAz8+OEux1GN1UJ+Gd8s5btXJCbDV5DpvzJOhfztk5JmFKz2XBka+MvDAgiyiZKs3G6yoMk8lEOu6NOsK3X8D1w0E6/C/ROa6Ml0ROnKm7vHGNVTfXTP5IqiNh2JXmp4vD23gemf8nfuI2FngayMNsjm6SwpVYWfT3S8jn5el52FKzwo+uKVZAjNH1ulgWoyO8p+PCsP+CvaEGDId3leSUVhPBBPRsxL42jjqo9aOKREgmrGco39JGf4OImxM8vKxQ9AjDrRTRETB9V9jbRf3v3Tojt3vBBwa3xQelVp9xUWQxo/5dV73g/c7WWAvZ628XUw6k6vn6bY7qWuhehUO02plRLd5zP8nBORCbPmFCI97lZAnDYLprB4e9IgCPJp+0zQDLr9o+eNKtR0a2Txb6nzGahIPi3a7QCH6+Yq4iwYVEQm+e6KBJZOm+YiLAgMBAAGjggFwMIIBbDAfBgNVHSMEGDAWgBRTeb9aqitKz1SA4dibwJ3ysgNmyzAdBgNVHQ4EFgQUgRGS3mYypbBbMz1lQ4X81AQt8a4wDgYDVR0PAQH/BAQDAgGGMBIGA1UdEwEB/wQIMAYBAf8CAQAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMCIGA1UdIAQbMBkwDQYLKwYBBAGyMQECAhowCAYGZ4EMAQIBMFAGA1UdHwRJMEcwRaBDoEGGP2h0dHA6Ly9jcmwudXNlcnRydXN0LmNvbS9VU0VSVHJ1c3RSU0FDZXJ0aWZpY2F0aW9uQXV0aG9yaXR5LmNybDBxBggrBgEFBQcBAQRlMGMwOgYIKwYBBQUHMAKGLmh0dHA6Ly9jcnQudXNlcnRydXN0LmNvbS9VU0VSVHJ1c3RSU0FBQUFDQS5jcnQwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnVzZXJ0cnVzdC5jb20wDQYJKoZIhvcNAQEMBQADggIBADvVncOMStREyA00ZSRUmrkmR3KzAlHVz06X1ydG9EpZz+JTQMWO809buLbDnr6t9z9jVnsDTQnWcMG4qiIkwhJVLxOVXUO+LFSBMskOe1SPBtHwHS42DeZ8QTgbRlW9p/Ey9wIo+MS2tryQ9eaDTkc2FBed/82VjrdsQoeoTyuDdp4tqarixjM/iJMgyEAMCpTkx4EqXJ/z7qgXusacsxMzt6NLv7FYcaKGbwjKqzrRvEk/+ZYnZc5mxnautf0uwRCcOe0kCOh1fd+g6Tyd+cSj6oGcJY/f/Db0sxELpzGqjRkbXan+eMojQfsgIe1n7SVyI5Yxz2RnQQL5ZT5K1mBcucqsTqkk3C7L3hF4hkwC/Otm+badymHQcnbE1Pmz6ymqj2vtwT0mEQzetQdbvv3jc3ey4YcxirAM1ihxtXeINsEP1ndUV/0v+qqmk9iCoIjZQce8vAdziZqBYxO3NiZwTRAtqseiZWLJqQ077fy3ebdjmw6y5U+DhDW2kxF/e+FJnu53DuY5/bE+oUneY770A7BfCuH+6uhEOaMNsn21AHymLr1xlRPQYR0DMgHmsGTqdINcQfot1mlIXr05HQUK0b84CPgEU0zvVQL+j9dc/4rh2sR6rl//tjG01Q+zQKStnR2NlNNrElDUC9IDmvL9JcF20cvOlE4R0lfTXa1k\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "67ADD1166B020AE61B8F5FC96813C04C2AA589960796865572A3C7E737613DFD"
+              "finding"      : "F0104FF17274608F1A18A1E1EABF8E68A51F500A87E2EFA22ECB622763FEF4CF"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2020-09-04 00:00"
+              "finding"      : "2023-08-02 00:00"
           }
 ,         {
               "id"           : "intermediate_cert_notAfter <#1>",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-09-15 16:00"
+              "finding"      : "2033-08-01 23:59"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#1>",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "ok > 40 days"
           }
 ,         {
               "id"           : "intermediate_cert_chain <#1>",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "R3 <-- ISRG Root X1"
+              "finding"      : "Gandi RSA Domain Validation Secure Server CA 3 <-- USERTrust RSA Certification Authority"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "intermediate certificate(s) is/are ok"
           }
 ,         {
               "id"           : "HTTP_status_code",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "200 OK ('/')"
           }
 ,         {
               "id"           : "HTTP_clock_skew",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1716296981"
+              "finding"      : "1721230806"
           }
 ,         {
               "id"           : "HSTS",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "LOW",
               "finding"      : "not offered"
           }
 ,         {
               "id"           : "HPKP",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No support for HTTP Public Key Pinning"
           }
 ,         {
               "id"           : "banner_server",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Apache"
+              "finding"      : "Apache/2.4.61 (Debian)"
           }
 ,         {
               "id"           : "banner_application",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "X-Powered-By: PHP/7.3.5"
+              "finding"      : "No application banner found"
           }
 ,         {
               "id"           : "cookie_count",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "0 at '/'"
           }
 ,         {
               "id"           : "Cache-Control",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "max-age=3, must-revalidate"
           }
 ,         {
               "id"           : "banner_reverseproxy",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
@@ -582,16 +757,16 @@
           }
 ,         {
               "id"           : "heartbleed",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-0160",
               "cwe"          : "CWE-119",
-              "finding"      : "not vulnerable , timed out"
+              "finding"      : "not vulnerable, no heartbeat extension"
           }
 ,         {
               "id"           : "CCS",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-0224",
@@ -600,25 +775,25 @@
           }
 ,         {
               "id"           : "ticketbleed",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2016-9244",
               "cwe"          : "CWE-200",
-              "finding"      : "not vulnerable"
+              "finding"      : "no session ticket extension"
           }
 ,         {
               "id"           : "ROBOT",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2017-17382 CVE-2017-17427 CVE-2017-17428 CVE-2017-13098 CVE-2017-1000385 CVE-2017-13099 CVE-2016-6883 CVE-2012-5081 CVE-2017-6168",
               "cwe"          : "CWE-203",
-              "finding"      : "not vulnerable, no RSA key transport cipher"
+              "finding"      : "not vulnerable"
           }
 ,         {
               "id"           : "secure_renego",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cwe"          : "CWE-310",
@@ -626,7 +801,7 @@
           }
 ,         {
               "id"           : "secure_client_renego",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2011-1473",
@@ -635,7 +810,7 @@
           }
 ,         {
               "id"           : "CRIME_TLS",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2012-4929",
@@ -644,7 +819,7 @@
           }
 ,         {
               "id"           : "BREACH",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "MEDIUM",
               "cve"          : "CVE-2013-3587",
@@ -653,7 +828,7 @@
           }
 ,         {
               "id"           : "POODLE_SSL",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-3566",
@@ -662,14 +837,14 @@
           }
 ,         {
               "id"           : "fallback_SCSV",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "no protocol below TLS 1.2 offered"
           }
 ,         {
               "id"           : "SWEET32",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2016-2183 CVE-2016-6329",
@@ -678,7 +853,7 @@
           }
 ,         {
               "id"           : "FREAK",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2015-0204",
@@ -687,7 +862,7 @@
           }
 ,         {
               "id"           : "DROWN",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
@@ -696,16 +871,16 @@
           }
 ,         {
               "id"           : "DROWN_hint",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=45A88EFAC442BEF4435CD1AC993209A449B6661B0CCAC1D3644368C7B98135A9"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=BEFE51DDF75112183ADB23C09513A7B1F5027E541F18C74A4FA9C2F08F72F9AA"
           }
 ,         {
               "id"           : "LOGJAM-common_primes",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "cve"          : "CVE-2015-4000",
@@ -714,7 +889,7 @@
           }
 ,         {
               "id"           : "LOGJAM",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2015-4000",
@@ -723,7 +898,7 @@
           }
 ,         {
               "id"           : "BEAST",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2011-3389",
@@ -732,16 +907,16 @@
           }
 ,         {
               "id"           : "LUCKY13",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "LOW",
               "cve"          : "CVE-2013-0169",
               "cwe"          : "CWE-310",
-              "finding"      : "not vulnerable"
+              "finding"      : "potentially vulnerable, uses TLS CBC ciphers"
           }
 ,         {
               "id"           : "winshock",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2014-6321",
@@ -750,7 +925,7 @@
           }
 ,         {
               "id"           : "RC4",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "cve"          : "CVE-2013-2566 CVE-2015-2808",
@@ -759,331 +934,331 @@
           }
 ,         {
               "id"           : "clientsimulation-android_60",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_70",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_81",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_90",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_X",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_11",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_12",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-chrome_79_win10",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-chrome_101_win10",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-firefox_66_win81",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-firefox_100_win10",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-ie_6_xp",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_8_win7",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_8_xp",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win7",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win81",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_winphone81",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "No connection"
+              "finding"      : "TLSv1.2 AES128-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win10",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-edge_15_win10",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-edge_101_win10_21h2",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-safari_121_ios_122",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-safari_130_osx_10146",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_CHACHA20_POLY1305_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-safari_154_osx_1231",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-java_7u25",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-java_8u161",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-java1102",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-java1703",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-go_1178",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "clientsimulation-libressl_283",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
           }
 ,         {
               "id"           : "clientsimulation-openssl_102e",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-openssl_110l",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-openssl_111d",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-openssl_303",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.3 TLS_AES_256_GCM_SHA384"
           }
 ,         {
               "id"           : "clientsimulation-apple_mail_16_0",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "TLSv1.2 ECDHE-RSA-AES256-GCM-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-thunderbird_91_9",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.3 TLS_AES_128_GCM_SHA256"
           }
 ,         {
               "id"           : "rating_spec",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "SSL Labs's 'SSL Server Rating Guide' (version 2009q from 2020-01-30)"
           }
 ,         {
               "id"           : "rating_doc",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "https://github.com/ssllabs/research/wiki/SSL-Server-Rating-Guide"
           }
 ,         {
               "id"           : "protocol_support_score",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "100"
           }
 ,         {
               "id"           : "protocol_support_score_weighted",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "30"
           }
 ,         {
               "id"           : "key_exchange_score",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "90"
           }
 ,         {
               "id"           : "key_exchange_score_weighted",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "27"
           }
 ,         {
               "id"           : "cipher_strength_score",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "90"
           }
 ,         {
               "id"           : "cipher_strength_score_weighted",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "36"
           }
 ,         {
               "id"           : "final_score",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "93"
           }
 ,         {
               "id"           : "overall_grade",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "A"
           }
 ,         {
               "id"           : "grade_cap_reason_1",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
               "finding"      : "Grade capped to A. HSTS is not offered"
           }
 ,         {
               "id"           : "scanTime",
-              "ip"           : "www.ira-nantes.gouv.fr/213.32.72.104",
+              "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "65"
+              "finding"      : "102"
           }
 ]

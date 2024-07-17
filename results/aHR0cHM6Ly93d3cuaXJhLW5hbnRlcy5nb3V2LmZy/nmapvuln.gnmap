@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Tue May 21 13:10:25 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.ira-nantes.gouv.fr
-Host: 213.32.72.104 ()	Status: Up
-Host: 213.32.72.104 ()	Ports: 22/open/tcp//ssh//OpenSSH 7.4 (protocol 2.0)/, 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/	Ignored State: filtered (997)
-# Nmap done at Tue May 21 13:10:46 2024 -- 1 IP address (1 host up) scanned in 21.65 seconds
+# Nmap 7.92 scan initiated Wed Jul 17 15:40:58 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.ira-nantes.gouv.fr
+Host: 213.32.73.124 ()	Status: Up
+Host: 213.32.73.124 ()	Ports: 443/open/tcp//ssl|http//Apache httpd 2.4.61/	Ignored State: filtered (999)
+# Nmap done at Wed Jul 17 15:41:22 2024 -- 1 IP address (1 host up) scanned in 23.89 seconds
