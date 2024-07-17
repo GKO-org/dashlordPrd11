@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Tue May 21 13:19:14 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln anticiperlesjeux.gouv.fr
-Host: 54.38.64.213 ()	Status: Up
-Host: 54.38.64.213 ()	Ports: 80/open/tcp//http//nginx/, 443/open/tcp//ssl|https//nginx/	Ignored State: closed (998)
-# Nmap done at Tue May 21 13:19:45 2024 -- 1 IP address (1 host up) scanned in 31.74 seconds
+# Nmap 7.92 scan initiated Wed Jul 17 15:49:39 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln anticiperlesjeux.gouv.fr
+Host: 37.235.89.111 ()	Status: Up
+Host: 37.235.89.111 ()	Ports: 80/open/tcp//http//nginx/, 113/closed/tcp//ident///, 443/open/tcp//ssl|http//nginx/	Ignored State: filtered (997)
+# Nmap done at Wed Jul 17 15:50:06 2024 -- 1 IP address (1 host up) scanned in 26.64 seconds
