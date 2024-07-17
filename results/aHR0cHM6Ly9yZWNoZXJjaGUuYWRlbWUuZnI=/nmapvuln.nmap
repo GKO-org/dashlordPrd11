@@ -1,4 +1,121 @@
-# Nmap 7.92 scan initiated Tue May 21 13:22:34 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln recherche.ademe.fr
-Failed to resolve "recherche.ademe.fr".
-WARNING: No targets were specified, so 0 hosts scanned.
-# Nmap done at Tue May 21 13:22:34 2024 -- 0 IP addresses (0 hosts up) scanned in 0.32 seconds
+# Nmap 7.92 scan initiated Wed Jul 17 16:01:59 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln recherche.ademe.fr
+Nmap scan report for recherche.ademe.fr (20.74.54.57)
+Host is up (0.084s latency).
+Not shown: 998 filtered tcp ports (no-response)
+PORT    STATE SERVICE   VERSION
+80/tcp  open  http
+| fingerprint-strings: 
+|   FourOhFourRequest, GetRequest, HTTPOptions, RPCCheck, RTSPRequest, X11Probe: 
+|     HTTP/1.1 400 Bad Request
+|     Connection: Close
+|     Content-Type: text/html; charset=iso-8859-1
+|     <HTML><HEAD>
+|     <TITLE>400 Bad Request</TITLE>
+|     </HEAD><BODY>
+|     <H1>Bad Request</H1>
+|     Your browser sent a request that this server could not understand.<P><HR>
+|_    </BODY></HTML>
+443/tcp open  ssl/https
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 404 Not Found
+|     Content-Type: text/plain; charset=utf-8
+|     X-Content-Type-Options: nosniff
+|     Date: Wed, 17 Jul 2024 16:02:20 GMT
+|     Content-Length: 19
+|     X-FRAME-OPTIONS: SAMEORIGIN
+|     Set-Cookie: BNIS_vid=HJGT+LLVAFO9TeuZwasngA8JJjhO36Z3DJu1TSEvtLLBU87QeaCU6evdaRo6F1iJi4CUUu7Ty83+q+qdL4ECyg==; Path=/
+|     Set-Cookie: BNIS___utm_is1=xCW/6tQ2WXa7gzWEX8M/qKFxHz7k/9gD5t1RRJ422VjEyE07WdwcEIB4HwXB5Ko5zy6doqdVCzZtMjwBPOgamwNQGVRUA7XgJSQbixORUCvIxOtBD4Delw==; Max-Age=31536000; Path=/
+|     Set-Cookie: BNIS___utm_is2=MRZLICrARJTVNeuL2RbSYiaGudHQi1i0V/a7W5O1E+RLLL4dLzoChXZzP9MQNSa5z9tqaFwCleE=; Max-Age=10800; Path=/
+|     Set-Cookie: BNIS___utm_is3=OwGg+5iGTvSjd+5xsiZR2KmvDIi/RKMgbmtarKO5NCcvGHVqdnOglAkFu9oST9EseDOkfidv0rdSEOrJXU3sZY4zpNb+TQS6of69ZdkmM20=; Path=/
+|     Set-Cookie: BNIS_x-bni-jas=A0WhZmPIjrg/sHptwpsTSoGglXLUWx0hTAFGoGsAcbXAVyWTgpY6huhGeT7t2XmjlLIO41kIt8lhyPaEuS5wIBnM1uPC2oYFeTobcZ0Nrqmp8XgKyu4CWA==;
+|   HTTPOptions: 
+|     HTTP/1.1 404 Not Found
+|     Connection: Close
+|     Content-Type: text/html
+|     cache-control: no-store, no-cache, must-revalidate
+|_    <!DOCTYPE html><html> <head> <title>Blocked</title> <style> body { font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; } p{ margin:0 } .header { color: white; background-color: red; text-decoration: none; display: flex; padding: 40px; margin: 0; } .header-flex-content { flex: 5 1 800px; display: flex; align-items: center; } .icon { margin-right: 20px; height: 60px; } @media screen and (max-width: 600px) {
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.92%I=7%D=7/17%Time=6697EB05%P=x86_64-alpine-linux-musl%r
+SF:(GetRequest,104,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20C
+SF:lose\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<HTML>
+SF:<HEAD>\n<TITLE>400\x20Bad\x20Request</TITLE>\n</HEAD><BODY>\n<H1>Bad\x2
+SF:0Request</H1>\nYour\x20browser\x20sent\x20a\x20request\x20that\x20this\
+SF:x20server\x20could\x20not\x20understand\.<P><HR>\n</BODY></HTML>\n")%r(
+SF:HTTPOptions,104,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20C
+SF:lose\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<HTML>
+SF:<HEAD>\n<TITLE>400\x20Bad\x20Request</TITLE>\n</HEAD><BODY>\n<H1>Bad\x2
+SF:0Request</H1>\nYour\x20browser\x20sent\x20a\x20request\x20that\x20this\
+SF:x20server\x20could\x20not\x20understand\.<P><HR>\n</BODY></HTML>\n")%r(
+SF:RTSPRequest,104,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20C
+SF:lose\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<HTML>
+SF:<HEAD>\n<TITLE>400\x20Bad\x20Request</TITLE>\n</HEAD><BODY>\n<H1>Bad\x2
+SF:0Request</H1>\nYour\x20browser\x20sent\x20a\x20request\x20that\x20this\
+SF:x20server\x20could\x20not\x20understand\.<P><HR>\n</BODY></HTML>\n")%r(
+SF:X11Probe,104,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20Clos
+SF:e\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<HTML><HE
+SF:AD>\n<TITLE>400\x20Bad\x20Request</TITLE>\n</HEAD><BODY>\n<H1>Bad\x20Re
+SF:quest</H1>\nYour\x20browser\x20sent\x20a\x20request\x20that\x20this\x20
+SF:server\x20could\x20not\x20understand\.<P><HR>\n</BODY></HTML>\n")%r(Fou
+SF:rOhFourRequest,104,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x
+SF:20Close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<HT
+SF:ML><HEAD>\n<TITLE>400\x20Bad\x20Request</TITLE>\n</HEAD><BODY>\n<H1>Bad
+SF:\x20Request</H1>\nYour\x20browser\x20sent\x20a\x20request\x20that\x20th
+SF:is\x20server\x20could\x20not\x20understand\.<P><HR>\n</BODY></HTML>\n")
+SF:%r(RPCCheck,104,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20C
+SF:lose\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<HTML>
+SF:<HEAD>\n<TITLE>400\x20Bad\x20Request</TITLE>\n</HEAD><BODY>\n<H1>Bad\x2
+SF:0Request</H1>\nYour\x20browser\x20sent\x20a\x20request\x20that\x20this\
+SF:x20server\x20could\x20not\x20understand\.<P><HR>\n</BODY></HTML>\n");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=7/17%Time=6697EB0C%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,3A2,"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Typ
+SF:e:\x20text/plain;\x20charset=utf-8\r\nX-Content-Type-Options:\x20nosnif
+SF:f\r\nDate:\x20Wed,\x2017\x20Jul\x202024\x2016:02:20\x20GMT\r\nContent-L
+SF:ength:\x2019\r\nX-FRAME-OPTIONS:\x20SAMEORIGIN\r\nSet-Cookie:\x20BNIS_v
+SF:id=HJGT\+LLVAFO9TeuZwasngA8JJjhO36Z3DJu1TSEvtLLBU87QeaCU6evdaRo6F1iJi4C
+SF:UUu7Ty83\+q\+qdL4ECyg==;\x20Path=/\r\nSet-Cookie:\x20BNIS___utm_is1=xCW
+SF:/6tQ2WXa7gzWEX8M/qKFxHz7k/9gD5t1RRJ422VjEyE07WdwcEIB4HwXB5Ko5zy6doqdVCz
+SF:ZtMjwBPOgamwNQGVRUA7XgJSQbixORUCvIxOtBD4Delw==;\x20Max-Age=31536000;\x2
+SF:0Path=/\r\nSet-Cookie:\x20BNIS___utm_is2=MRZLICrARJTVNeuL2RbSYiaGudHQi1
+SF:i0V/a7W5O1E\+RLLL4dLzoChXZzP9MQNSa5z9tqaFwCleE=;\x20Max-Age=10800;\x20P
+SF:ath=/\r\nSet-Cookie:\x20BNIS___utm_is3=OwGg\+5iGTvSjd\+5xsiZR2KmvDIi/RK
+SF:MgbmtarKO5NCcvGHVqdnOglAkFu9oST9EseDOkfidv0rdSEOrJXU3sZY4zpNb\+TQS6of69
+SF:ZdkmM20=;\x20\x20Path=/\r\nSet-Cookie:\x20BNIS_x-bni-jas=A0WhZmPIjrg/sH
+SF:ptwpsTSoGglXLUWx0hTAFGoGsAcbXAVyWTgpY6huhGeT7t2XmjlLIO41kIt8lhyPaEuS5wI
+SF:BnM1uPC2oYFeTobcZ0Nrqmp8XgKyu4CWA==;")%r(HTTPOptions,1F50,"HTTP/1\.1\x2
+SF:0404\x20Not\x20Found\r\nConnection:\x20Close\r\nContent-Type:\x20text/h
+SF:tml\r\ncache-control:\x20no-store,\x20no-cache,\x20must-revalidate\r\n\
+SF:r\n<!DOCTYPE\x20html><html>\x20\x20\x20\x20<head>\x20\x20\x20\x20\x20\x
+SF:20\x20\x20<title>Blocked</title>\x20\x20\x20\x20\x20\x20\x20\x20<style>
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20body\x20{\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20Robot
+SF:o,\x20Helvetica,\x20Arial,\x20sans-serif;\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200;\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20p{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20mar
+SF:gin:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\.header\x20{\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20red;
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-de
+SF:coration:\x20none;\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20display:\x20flex;\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20padding:\x2040px;\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20margin:\x200;\x20\x20\x20\x20\x20\x20\x2
+SF:0\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
+SF:.header-flex-content\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20flex:\x205\x201\x20800px;\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x20\x20\x20\x20\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\.icon\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20margin-right:\x2020px;\x20\x20\x20\x20\x20\
+SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x2060px;\x20\x20\x20
+SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x
+SF:20\x20\x20\x20@media\x20screen\x20and\x20\(max-width:\x20600px\)\x20{\x
+SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Jul 17 16:02:37 2024 -- 1 IP address (1 host up) scanned in 37.81 seconds
