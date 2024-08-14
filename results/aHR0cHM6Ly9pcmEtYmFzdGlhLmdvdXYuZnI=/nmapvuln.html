@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ira-bastia.gouv.fr</pre>
-<p class="lead">Wed Jul 17 15:36:29 2024 – Wed Jul 17 15:39:28 2024<br>1 hosts scanned.
+<p class="lead">Wed Aug 14 12:23:16 2024 – Wed Aug 14 12:26:20 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -78,7 +78,7 @@
 <td><span class="label label-success">up</span></td>
 <td>109.234.160.111</td>
 <td>ira-bastia.gouv.fr</td>
-<td>12</td>
+<td>13</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -156,7 +156,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   GetRequest: 
     HTTP/1.1 400 Bad Request
-    Date: Wed, 17 Jul 2024 15:36:44 GMT
+    Date: Wed, 14 Aug 2024 12:23:35 GMT
     Content-Type: text/html
     Connection: close
     Cache-Control: no-cache, no-store, must-revalidate
@@ -184,7 +184,7 @@
     section, f
   HTTPOptions: 
     HTTP/1.1 429 Too Many Requests
-    Date: Wed, 17 Jul 2024 15:36:44 GMT
+    Date: Wed, 14 Aug 2024 12:23:35 GMT
     Content-Type: text/html
     Connection: close
     Vary: Accept-Encoding
@@ -193,7 +193,7 @@
     Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     Expires: Thu, 01 Jan 1970 00:00:01 GMT
     Access-Control-Allow-Origin: *
-    &lt;!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "6eee0cb523f50ee0e73109c18f0acb9e"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug--&gt;
+    &lt;!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "920537e24fab281dda1ec982d3469701"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug--&gt;
     &lt;!DOCTYPE HTML&gt;
     &lt;html lang="en-US"&gt;
     &lt;head&gt;
@@ -237,7 +237,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   GetRequest: 
     HTTP/1.1 429 Too Many Requests
-    Date: Wed, 17 Jul 2024 15:36:51 GMT
+    Date: Wed, 14 Aug 2024 12:23:41 GMT
     Content-Type: text/html
     Connection: close
     Vary: Accept-Encoding
@@ -246,7 +246,7 @@
     Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     Expires: Thu, 01 Jan 1970 00:00:01 GMT
     Access-Control-Allow-Origin: *
-    &lt;!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "402e5ac1dfc042c82533dbc6f7196b1c"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug--&gt;
+    &lt;!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "252b96b5b5ce97e4034daa66b94e3dcc"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug--&gt;
     &lt;!DOCTYPE HTML&gt;
     &lt;html lang="en-US"&gt;
     &lt;head&gt;
@@ -255,7 +255,7 @@
     &lt;meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"
   HTTPOptions: 
     HTTP/1.1 429 Too Many Requests
-    Date: Wed, 17 Jul 2024 15:36:51 GMT
+    Date: Wed, 14 Aug 2024 12:23:42 GMT
     Content-Type: text/html
     Connection: close
     Vary: Accept-Encoding
@@ -264,7 +264,7 @@
     Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     Expires: Thu, 01 Jan 1970 00:00:01 GMT
     Access-Control-Allow-Origin: *
-    &lt;!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "4f5d46a9c2ecd0c640257673c204b78d"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug--&gt;
+    &lt;!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "f31ed8e6ce9f4298abeda00f7650262a"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug--&gt;
     &lt;!DOCTYPE HTML&gt;
     &lt;html lang="en-US"&gt;
     &lt;head&gt;
@@ -293,27 +293,37 @@
 </tr>
 <tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:exim:exim:4.96.2">cpe:/a:exim:exim:4.96.2</a></td></tr>
 <tr class="success">
-<td title="Port">993</td>
+<td title="Port">625</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">imaps</td>
+<td title="Service">tcpwrapped</td>
 <td title="Product"></td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
+<tr class="success">
+<td title="Port">993</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">imap</td>
+<td title="Product">Dovecot imapd</td>
+<td title="Version"></td>
+<td title="Extra Info"></td>
+</tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:dovecot:dovecot">cpe:/a:dovecot:dovecot</a></td></tr>
 <tr class="success">
 <td title="Port">995</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">pop3s</td>
-<td title="Product"></td>
+<td title="Service">pop3</td>
+<td title="Product">Dovecot pop3d</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:dovecot:dovecot">cpe:/a:dovecot:dovecot</a></td></tr>
 <tr class="success">
-<td title="Port">5961</td>
+<td title="Port">1433</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">tcpwrapped</td>
@@ -431,27 +441,37 @@
 </tr>
 <tr>
 <td>109.234.160.111 - ira-bastia.gouv.fr</td>
+<td>625</td>
+<td>tcp</td>
+<td>tcpwrapped</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>109.234.160.111 - ira-bastia.gouv.fr</td>
 <td>993</td>
 <td>tcp</td>
-<td>imaps</td>
+<td>imap</td>
+<td>Dovecot imapd</td>
 <td></td>
-<td></td>
-<td></td>
+<td>cpe:/a:dovecot:dovecot</td>
 <td></td>
 </tr>
 <tr>
 <td>109.234.160.111 - ira-bastia.gouv.fr</td>
 <td>995</td>
 <td>tcp</td>
-<td>pop3s</td>
+<td>pop3</td>
+<td>Dovecot pop3d</td>
 <td></td>
-<td></td>
-<td></td>
+<td>cpe:/a:dovecot:dovecot</td>
 <td></td>
 </tr>
 <tr>
 <td>109.234.160.111 - ira-bastia.gouv.fr</td>
-<td>5961</td>
+<td>1433</td>
 <td>tcp</td>
 <td>tcpwrapped</td>
 <td></td>
