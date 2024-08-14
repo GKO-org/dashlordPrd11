@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.info.gouv.fr</pre>
-<p class="lead">Wed Jul 17 15:34:55 2024 – Wed Jul 17 15:35:21 2024<br>1 hosts scanned.
+<p class="lead">Wed Aug 14 12:22:05 2024 – Wed Aug 14 12:22:32 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -112,22 +112,18 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">ECAcc (dce/26DE)</td>
+<td title="Product">ECAcc (cha/065C)</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  ECAcc (dce/26DE)
-  ECLF (dce/26DE)</pre>
-<h5>fingerprint-strings</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   GetRequest: 
     HTTP/1.0 404 Not Found
     Content-Type: text/html
-    Date: Wed, 17 Jul 2024 15:35:06 GMT
-    Server: ECAcc (dce/26DE)
+    Date: Wed, 14 Aug 2024 12:22:17 GMT
+    Server: ECAcc (cha/065C)
     Content-Length: 345
     Connection: close
     &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
@@ -144,8 +140,8 @@
   HTTPOptions: 
     HTTP/1.0 200 OK
     Allow: OPTIONS, GET, HEAD, POST
-    Date: Wed, 17 Jul 2024 15:35:06 GMT
-    Server: ECAcc (dce/26DE)
+    Date: Wed, 14 Aug 2024 12:22:17 GMT
+    Server: ECAcc (cha/065C)
     Content-Length: 0
     Connection: close
   RTSPRequest: 
@@ -153,8 +149,8 @@
     Content-Type: text/html
     Content-Length: 349
     Connection: close
-    Date: Wed, 17 Jul 2024 15:35:06 GMT
-    Server: ECLF (dce/26DE)
+    Date: Wed, 14 Aug 2024 12:22:17 GMT
+    Server: ECLF (cha/817C)
     &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
     &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
@@ -171,8 +167,8 @@
     Content-Type: text/html
     Content-Length: 357
     Connection: close
-    Date: Wed, 17 Jul 2024 15:35:06 GMT
-    Server: ECLF (dce/2686)
+    Date: Wed, 14 Aug 2024 12:22:17 GMT
+    Server: ECLF (cha/80F6)
     &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
     &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
@@ -184,28 +180,32 @@
     &lt;h1&gt;501 - Not Implemented&lt;/h1&gt;
     &lt;/body&gt;
     &lt;/html&gt;</pre>
+<h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  ECAcc (cha/065C)
+  ECLF (cha/817C)</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">https</td>
-<td title="Product">ECAcc (dce/26DE)</td>
+<td title="Product">ECAcc (cha/065C)</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
 <a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  ECAcc (dce/2697)
-  ECAcc (dce/26DE)</pre>
+  ECAcc (cha/0612)
+  ECAcc (cha/065C)</pre>
 <h5>fingerprint-strings</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   FourOhFourRequest: 
     HTTP/1.0 404 Not Found
     Content-Type: text/html
-    Date: Wed, 17 Jul 2024 15:35:12 GMT
-    Server: ECAcc (dce/2697)
+    Date: Wed, 14 Aug 2024 12:22:23 GMT
+    Server: ECAcc (cha/0612)
     Content-Length: 345
     Connection: close
     &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
@@ -222,8 +222,8 @@
   GetRequest: 
     HTTP/1.0 404 Not Found
     Content-Type: text/html
-    Date: Wed, 17 Jul 2024 15:35:12 GMT
-    Server: ECAcc (dce/26DE)
+    Date: Wed, 14 Aug 2024 12:22:23 GMT
+    Server: ECAcc (cha/065C)
     Content-Length: 345
     Connection: close
     &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
@@ -240,8 +240,8 @@
   HTTPOptions: 
     HTTP/1.0 200 OK
     Allow: OPTIONS, GET, HEAD, POST
-    Date: Wed, 17 Jul 2024 15:35:12 GMT
-    Server: ECAcc (dce/26DE)
+    Date: Wed, 14 Aug 2024 12:22:23 GMT
+    Server: ECAcc (cha/065C)
     Content-Length: 0
     Connection: close
   tor-versions: 
@@ -249,8 +249,8 @@
     Content-Type: text/html
     Content-Length: 357
     Connection: close
-    Date: Wed, 17 Jul 2024 15:35:12 GMT
-    Server: ECLF (dce/26A4)
+    Date: Wed, 14 Aug 2024 12:22:23 GMT
+    Server: ECLF (cha/0664)
     &lt;?xml version="1.0" encoding="iso-8859-1"?&gt;
     &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
@@ -303,7 +303,7 @@
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>ECAcc (dce/26DE)</td>
+<td>ECAcc (cha/065C)</td>
 <td></td>
 <td></td>
 <td></td>
@@ -313,7 +313,7 @@
 <td>443</td>
 <td>tcp</td>
 <td>https</td>
-<td>ECAcc (dce/26DE)</td>
+<td>ECAcc (cha/065C)</td>
 <td></td>
 <td></td>
 <td></td>

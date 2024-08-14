@@ -1,18 +1,15 @@
-# Nmap 7.92 scan initiated Wed Jul 17 15:34:55 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.info.gouv.fr
+# Nmap 7.92 scan initiated Wed Aug 14 12:22:05 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.info.gouv.fr
 Nmap scan report for www.info.gouv.fr (117.18.238.228)
-Host is up (0.00097s latency).
+Host is up (0.0017s latency).
 Not shown: 996 filtered tcp ports (no-response)
 PORT     STATE  SERVICE   VERSION
-80/tcp   open   http      ECAcc (dce/26DE)
-| http-server-header: 
-|   ECAcc (dce/26DE)
-|_  ECLF (dce/26DE)
+80/tcp   open   http      ECAcc (cha/065C)
 | fingerprint-strings: 
 |   GetRequest: 
 |     HTTP/1.0 404 Not Found
 |     Content-Type: text/html
-|     Date: Wed, 17 Jul 2024 15:35:06 GMT
-|     Server: ECAcc (dce/26DE)
+|     Date: Wed, 14 Aug 2024 12:22:17 GMT
+|     Server: ECAcc (cha/065C)
 |     Content-Length: 345
 |     Connection: close
 |     <?xml version="1.0" encoding="iso-8859-1"?>
@@ -29,8 +26,8 @@ PORT     STATE  SERVICE   VERSION
 |   HTTPOptions: 
 |     HTTP/1.0 200 OK
 |     Allow: OPTIONS, GET, HEAD, POST
-|     Date: Wed, 17 Jul 2024 15:35:06 GMT
-|     Server: ECAcc (dce/26DE)
+|     Date: Wed, 14 Aug 2024 12:22:17 GMT
+|     Server: ECAcc (cha/065C)
 |     Content-Length: 0
 |     Connection: close
 |   RTSPRequest: 
@@ -38,8 +35,8 @@ PORT     STATE  SERVICE   VERSION
 |     Content-Type: text/html
 |     Content-Length: 349
 |     Connection: close
-|     Date: Wed, 17 Jul 2024 15:35:06 GMT
-|     Server: ECLF (dce/26DE)
+|     Date: Wed, 14 Aug 2024 12:22:17 GMT
+|     Server: ECLF (cha/817C)
 |     <?xml version="1.0" encoding="iso-8859-1"?>
 |     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 |     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -56,8 +53,8 @@ PORT     STATE  SERVICE   VERSION
 |     Content-Type: text/html
 |     Content-Length: 357
 |     Connection: close
-|     Date: Wed, 17 Jul 2024 15:35:06 GMT
-|     Server: ECLF (dce/2686)
+|     Date: Wed, 14 Aug 2024 12:22:17 GMT
+|     Server: ECLF (cha/80F6)
 |     <?xml version="1.0" encoding="iso-8859-1"?>
 |     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 |     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -69,16 +66,19 @@ PORT     STATE  SERVICE   VERSION
 |     <h1>501 - Not Implemented</h1>
 |     </body>
 |_    </html>
-443/tcp  open   ssl/https ECAcc (dce/26DE)
 | http-server-header: 
-|   ECAcc (dce/2697)
-|_  ECAcc (dce/26DE)
+|   ECAcc (cha/065C)
+|_  ECLF (cha/817C)
+443/tcp  open   ssl/https ECAcc (cha/065C)
+| http-server-header: 
+|   ECAcc (cha/0612)
+|_  ECAcc (cha/065C)
 | fingerprint-strings: 
 |   FourOhFourRequest: 
 |     HTTP/1.0 404 Not Found
 |     Content-Type: text/html
-|     Date: Wed, 17 Jul 2024 15:35:12 GMT
-|     Server: ECAcc (dce/2697)
+|     Date: Wed, 14 Aug 2024 12:22:23 GMT
+|     Server: ECAcc (cha/0612)
 |     Content-Length: 345
 |     Connection: close
 |     <?xml version="1.0" encoding="iso-8859-1"?>
@@ -95,8 +95,8 @@ PORT     STATE  SERVICE   VERSION
 |   GetRequest: 
 |     HTTP/1.0 404 Not Found
 |     Content-Type: text/html
-|     Date: Wed, 17 Jul 2024 15:35:12 GMT
-|     Server: ECAcc (dce/26DE)
+|     Date: Wed, 14 Aug 2024 12:22:23 GMT
+|     Server: ECAcc (cha/065C)
 |     Content-Length: 345
 |     Connection: close
 |     <?xml version="1.0" encoding="iso-8859-1"?>
@@ -113,8 +113,8 @@ PORT     STATE  SERVICE   VERSION
 |   HTTPOptions: 
 |     HTTP/1.0 200 OK
 |     Allow: OPTIONS, GET, HEAD, POST
-|     Date: Wed, 17 Jul 2024 15:35:12 GMT
-|     Server: ECAcc (dce/26DE)
+|     Date: Wed, 14 Aug 2024 12:22:23 GMT
+|     Server: ECAcc (cha/065C)
 |     Content-Length: 0
 |     Connection: close
 |   tor-versions: 
@@ -122,8 +122,8 @@ PORT     STATE  SERVICE   VERSION
 |     Content-Type: text/html
 |     Content-Length: 357
 |     Connection: close
-|     Date: Wed, 17 Jul 2024 15:35:12 GMT
-|     Server: ECLF (dce/26A4)
+|     Date: Wed, 14 Aug 2024 12:22:23 GMT
+|     Server: ECLF (cha/0664)
 |     <?xml version="1.0" encoding="iso-8859-1"?>
 |     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 |     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -139,10 +139,10 @@ PORT     STATE  SERVICE   VERSION
 1935/tcp closed rtmp
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=7/17%Time=6697E4AA%P=x86_64-alpine-linux-musl%r
+SF-Port80-TCP:V=7.92%I=7%D=8/14%Time=66BCA179%P=x86_64-alpine-linux-musl%r
 SF:(GetRequest,1F3,"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Type:\x20t
-SF:ext/html\r\nDate:\x20Wed,\x2017\x20Jul\x202024\x2015:35:06\x20GMT\r\nSe
-SF:rver:\x20ECAcc\x20\(dce/26DE\)\r\nContent-Length:\x20345\r\nConnection:
+SF:ext/html\r\nDate:\x20Wed,\x2014\x20Aug\x202024\x2012:22:17\x20GMT\r\nSe
+SF:rver:\x20ECAcc\x20\(cha/065C\)\r\nContent-Length:\x20345\r\nConnection:
 SF:\x20close\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encoding=\"iso-8859-1\"\
 SF:?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Tr
 SF:ansitional//EN\"\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\"http://www\.w3\
@@ -151,12 +151,12 @@ SF:/www\.w3\.org/1999/xhtml\"\x20xml:lang=\"en\"\x20lang=\"en\">\n\t<head>
 SF:\n\t\t<title>404\x20-\x20Not\x20Found</title>\n\t</head>\n\t<body>\n\t\
 SF:t<h1>404\x20-\x20Not\x20Found</h1>\n\t</body>\n</html>\n")%r(HTTPOption
 SF:s,99,"HTTP/1\.0\x20200\x20OK\r\nAllow:\x20OPTIONS,\x20GET,\x20HEAD,\x20
-SF:POST\r\nDate:\x20Wed,\x2017\x20Jul\x202024\x2015:35:06\x20GMT\r\nServer
-SF::\x20ECAcc\x20\(dce/26DE\)\r\nContent-Length:\x200\r\nConnection:\x20cl
+SF:POST\r\nDate:\x20Wed,\x2014\x20Aug\x202024\x2012:22:17\x20GMT\r\nServer
+SF::\x20ECAcc\x20\(cha/065C\)\r\nContent-Length:\x200\r\nConnection:\x20cl
 SF:ose\r\n\r\n")%r(RTSPRequest,1F8,"HTTP/1\.0\x20400\x20Bad\x20Request\r\n
 SF:Content-Type:\x20text/html\r\nContent-Length:\x20349\r\nConnection:\x20
-SF:close\r\nDate:\x20Wed,\x2017\x20Jul\x202024\x2015:35:06\x20GMT\r\nServe
-SF:r:\x20ECLF\x20\(dce/26DE\)\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encodin
+SF:close\r\nDate:\x20Wed,\x2014\x20Aug\x202024\x2012:22:17\x20GMT\r\nServe
+SF:r:\x20ECLF\x20\(cha/817C\)\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encodin
 SF:g=\"iso-8859-1\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XH
 SF:TML\x201\.0\x20Transitional//EN\"\n\x20\x20\x20\x20\x20\x20\x20\x20\x20
 SF:\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\n<html\
@@ -165,8 +165,8 @@ SF:\"en\">\n\t<head>\n\t\t<title>400\x20-\x20Bad\x20Request</title>\n\t</h
 SF:ead>\n\t<body>\n\t\t<h1>400\x20-\x20Bad\x20Request</h1>\n\t</body>\n</h
 SF:tml>\n")%r(X11Probe,204,"HTTP/1\.0\x20501\x20Not\x20Implemented\r\nCont
 SF:ent-Type:\x20text/html\r\nContent-Length:\x20357\r\nConnection:\x20clos
-SF:e\r\nDate:\x20Wed,\x2017\x20Jul\x202024\x2015:35:06\x20GMT\r\nServer:\x
-SF:20ECLF\x20\(dce/2686\)\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encoding=\"
+SF:e\r\nDate:\x20Wed,\x2014\x20Aug\x202024\x2012:22:17\x20GMT\r\nServer:\x
+SF:20ECLF\x20\(cha/80F6\)\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encoding=\"
 SF:iso-8859-1\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\
 SF:x201\.0\x20Transitional//EN\"\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\"ht
 SF:tp://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\n<html\x20x
@@ -175,10 +175,10 @@ SF:\">\n\t<head>\n\t\t<title>501\x20-\x20Not\x20Implemented</title>\n\t</h
 SF:ead>\n\t<body>\n\t\t<h1>501\x20-\x20Not\x20Implemented</h1>\n\t</body>\
 SF:n</html>\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=7/17%Time=6697E4B0%P=x86_64-alpine-linux
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=8/14%Time=66BCA17F%P=x86_64-alpine-linux
 SF:-musl%r(GetRequest,1F3,"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Typ
-SF:e:\x20text/html\r\nDate:\x20Wed,\x2017\x20Jul\x202024\x2015:35:12\x20GM
-SF:T\r\nServer:\x20ECAcc\x20\(dce/26DE\)\r\nContent-Length:\x20345\r\nConn
+SF:e:\x20text/html\r\nDate:\x20Wed,\x2014\x20Aug\x202024\x2012:22:23\x20GM
+SF:T\r\nServer:\x20ECAcc\x20\(cha/065C\)\r\nContent-Length:\x20345\r\nConn
 SF:ection:\x20close\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encoding=\"iso-88
 SF:59-1\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.
 SF:0\x20Transitional//EN\"\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\"http://w
@@ -187,11 +187,11 @@ SF:"http://www\.w3\.org/1999/xhtml\"\x20xml:lang=\"en\"\x20lang=\"en\">\n\
 SF:t<head>\n\t\t<title>404\x20-\x20Not\x20Found</title>\n\t</head>\n\t<bod
 SF:y>\n\t\t<h1>404\x20-\x20Not\x20Found</h1>\n\t</body>\n</html>\n")%r(HTT
 SF:POptions,99,"HTTP/1\.0\x20200\x20OK\r\nAllow:\x20OPTIONS,\x20GET,\x20HE
-SF:AD,\x20POST\r\nDate:\x20Wed,\x2017\x20Jul\x202024\x2015:35:12\x20GMT\r\
-SF:nServer:\x20ECAcc\x20\(dce/26DE\)\r\nContent-Length:\x200\r\nConnection
+SF:AD,\x20POST\r\nDate:\x20Wed,\x2014\x20Aug\x202024\x2012:22:23\x20GMT\r\
+SF:nServer:\x20ECAcc\x20\(cha/065C\)\r\nContent-Length:\x200\r\nConnection
 SF::\x20close\r\n\r\n")%r(FourOhFourRequest,1F3,"HTTP/1\.0\x20404\x20Not\x
-SF:20Found\r\nContent-Type:\x20text/html\r\nDate:\x20Wed,\x2017\x20Jul\x20
-SF:2024\x2015:35:12\x20GMT\r\nServer:\x20ECAcc\x20\(dce/2697\)\r\nContent-
+SF:20Found\r\nContent-Type:\x20text/html\r\nDate:\x20Wed,\x2014\x20Aug\x20
+SF:2024\x2012:22:23\x20GMT\r\nServer:\x20ECAcc\x20\(cha/0612\)\r\nContent-
 SF:Length:\x20345\r\nConnection:\x20close\r\n\r\n<\?xml\x20version=\"1\.0\
 SF:"\x20encoding=\"iso-8859-1\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3
 SF:C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\n\x20\x20\x20\x20\x20\x20
@@ -201,8 +201,8 @@ SF:n\"\x20lang=\"en\">\n\t<head>\n\t\t<title>404\x20-\x20Not\x20Found</tit
 SF:le>\n\t</head>\n\t<body>\n\t\t<h1>404\x20-\x20Not\x20Found</h1>\n\t</bo
 SF:dy>\n</html>\n")%r(tor-versions,204,"HTTP/1\.0\x20501\x20Not\x20Impleme
 SF:nted\r\nContent-Type:\x20text/html\r\nContent-Length:\x20357\r\nConnect
-SF:ion:\x20close\r\nDate:\x20Wed,\x2017\x20Jul\x202024\x2015:35:12\x20GMT\
-SF:r\nServer:\x20ECLF\x20\(dce/26A4\)\r\n\r\n<\?xml\x20version=\"1\.0\"\x2
+SF:ion:\x20close\r\nDate:\x20Wed,\x2014\x20Aug\x202024\x2012:22:23\x20GMT\
+SF:r\nServer:\x20ECLF\x20\(cha/0664\)\r\n\r\n<\?xml\x20version=\"1\.0\"\x2
 SF:0encoding=\"iso-8859-1\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//D
 SF:TD\x20XHTML\x201\.0\x20Transitional//EN\"\n\x20\x20\x20\x20\x20\x20\x20
 SF:\x20\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">
@@ -212,4 +212,4 @@ SF:itle>\n\t</head>\n\t<body>\n\t\t<h1>501\x20-\x20Not\x20Implemented</h1>
 SF:\n\t</body>\n</html>\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Wed Jul 17 15:35:21 2024 -- 1 IP address (1 host up) scanned in 26.09 seconds
+# Nmap done at Wed Aug 14 12:22:32 2024 -- 1 IP address (1 host up) scanned in 27.01 seconds

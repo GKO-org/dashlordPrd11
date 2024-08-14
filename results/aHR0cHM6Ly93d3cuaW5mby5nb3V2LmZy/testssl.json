@@ -346,7 +346,7 @@
               "ip"           : "www.info.gouv.fr/117.18.238.228",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "238 >= 60 days"
+              "finding"      : "210 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,21 +507,21 @@
               "ip"           : "www.info.gouv.fr/117.18.238.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+6550 seconds from localtime"
+              "finding"      : "+5330 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.info.gouv.fr/117.18.238.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1721230451"
+              "finding"      : "1723638082"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "www.info.gouv.fr/117.18.238.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "6550 seconds"
+              "finding"      : "5330 seconds"
           }
 ,         {
               "id"           : "HSTS",
@@ -542,7 +542,7 @@
               "ip"           : "www.info.gouv.fr/117.18.238.228",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ECAcc (dce/26DE)"
+              "finding"      : "ECAcc (cha/065C)"
           }
 ,         {
               "id"           : "banner_application",
