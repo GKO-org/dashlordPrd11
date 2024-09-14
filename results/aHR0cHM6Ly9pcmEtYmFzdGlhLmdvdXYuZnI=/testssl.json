@@ -269,7 +269,7 @@
               "ip"           : "ira-bastia.gouv.fr/109.234.160.111",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "039E4E915E02F4AF72578EDC8068B657E998"
+              "finding"      : "038549E47B099AED0B218EB7160A40E6378A"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "ira-bastia.gouv.fr/109.234.160.111",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "C1AEB71E8A8212C89559BE744EE76DF71B4415DE"
+              "finding"      : "8FBF2D54C565CE02A01A856A0D4B77D5797B92B4"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "ira-bastia.gouv.fr/109.234.160.111",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "9E98610A9D5AFD15302BBDF90A09A71DC609437C4E2DE036A96E37CA44772659"
+              "finding"      : "1235A3B557859ED6700E0E2DB44B0C8CFE3E677A3BFB7A235D7A868929B5BE5B"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "ira-bastia.gouv.fr/109.234.160.111",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE8zCCA9ugAwIBAgISA55OkV4C9K9yV47cgGi2V+mYMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTEwHhcNMjQwNjI2MDgxOTQzWhcNMjQwOTI0MDgxOTQyWjAdMRswGQYDVQQDExJpcmEtYmFzdGlhLmdvdXYuZnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+JV8WoDBCRR3/DSHUvapXhJBFRMt0z6u26LdRD+aj8XpbJG8FH57w5pblJ0ybKw2BqHZmXEPpmDUEo8SHpk65aGbpqOrZJbGL5Bze+s5Gp/VXrFjJL3X3LaAW4CQ8UVEwhlBFZ2ABfPjXBH/wctkDwb1rfQdgPXHHnuJapAfd/OGeKaoZPcp6UfvLhwYDERZGQRwPRWSSvPgawfKSB9myYwRQeO4B1vV9yGrv5OjIYva9pZjhxPZ5r7VSQPS3TNywsesuoO8gPFFhRJcMEbLSJDd/zKWweMZuxFniQQHVXTKLFWdPYT/fzvw+vcWjk5HlRR9OoJ2BYy2hdovDx4ofAgMBAAGjggIVMIICETAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFE2o+LKv+l3nkWPNUvwImqtZahKdMB8GA1UdIwQYMBaAFMXPRqTq9MPAemyVxC2wXpIvJuO5MFcGCCsGAQUFBwEBBEswSTAiBggrBgEFBQcwAYYWaHR0cDovL3IxMS5vLmxlbmNyLm9yZzAjBggrBgEFBQcwAoYXaHR0cDovL3IxMS5pLmxlbmNyLm9yZy8wHQYDVR0RBBYwFIISaXJhLWJhc3RpYS5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBAwYKKwYBBAHWeQIEAgSB9ASB8QDvAHYASLDja9qmRzQP5WoC+p0w6xxSActW3SyB2bu/qznYhHMAAAGQU9gCWgAABAMARzBFAiEA24IVMMQwDzDgMjj7vLgBa64OyVK1i9GPmDGPuiH3wtUCIDYXq4kLggfI7bTr/6PwFJwH6tCqZzKQZvCZ696rS56KAHUAPxdLT9ciR1iUHWUchL4NEu2QN38fhWrrwb8ohez4ZG4AAAGQU9gCWwAABAMARjBEAiA6myewKKB8Wd8oHG3J8UhgDPaM2G74x+yO6hkRlf7fsAIgFa9yNR42tkolVKlk51FuPSBr8PsR+rnTz+BBYMFyELYwDQYJKoZIhvcNAQELBQADggEBAAMmPjTei8c0UWjmrtLHHdHhTWNJLBstLrgLJq8rZbzI9B0Y8+vrTjbQQj2r7d68wGNoVxqdSODf14zJRAkKPuIkyYpG7qzKUmas8w4zXdc2/WeaB9LO8qyz3IWiOB+J5OafOBYinSe2E4U2SihfO92qemcrlU7HCsd7M8ou/8r9Z5pVPJ+mto7Y13ELtGncgbLNjbCpz3urekN+B8XOjCEZ5Mad2q+IWdIWcWFcF0sNQui7dhgEqGfk3+OhFXIGCMrfSNRBIg4anydG5hRiKWNeJl1+u6NOVnkjB0HhV+ENmSefYh6/hSSAAj7kNo0YGOjXPoj39cJo1/7KqA9vTDA=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE9DCCA9ygAwIBAgISA4VJ5HsJmu0LIY63FgpA5jeKMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTEwHhcNMjQwODIzMDcyNTI4WhcNMjQxMTIxMDcyNTI3WjAdMRswGQYDVQQDExJpcmEtYmFzdGlhLmdvdXYuZnIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+JV8WoDBCRR3/DSHUvapXhJBFRMt0z6u26LdRD+aj8XpbJG8FH57w5pblJ0ybKw2BqHZmXEPpmDUEo8SHpk65aGbpqOrZJbGL5Bze+s5Gp/VXrFjJL3X3LaAW4CQ8UVEwhlBFZ2ABfPjXBH/wctkDwb1rfQdgPXHHnuJapAfd/OGeKaoZPcp6UfvLhwYDERZGQRwPRWSSvPgawfKSB9myYwRQeO4B1vV9yGrv5OjIYva9pZjhxPZ5r7VSQPS3TNywsesuoO8gPFFhRJcMEbLSJDd/zKWweMZuxFniQQHVXTKLFWdPYT/fzvw+vcWjk5HlRR9OoJ2BYy2hdovDx4ofAgMBAAGjggIWMIICEjAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFE2o+LKv+l3nkWPNUvwImqtZahKdMB8GA1UdIwQYMBaAFMXPRqTq9MPAemyVxC2wXpIvJuO5MFcGCCsGAQUFBwEBBEswSTAiBggrBgEFBQcwAYYWaHR0cDovL3IxMS5vLmxlbmNyLm9yZzAjBggrBgEFBQcwAoYXaHR0cDovL3IxMS5pLmxlbmNyLm9yZy8wHQYDVR0RBBYwFIISaXJhLWJhc3RpYS5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBBAYKKwYBBAHWeQIEAgSB9QSB8gDwAHYASLDja9qmRzQP5WoC+p0w6xxSActW3SyB2bu/qznYhHMAAAGRflXPXQAABAMARzBFAiAILIh1RUhnF0oXdSnKGaAU42lN3/ye9l2UZKnT8SJvrQIhAJLic+V/fIvBmGyQDlCLy4mzlI4LdZ1jnj6j/sCSGXh6AHYAPxdLT9ciR1iUHWUchL4NEu2QN38fhWrrwb8ohez4ZG4AAAGRflXPaAAABAMARzBFAiEAnN2gnamz8tA/hkRlTw5UNMdh9QN6aihywBdkKob9H1ACIFy8Oh4g96mVLSqRcQ82zShDM8jZYObixfgKnLUx8DNQMA0GCSqGSIb3DQEBCwUAA4IBAQA/EDikLqzg2QSVcqCjIcwgCkAuqAwXHVysS5I1iRPROzeipp455JhUECRsgzsn79vHCKi9gGMBXeqTFfe3CIyxBNI5U33hm6QZlEpoYigJiRAogrK4TCn5538GW9up16j68SRqOHKO9jV1eySom45758eAmoStukHHA/EyOtWpP8PrAf+ctdk0ySIbVXZnnrU1uRAZtPoIH+Gvv5AiEg27UFqcfozi6K740GdpJ/98E0euIudWQ1HNpcGh78gmhJCZRI887YknaQyH/MBo/WD19PGCRysT8L05p30Myp4Y6nQ+nHCMOSoZO0+33JBZbdU1l3rDaDoZlviYtTsUGrgH\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "ira-bastia.gouv.fr/109.234.160.111",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "40 >= 30 days"
+              "finding"      : "67 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "ira-bastia.gouv.fr/109.234.160.111",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-06-26 08:19"
+              "finding"      : "2024-08-23 07:25"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "ira-bastia.gouv.fr/109.234.160.111",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-09-24 08:19"
+              "finding"      : "2024-11-21 07:25"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -514,7 +514,7 @@
               "ip"           : "ira-bastia.gouv.fr/109.234.160.111",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723638155"
+              "finding"      : "1726316517"
           }
 ,         {
               "id"           : "HSTS",
@@ -687,7 +687,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=9E98610A9D5AFD15302BBDF90A09A71DC609437C4E2DE036A96E37CA44772659"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=1235A3B557859ED6700E0E2DB44B0C8CFE3E677A3BFB7A235D7A868929B5BE5B"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1070,6 +1070,6 @@
               "ip"           : "ira-bastia.gouv.fr/109.234.160.111",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "164"
+              "finding"      : "163"
           }
 ]

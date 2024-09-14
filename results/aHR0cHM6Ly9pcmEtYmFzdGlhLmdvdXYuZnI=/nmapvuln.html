@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln ira-bastia.gouv.fr</pre>
-<p class="lead">Wed Aug 14 12:23:16 2024 – Wed Aug 14 12:26:20 2024<br>1 hosts scanned.
+<p class="lead">Sat Sep 14 12:22:38 2024 – Sat Sep 14 12:25:41 2024<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -78,7 +78,7 @@
 <td><span class="label label-success">up</span></td>
 <td>109.234.160.111</td>
 <td>ira-bastia.gouv.fr</td>
-<td>13</td>
+<td>15</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -139,7 +139,15 @@
 <td title="Version">4.96.2</td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:exim:exim:4.96.2">cpe:/a:exim:exim:4.96.2</a></td></tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:exim:exim:4.96.2">cpe:/a:exim:exim:4.96.2</a><h5>vulners</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  cpe:/a:exim:exim:4.96.2: 
+    	CVE-2023-42115	9.8	https://vulners.com/cve/CVE-2023-42115
+    	44BFD777-C6D6-5998-B2D2-B32828CED2CB	9.8	https://vulners.com/githubexploit/44BFD777-C6D6-5998-B2D2-B32828CED2CB	*EXPLOIT*
+    	CVE-2023-42116	8.1	https://vulners.com/cve/CVE-2023-42116
+    	F5E48F31-294D-5824-9F49-88CB0516C8D6	0.0	https://vulners.com/githubexploit/F5E48F31-294D-5824-9F49-88CB0516C8D6	*EXPLOIT*</pre>
+</td></tr>
 <tr class="success">
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
@@ -156,7 +164,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   GetRequest: 
     HTTP/1.1 400 Bad Request
-    Date: Wed, 14 Aug 2024 12:23:35 GMT
+    Date: Sat, 14 Sep 2024 12:22:57 GMT
     Content-Type: text/html
     Connection: close
     Cache-Control: no-cache, no-store, must-revalidate
@@ -184,7 +192,7 @@
     section, f
   HTTPOptions: 
     HTTP/1.1 429 Too Many Requests
-    Date: Wed, 14 Aug 2024 12:23:35 GMT
+    Date: Sat, 14 Sep 2024 12:22:57 GMT
     Content-Type: text/html
     Connection: close
     Vary: Accept-Encoding
@@ -193,7 +201,7 @@
     Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     Expires: Thu, 01 Jan 1970 00:00:01 GMT
     Access-Control-Allow-Origin: *
-    &lt;!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "920537e24fab281dda1ec982d3469701"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug--&gt;
+    &lt;!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "86422822ac719888e6a051f288b53102"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug--&gt;
     &lt;!DOCTYPE HTML&gt;
     &lt;html lang="en-US"&gt;
     &lt;head&gt;
@@ -222,6 +230,16 @@
 </tr>
 <tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:dovecot:dovecot">cpe:/a:dovecot:dovecot</a></td></tr>
 <tr class="success">
+<td title="Port">427</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">tcpwrapped</td>
+<td title="Product"></td>
+<td title="Version"></td>
+<td title="Extra Info"></td>
+</tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
+<tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
@@ -237,7 +255,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   GetRequest: 
     HTTP/1.1 429 Too Many Requests
-    Date: Wed, 14 Aug 2024 12:23:41 GMT
+    Date: Sat, 14 Sep 2024 12:23:03 GMT
     Content-Type: text/html
     Connection: close
     Vary: Accept-Encoding
@@ -246,7 +264,7 @@
     Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     Expires: Thu, 01 Jan 1970 00:00:01 GMT
     Access-Control-Allow-Origin: *
-    &lt;!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "252b96b5b5ce97e4034daa66b94e3dcc"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug--&gt;
+    &lt;!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "3cfa3610b357a82c2fae86d0eb45a80b"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug--&gt;
     &lt;!DOCTYPE HTML&gt;
     &lt;html lang="en-US"&gt;
     &lt;head&gt;
@@ -255,7 +273,7 @@
     &lt;meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"
   HTTPOptions: 
     HTTP/1.1 429 Too Many Requests
-    Date: Wed, 14 Aug 2024 12:23:42 GMT
+    Date: Sat, 14 Sep 2024 12:23:04 GMT
     Content-Type: text/html
     Connection: close
     Vary: Accept-Encoding
@@ -264,7 +282,7 @@
     Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
     Expires: Thu, 01 Jan 1970 00:00:01 GMT
     Access-Control-Allow-Origin: *
-    &lt;!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "f31ed8e6ce9f4298abeda00f7650262a"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug--&gt;
+    &lt;!--Debug [[Security_Rule = ""; More_info = ""; HTTP_Code = "429""; Request_ID = "2c2f26ab33e7b31c9cbf812389f27db6"; Support = "support@o2switch.fr"; Link = "https://faq.o2switch.fr/hebergement-mutualise/tutoriels-cpanel/tiger-protect"]] EndOfDebug--&gt;
     &lt;!DOCTYPE HTML&gt;
     &lt;html lang="en-US"&gt;
     &lt;head&gt;
@@ -281,7 +299,15 @@
 <td title="Version">4.96.2</td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:exim:exim:4.96.2">cpe:/a:exim:exim:4.96.2</a></td></tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:exim:exim:4.96.2">cpe:/a:exim:exim:4.96.2</a><h5>vulners</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  cpe:/a:exim:exim:4.96.2: 
+    	CVE-2023-42115	9.8	https://vulners.com/cve/CVE-2023-42115
+    	44BFD777-C6D6-5998-B2D2-B32828CED2CB	9.8	https://vulners.com/githubexploit/44BFD777-C6D6-5998-B2D2-B32828CED2CB	*EXPLOIT*
+    	CVE-2023-42116	8.1	https://vulners.com/cve/CVE-2023-42116
+    	F5E48F31-294D-5824-9F49-88CB0516C8D6	0.0	https://vulners.com/githubexploit/F5E48F31-294D-5824-9F49-88CB0516C8D6	*EXPLOIT*</pre>
+</td></tr>
 <tr class="success">
 <td title="Port">587</td>
 <td title="Protocol">tcp</td>
@@ -291,9 +317,17 @@
 <td title="Version">4.96.2</td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:exim:exim:4.96.2">cpe:/a:exim:exim:4.96.2</a></td></tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:exim:exim:4.96.2">cpe:/a:exim:exim:4.96.2</a><h5>vulners</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  cpe:/a:exim:exim:4.96.2: 
+    	CVE-2023-42115	9.8	https://vulners.com/cve/CVE-2023-42115
+    	44BFD777-C6D6-5998-B2D2-B32828CED2CB	9.8	https://vulners.com/githubexploit/44BFD777-C6D6-5998-B2D2-B32828CED2CB	*EXPLOIT*
+    	CVE-2023-42116	8.1	https://vulners.com/cve/CVE-2023-42116
+    	F5E48F31-294D-5824-9F49-88CB0516C8D6	0.0	https://vulners.com/githubexploit/F5E48F31-294D-5824-9F49-88CB0516C8D6	*EXPLOIT*</pre>
+</td></tr>
 <tr class="success">
-<td title="Port">625</td>
+<td title="Port">646</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">tcpwrapped</td>
@@ -323,7 +357,17 @@
 </tr>
 <tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:dovecot:dovecot">cpe:/a:dovecot:dovecot</a></td></tr>
 <tr class="success">
-<td title="Port">1433</td>
+<td title="Port">2393</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">tcpwrapped</td>
+<td title="Product"></td>
+<td title="Version"></td>
+<td title="Extra Info"></td>
+</tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a></td></tr>
+<tr class="success">
+<td title="Port">8649</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">tcpwrapped</td>
@@ -411,6 +455,16 @@
 </tr>
 <tr>
 <td>109.234.160.111 - ira-bastia.gouv.fr</td>
+<td>427</td>
+<td>tcp</td>
+<td>tcpwrapped</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>109.234.160.111 - ira-bastia.gouv.fr</td>
 <td>443</td>
 <td>tcp</td>
 <td>https</td>
@@ -441,7 +495,7 @@
 </tr>
 <tr>
 <td>109.234.160.111 - ira-bastia.gouv.fr</td>
-<td>625</td>
+<td>646</td>
 <td>tcp</td>
 <td>tcpwrapped</td>
 <td></td>
@@ -471,7 +525,17 @@
 </tr>
 <tr>
 <td>109.234.160.111 - ira-bastia.gouv.fr</td>
-<td>1433</td>
+<td>2393</td>
+<td>tcp</td>
+<td>tcpwrapped</td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>109.234.160.111 - ira-bastia.gouv.fr</td>
+<td>8649</td>
 <td>tcp</td>
 <td>tcpwrapped</td>
 <td></td>
