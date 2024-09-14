@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Wed Aug 14 12:22:05 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.info.gouv.fr
+# Nmap 7.92 scan initiated Sat Sep 14 12:21:11 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.info.gouv.fr
 Host: 117.18.238.228 ()	Status: Up
-Host: 117.18.238.228 ()	Ports: 80/open/tcp//http//ECAcc (cha|065C)/, 443/open/tcp//ssl|https//ECAcc (cha|065C)/, 1119/closed/tcp//bnetgame///, 1935/closed/tcp//rtmp///	Ignored State: filtered (996)
-# Nmap done at Wed Aug 14 12:22:32 2024 -- 1 IP address (1 host up) scanned in 27.01 seconds
+Host: 117.18.238.228 ()	Ports: 80/open/tcp//http//ECAcc (chd|0796)/, 443/open/tcp//ssl|https//ECAcc (chd|0796)/, 1119/closed/tcp//bnetgame///, 1935/closed/tcp//rtmp///	Ignored State: filtered (996)
+# Nmap done at Sat Sep 14 12:21:38 2024 -- 1 IP address (1 host up) scanned in 27.01 seconds
