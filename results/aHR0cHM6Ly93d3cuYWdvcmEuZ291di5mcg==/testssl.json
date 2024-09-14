@@ -269,7 +269,7 @@
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0330A1729BCE26997FC9C4875D350CE32DEF"
+              "finding"      : "03B705DDAE4A8D5813B779B74AA53AFCB3DA"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "235A0A4E2216555AFDFF2442EA2E689FDC69EAD2"
+              "finding"      : "019023BCCC2DC48FC8020F2FCC61A4388B2ABBB8"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "76FD06D92BDB912871548D24068ECA85B31666A41E62C727145E77848F356B44"
+              "finding"      : "5D4DE9854920A25F360EA770E7FADF0E5E6192BEAB0D1C402F36C99FAD3F3873"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFATCCA+mgAwIBAgISAzChcpvOJpl/ycSHXTUM4y3vMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTEwHhcNMjQwNzEwMTM1MTMyWhcNMjQxMDA4MTM1MTMxWjAcMRowGAYDVQQDExF3d3cuYWdvcmEuZ291di5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALSMIlAx7jSzKdeQw1D2BsXnKRJ2WyKr68Axl7K6Now3fFyP5GeNuN30HFTxTYom4/g/2q4fH9GRcfHa9OK8KhmI8o27xKM2YbYf4eNC0eyuLMTPVVSuviMY/5A5x71ZJ3SxqKZxDkp186X+PeNRKz6XD09N43wj/BmyPPzZ/nYGPDGv35UnumckahzrqHRxrVr0NCxvliuy+Hw4x7CBTM7qqMkBA2MOdW2XAqr9fnvxYkbvLfTQ+BEmXTAB4XBo4OMKdVuoht/xVRbXyOxh8xGPLAILTdpMQKGxywXeMYwdn8IYpz4DCmzuzJyIiTqsG9WoX0ipWgGRQIlkhUcr8/kCAwEAAaOCAiQwggIgMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU9AyvuH4BakeAy9Z7SVhQl6SEYKswHwYDVR0jBBgwFoAUxc9GpOr0w8B6bJXELbBeki8m47kwVwYIKwYBBQUHAQEESzBJMCIGCCsGAQUFBzABhhZodHRwOi8vcjExLm8ubGVuY3Iub3JnMCMGCCsGAQUFBzAChhdodHRwOi8vcjExLmkubGVuY3Iub3JnLzArBgNVHREEJDAigg1hZ29yYS5nb3V2LmZyghF3d3cuYWdvcmEuZ291di5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB1AD8XS0/XIkdYlB1lHIS+DRLtkDd/H4Vq68G/KIXs+GRuAAABkJ0g0uAAAAQDAEYwRAIgN8vOl0/9ol0EQZY9/O6ekFgmKAbhygEpHVZTrUUQxXsCIAxldfhjpdnskWl42X3WoC/fbuppj3VkG5GvZnFGc5bzAHcA3+FW66oFr7WcD4ZxjajAMk6uVtlup/WlagHRwTu+UlwAAAGQnSDTmwAABAMASDBGAiEAo7OPQy9eEulaxWHn+fNAlpzqVsSbYQRPi6GZfzhtvp4CIQDFZiAGytvynDc1P840LZCGxJe0GPhz9Xm8ERaVNyHy8TANBgkqhkiG9w0BAQsFAAOCAQEAaHpxMTQ4e8MW+ddPzZO/C6aIOyhNIAvLySlz2RT2Qe06pwRHT0e/wHkBXx4fYrxuR4ih6USIE8yikHQNj1pHnP32r9P6NzIZbs0sWCFBCKjv0nKSA5KriRnNcOpY8kpk9dM8BhjGzV4SKKaNPX1xG1WytwyyVUdXEeI+q0h2jl9KX80E//0VemT4Dx5SA/fhEb+1xUvLcW1MfuBBI074JWe/Rr2XJ+zKvk+v9VKHZeEgBYOJQBIvxupfEl9CY4hOm4zllKWcZ/GKymlhhQ+XXxhQ+5NR8xG35RswSTYpnC7c6OhyAcorzZc0khaJMzoEftKmAoVDQj5B/p5aEawnhQ==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFGTCCBAGgAwIBAgISA7cF3a5KjVgTt3m3SqU6/LPaMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTEwHhcNMjQwOTA2MTM1NjQxWhcNMjQxMjA1MTM1NjQwWjAcMRowGAYDVQQDExF3d3cuYWdvcmEuZ291di5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANgOVSMU18CtV5sU1JSh7IiIdRfaXPqHHhJAGy5xlLuvt5ygGZro+Ch94HD84tq3GkdhjV52SIe/Vqqqo4pI+wudAJMh3VpP93S4f12QpiY2vUurKMlFSSmgETbKPD+FWuc19Yfr0PWCgUfoIDcSYJF/XZ7+rCQlWStFMzZLbJ3x1BlEier5FfGH02EKY+qXsfud0BSaDkjCyP6KlR2y2pXysEUU224a06ZOSFFDse8wnO1lwv43GjvdOCYVzGyJjXLb2jjQzF8DtP1bquZGTnlLY7u5Vnw4X9lngnYPcyRch6kBOsuqEZMbYbvJYX1dUTptGdf/thijn2Nuvpatf9MCAwEAAaOCAjwwggI4MA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUGEvQnXYmHx46iBX9au8ZzjEUfnkwHwYDVR0jBBgwFoAUxc9GpOr0w8B6bJXELbBeki8m47kwVwYIKwYBBQUHAQEESzBJMCIGCCsGAQUFBzABhhZodHRwOi8vcjExLm8ubGVuY3Iub3JnMCMGCCsGAQUFBzAChhdodHRwOi8vcjExLmkubGVuY3Iub3JnLzBDBgNVHREEPDA6gg1hZ29yYS5nb3V2LmZyghZ3d3cuYWdvcmEuYmV0YS5nb3V2LmZyghF3d3cuYWdvcmEuZ291di5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB2AO7N0GTV2xrOxVy3nbTNE6Iyh0Z8vOzew1FIWUZxH7WbAAABkcfVASEAAAQDAEcwRQIhAMBkqDMdoAisAt1tu4U7sS2x2kB11wvGxVjtSd8xwGKFAiBaOB9nk6z9wXftv55ovwh13yBCLvFuIwrYHTgWKKAB+gB2AEiw42vapkc0D+VqAvqdMOscUgHLVt0sgdm7v6s52IRzAAABkcfVASIAAAQDAEcwRQIgIsox/1XYYAp1Lmg16D6FVBdOqetq8G/OqbxNYa6l8VsCIQDjMFizA0hAIX+lIiyB3eweJBSdJJJS/HTZBZ5UgQ8FYjANBgkqhkiG9w0BAQsFAAOCAQEAbFwKYt7JjAYL+4ctMKJl9u/baCJxfYrX3B/KGVHT0+HV/FxzKRYou++T0233ADcODiYl4TcH4X1AGvd1aMu3VYWc2FU85CJ6i+J5EIonWXEegpM31s3jnggNHPih8csKyYYz6esEw7ynDJBvLjDibnDoachgWylq/hHAP4vgnkrYI2j/SAMzDOTG59W6OdZzUeClgvPSeqjtfwazJ46Gzm41EDlh4KFXpAmmWRcbTBaFAobDCYPu5e3k7b8U6zze1DVbV4ywrA4/K7FDmPirY9ekyP5SPMfT12OI/LoePfILQupq2HGiMvBEUnP4yOnpLCJL+F9nMWGH/wi+BUWIcg==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,21 +311,21 @@
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "agora.beta.gouv.fr"
+              "finding"      : "www.agora.gouv.fr"
           }
 ,         {
               "id"           : "cert_subjectAltName",
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "agora.gouv.fr www.agora.gouv.fr"
+              "finding"      : "agora.gouv.fr www.agora.beta.gouv.fr www.agora.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "Ok via SAN and CN (SNI mandatory)"
+              "finding"      : "Ok via SAN and CN (same w/o SNI)"
           }
 ,         {
               "id"           : "cert_chain_of_trust",
@@ -346,21 +346,21 @@
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "55 >= 30 days"
+              "finding"      : "82 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-07-10 13:51"
+              "finding"      : "2024-09-06 13:56"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-10-08 13:51"
+              "finding"      : "2024-12-05 13:56"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -507,21 +507,21 @@
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+54 seconds from localtime"
+              "finding"      : "+722 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723638972"
+              "finding"      : "1726317207"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "55 seconds"
+              "finding"      : "723 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -606,7 +606,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Cache-TTL: 900.000X-Cache-Grace: 10.000X-Varnish: 7076162 7081029"
+              "finding"      : "X-Cache-TTL: 900.000X-Cache-Grace: 10.000X-Varnish: 7981012 7961242"
           }
 ,         {
               "id"           : "heartbleed",
@@ -729,7 +729,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=76FD06D92BDB912871548D24068ECA85B31666A41E62C727145E77848F356B44"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=5D4DE9854920A25F360EA770E7FADF0E5E6192BEAB0D1C402F36C99FAD3F3873"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1105,6 +1105,6 @@
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "106"
+              "finding"      : "105"
           }
 ]
