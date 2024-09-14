@@ -604,8 +604,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "89 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (58)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -618,7 +618,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-11-11 23:59"
           }
 ,         {
@@ -843,14 +843,14 @@
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+303 seconds from localtime"
+              "finding"      : "+368 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1723638710"
+              "finding"      : "1726317050"
           }
 ,         {
               "id"           : "HSTS",
@@ -1429,6 +1429,6 @@
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "185"
+              "finding"      : "99"
           }
 ]
