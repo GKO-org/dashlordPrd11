@@ -346,7 +346,7 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "139 >= 60 days"
+              "finding"      : "109 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +507,7 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726317486"
+              "finding"      : "1728909828"
           }
 ,         {
               "id"           : "HSTS_time",
