@@ -346,7 +346,7 @@
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "82 >= 30 days"
+              "finding"      : "52 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,21 +507,21 @@
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "+722 seconds from localtime"
+              "finding"      : "+270 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726317207"
+              "finding"      : "1728909530"
           }
 ,         {
               "id"           : "HTTP_headerAge",
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "723 seconds"
+              "finding"      : "271 seconds"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -606,7 +606,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Cache-TTL: 900.000X-Cache-Grace: 10.000X-Varnish: 7981012 7961242"
+              "finding"      : "X-Cache-TTL: 900.000X-Cache-Grace: 10.000X-Varnish: 8758206 8795436"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1105,6 +1105,6 @@
               "ip"           : "www.agora.gouv.fr/185.231.164.82",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "105"
+              "finding"      : "102"
           }
 ]
