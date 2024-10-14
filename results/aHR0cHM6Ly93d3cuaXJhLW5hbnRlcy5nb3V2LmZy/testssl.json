@@ -541,8 +541,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "82 >= 60 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 60 days (52)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -555,7 +555,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2024-12-05 23:59"
           }
 ,         {
@@ -696,14 +696,14 @@
               "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-1 seconds from localtime"
+              "finding"      : "0 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726316816"
+              "finding"      : "1728909040"
           }
 ,         {
               "id"           : "HSTS",
@@ -1259,6 +1259,6 @@
               "ip"           : "www.ira-nantes.gouv.fr/213.32.73.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "160"
+              "finding"      : "161"
           }
 ]
