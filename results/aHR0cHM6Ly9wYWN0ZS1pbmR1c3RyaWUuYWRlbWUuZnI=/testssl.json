@@ -269,7 +269,7 @@
               "ip"           : "pacte-industrie.ademe.fr/62.4.4.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "04BBCAA69409580C16435969A7AB3BC345AF"
+              "finding"      : "0459E67DDE0796A5685A351CB25C92986F48"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "pacte-industrie.ademe.fr/62.4.4.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DEB56A234803554E85DCD667BD37BB0D024544B1"
+              "finding"      : "A9DF23E028B9ABF9F79408B57E8EC3F1D03FB663"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "pacte-industrie.ademe.fr/62.4.4.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1F5E05CDC5ABFE004A0FB133266C20EFE6CCF33BDFF40129B27EB7C0D51C1ADE"
+              "finding"      : "6F3CD47A21D4BAAF04A09CACC45DD26E000103099F891AF62D403A829E83C34E"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "pacte-industrie.ademe.fr/62.4.4.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDkTCCAxegAwIBAgISBLvKppQJWAwWQ1lpp6s7w0WvMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNjAeFw0yNDA4MTAyMTQwMjZaFw0yNDExMDgyMTQwMjVaMCMxITAfBgNVBAMTGHBhY3RlLWluZHVzdHJpZS5hZGVtZS5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMUT8nEqzB7vhaDnqvBm++C09AeqEdM8r11/S6/RpKnc7uDaCqLYD0ZiMOQGyp+QklinfqD3cqVywt4ZXU2UZxmjggIaMIICFjAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFJLb2fgDnIJsNzTwURHoHgjunOKJMB8GA1UdIwQYMBaAFJMnRpgDqVFojpjWxEJI2yO/WJTSMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL2U2Lm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vZTYuaS5sZW5jci5vcmcvMCMGA1UdEQQcMBqCGHBhY3RlLWluZHVzdHJpZS5hZGVtZS5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB2AD8XS0/XIkdYlB1lHIS+DRLtkDd/H4Vq68G/KIXs+GRuAAABkT5x4U0AAAQDAEcwRQIhAMjesBhKuD+l62uyUpyOkeOnGdK6dmK3kdeUhOUe9hCeAiBqlxoW+KnY0l+BaXzZdbjEV16M1ElkwbmYlxDl2qvfIAB2AO7N0GTV2xrOxVy3nbTNE6Iyh0Z8vOzew1FIWUZxH7WbAAABkT5x4VcAAAQDAEcwRQIhAMQ5lscj+PLZ8IvR3D1NjMRiUWAFXXXGooyR00yFY2ZCAiAUeYcc8WTfRHObj6IgmpNR4mt7TKNSLG8NYoO1iAYa+TAKBggqhkjOPQQDAwNoADBlAjB0nVhcJWRWl7033yDjHTWECD+2xkgIcL1TliE0VMZ/PbVb6MPlto/Sla0BMMpiV5ACMQCRw2nxX1wpYOy8uOITGP+ZAJVi7dYkzzdY750zGnSmykKqoohuPvYavRY2bMCKHyo=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDjzCCAxagAwIBAgISBFnmfd4HlqVoWjUcslySmG9IMAoGCCqGSM49BAMDMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJFNjAeFw0yNDEwMTExMjMxMTNaFw0yNTAxMDkxMjMxMTJaMCMxITAfBgNVBAMTGHBhY3RlLWluZHVzdHJpZS5hZGVtZS5mcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABMUT8nEqzB7vhaDnqvBm++C09AeqEdM8r11/S6/RpKnc7uDaCqLYD0ZiMOQGyp+QklinfqD3cqVywt4ZXU2UZxmjggIZMIICFTAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFJLb2fgDnIJsNzTwURHoHgjunOKJMB8GA1UdIwQYMBaAFJMnRpgDqVFojpjWxEJI2yO/WJTSMFUGCCsGAQUFBwEBBEkwRzAhBggrBgEFBQcwAYYVaHR0cDovL2U2Lm8ubGVuY3Iub3JnMCIGCCsGAQUFBzAChhZodHRwOi8vZTYuaS5sZW5jci5vcmcvMCMGA1UdEQQcMBqCGHBhY3RlLWluZHVzdHJpZS5hZGVtZS5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AH1ZHhLheCp7HGFnfF79+NCHXBSgTpWeuQMv2Q6MLnm4AAABknvFV+YAAAQDAEcwRQIhAIdpH2B8sC1xeHgRSmxko4YngQDpz/yc1l8aMrbMyYHeAiAHBiesZ7BU4qW7y/OP0PcPExHJHSjvXtcOnnsbers3OAB1AM8RVu7VLnyv84db2Wkum+kacWdKsBfsrAHSW3fOzDsIAAABknvFV8sAAAQDAEYwRAIgWPk5RWIdJ7/Guc5JZ6fasmTF09oDKJtoKY81W0sLNYUCIDGx8ZraQCt+r3knATo8cZMJRmQrSEh66EBtCbhmxVRZMAoGCCqGSM49BAMDA2cAMGQCMBD7GUYXn9m1xfj6L5vmwTCMpid0IEf36KKzF7ghyImv24UpN4jN5+O+N8TZX+IEdgIwOn1ZfUZ0tHbdDNQ44JHb47D0C6inV3pOi9MI/OBPYrdIc5LTIdoPid0Kztbz/Rmv\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "pacte-industrie.ademe.fr/62.4.4.87",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "55 >= 30 days"
+              "finding"      : "86 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "pacte-industrie.ademe.fr/62.4.4.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-08-10 21:40"
+              "finding"      : "2024-10-11 12:31"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "pacte-industrie.ademe.fr/62.4.4.87",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2024-11-08 21:40"
+              "finding"      : "2025-01-09 12:31"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -507,7 +507,7 @@
               "ip"           : "pacte-industrie.ademe.fr/62.4.4.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1726317160"
+              "finding"      : "1728909388"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1070,6 +1070,6 @@
               "ip"           : "pacte-industrie.ademe.fr/62.4.4.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "94"
+              "finding"      : "96"
           }
 ]
