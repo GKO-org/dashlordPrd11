@@ -1,14 +1,17 @@
-# Nmap 7.92 scan initiated Mon Oct 14 12:24:27 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.info.gouv.fr
+# Nmap 7.92 scan initiated Thu Nov 14 12:24:37 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.info.gouv.fr
 Nmap scan report for www.info.gouv.fr (117.18.238.228)
-Host is up (0.0053s latency).
+Host is up (0.0051s latency).
 Not shown: 996 filtered tcp ports (no-response)
 PORT     STATE  SERVICE   VERSION
 80/tcp   open   http      ECAcc (dce/26DE)
+| http-server-header: 
+|   ECAcc (dce/26DE)
+|_  ECLF (dce/26BD)
 | fingerprint-strings: 
 |   GetRequest: 
 |     HTTP/1.0 404 Not Found
 |     Content-Type: text/html
-|     Date: Mon, 14 Oct 2024 12:24:38 GMT
+|     Date: Thu, 14 Nov 2024 12:24:48 GMT
 |     Server: ECAcc (dce/26DE)
 |     Content-Length: 345
 |     Connection: close
@@ -26,7 +29,7 @@ PORT     STATE  SERVICE   VERSION
 |   HTTPOptions: 
 |     HTTP/1.0 200 OK
 |     Allow: OPTIONS, GET, HEAD, POST
-|     Date: Mon, 14 Oct 2024 12:24:38 GMT
+|     Date: Thu, 14 Nov 2024 12:24:48 GMT
 |     Server: ECAcc (dce/26DE)
 |     Content-Length: 0
 |     Connection: close
@@ -35,8 +38,8 @@ PORT     STATE  SERVICE   VERSION
 |     Content-Type: text/html
 |     Content-Length: 349
 |     Connection: close
-|     Date: Mon, 14 Oct 2024 12:24:38 GMT
-|     Server: ECLF (dce/26C8)
+|     Date: Thu, 14 Nov 2024 12:24:48 GMT
+|     Server: ECLF (dce/26BD)
 |     <?xml version="1.0" encoding="iso-8859-1"?>
 |     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 |     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -53,8 +56,8 @@ PORT     STATE  SERVICE   VERSION
 |     Content-Type: text/html
 |     Content-Length: 357
 |     Connection: close
-|     Date: Mon, 14 Oct 2024 12:24:38 GMT
-|     Server: ECLF (dce/2699)
+|     Date: Thu, 14 Nov 2024 12:24:48 GMT
+|     Server: ECLF (dce/26B7)
 |     <?xml version="1.0" encoding="iso-8859-1"?>
 |     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 |     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -66,15 +69,15 @@ PORT     STATE  SERVICE   VERSION
 |     <h1>501 - Not Implemented</h1>
 |     </body>
 |_    </html>
-| http-server-header: 
-|   ECAcc (dce/26DE)
-|_  ECLF (dce/26C8)
 443/tcp  open   ssl/https ECAcc (dce/26DE)
+| http-server-header: 
+|   ECAcc (dce/2697)
+|_  ECAcc (dce/26DE)
 | fingerprint-strings: 
 |   FourOhFourRequest: 
 |     HTTP/1.0 404 Not Found
 |     Content-Type: text/html
-|     Date: Mon, 14 Oct 2024 12:24:44 GMT
+|     Date: Thu, 14 Nov 2024 12:24:54 GMT
 |     Server: ECAcc (dce/2697)
 |     Content-Length: 345
 |     Connection: close
@@ -92,7 +95,7 @@ PORT     STATE  SERVICE   VERSION
 |   GetRequest: 
 |     HTTP/1.0 404 Not Found
 |     Content-Type: text/html
-|     Date: Mon, 14 Oct 2024 12:24:44 GMT
+|     Date: Thu, 14 Nov 2024 12:24:54 GMT
 |     Server: ECAcc (dce/26DE)
 |     Content-Length: 345
 |     Connection: close
@@ -110,7 +113,7 @@ PORT     STATE  SERVICE   VERSION
 |   HTTPOptions: 
 |     HTTP/1.0 200 OK
 |     Allow: OPTIONS, GET, HEAD, POST
-|     Date: Mon, 14 Oct 2024 12:24:44 GMT
+|     Date: Thu, 14 Nov 2024 12:24:54 GMT
 |     Server: ECAcc (dce/26DE)
 |     Content-Length: 0
 |     Connection: close
@@ -119,8 +122,8 @@ PORT     STATE  SERVICE   VERSION
 |     Content-Type: text/html
 |     Content-Length: 357
 |     Connection: close
-|     Date: Mon, 14 Oct 2024 12:24:45 GMT
-|     Server: ECLF (dce/2696)
+|     Date: Thu, 14 Nov 2024 12:24:54 GMT
+|     Server: ECLF (dce/268D)
 |     <?xml version="1.0" encoding="iso-8859-1"?>
 |     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 |     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
@@ -132,16 +135,13 @@ PORT     STATE  SERVICE   VERSION
 |     <h1>501 - Not Implemented</h1>
 |     </body>
 |_    </html>
-| http-server-header: 
-|   ECAcc (dce/2697)
-|_  ECAcc (dce/26DE)
 1119/tcp closed bnetgame
 1935/tcp closed rtmp
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=10/14%Time=670D0D86%P=x86_64-alpine-linux-musl%
+SF-Port80-TCP:V=7.92%I=7%D=11/14%Time=6735EC10%P=x86_64-alpine-linux-musl%
 SF:r(GetRequest,1F3,"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Type:\x20
-SF:text/html\r\nDate:\x20Mon,\x2014\x20Oct\x202024\x2012:24:38\x20GMT\r\nS
+SF:text/html\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2012:24:48\x20GMT\r\nS
 SF:erver:\x20ECAcc\x20\(dce/26DE\)\r\nContent-Length:\x20345\r\nConnection
 SF::\x20close\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encoding=\"iso-8859-1\"
 SF:\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20T
@@ -151,12 +151,12 @@ SF://www\.w3\.org/1999/xhtml\"\x20xml:lang=\"en\"\x20lang=\"en\">\n\t<head
 SF:>\n\t\t<title>404\x20-\x20Not\x20Found</title>\n\t</head>\n\t<body>\n\t
 SF:\t<h1>404\x20-\x20Not\x20Found</h1>\n\t</body>\n</html>\n")%r(HTTPOptio
 SF:ns,99,"HTTP/1\.0\x20200\x20OK\r\nAllow:\x20OPTIONS,\x20GET,\x20HEAD,\x2
-SF:0POST\r\nDate:\x20Mon,\x2014\x20Oct\x202024\x2012:24:38\x20GMT\r\nServe
+SF:0POST\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2012:24:48\x20GMT\r\nServe
 SF:r:\x20ECAcc\x20\(dce/26DE\)\r\nContent-Length:\x200\r\nConnection:\x20c
 SF:lose\r\n\r\n")%r(RTSPRequest,1F8,"HTTP/1\.0\x20400\x20Bad\x20Request\r\
 SF:nContent-Type:\x20text/html\r\nContent-Length:\x20349\r\nConnection:\x2
-SF:0close\r\nDate:\x20Mon,\x2014\x20Oct\x202024\x2012:24:38\x20GMT\r\nServ
-SF:er:\x20ECLF\x20\(dce/26C8\)\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encodi
+SF:0close\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2012:24:48\x20GMT\r\nServ
+SF:er:\x20ECLF\x20\(dce/26BD\)\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encodi
 SF:ng=\"iso-8859-1\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20X
 SF:HTML\x201\.0\x20Transitional//EN\"\n\x20\x20\x20\x20\x20\x20\x20\x20\x2
 SF:0\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\n<html
@@ -165,8 +165,8 @@ SF:=\"en\">\n\t<head>\n\t\t<title>400\x20-\x20Bad\x20Request</title>\n\t</
 SF:head>\n\t<body>\n\t\t<h1>400\x20-\x20Bad\x20Request</h1>\n\t</body>\n</
 SF:html>\n")%r(X11Probe,204,"HTTP/1\.0\x20501\x20Not\x20Implemented\r\nCon
 SF:tent-Type:\x20text/html\r\nContent-Length:\x20357\r\nConnection:\x20clo
-SF:se\r\nDate:\x20Mon,\x2014\x20Oct\x202024\x2012:24:38\x20GMT\r\nServer:\
-SF:x20ECLF\x20\(dce/2699\)\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encoding=\
+SF:se\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2012:24:48\x20GMT\r\nServer:\
+SF:x20ECLF\x20\(dce/26B7\)\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encoding=\
 SF:"iso-8859-1\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML
 SF:\x201\.0\x20Transitional//EN\"\n\x20\x20\x20\x20\x20\x20\x20\x20\x20\"h
 SF:ttp://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\n<html\x20
@@ -175,9 +175,9 @@ SF:n\">\n\t<head>\n\t\t<title>501\x20-\x20Not\x20Implemented</title>\n\t</
 SF:head>\n\t<body>\n\t\t<h1>501\x20-\x20Not\x20Implemented</h1>\n\t</body>
 SF:\n</html>\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=10/14%Time=670D0D8C%P=x86_64-alpine-linu
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/14%Time=6735EC16%P=x86_64-alpine-linu
 SF:x-musl%r(GetRequest,1F3,"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Ty
-SF:pe:\x20text/html\r\nDate:\x20Mon,\x2014\x20Oct\x202024\x2012:24:44\x20G
+SF:pe:\x20text/html\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2012:24:54\x20G
 SF:MT\r\nServer:\x20ECAcc\x20\(dce/26DE\)\r\nContent-Length:\x20345\r\nCon
 SF:nection:\x20close\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encoding=\"iso-8
 SF:859-1\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\
@@ -187,11 +187,11 @@ SF:\"http://www\.w3\.org/1999/xhtml\"\x20xml:lang=\"en\"\x20lang=\"en\">\n
 SF:\t<head>\n\t\t<title>404\x20-\x20Not\x20Found</title>\n\t</head>\n\t<bo
 SF:dy>\n\t\t<h1>404\x20-\x20Not\x20Found</h1>\n\t</body>\n</html>\n")%r(HT
 SF:TPOptions,99,"HTTP/1\.0\x20200\x20OK\r\nAllow:\x20OPTIONS,\x20GET,\x20H
-SF:EAD,\x20POST\r\nDate:\x20Mon,\x2014\x20Oct\x202024\x2012:24:44\x20GMT\r
+SF:EAD,\x20POST\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2012:24:54\x20GMT\r
 SF:\nServer:\x20ECAcc\x20\(dce/26DE\)\r\nContent-Length:\x200\r\nConnectio
 SF:n:\x20close\r\n\r\n")%r(FourOhFourRequest,1F3,"HTTP/1\.0\x20404\x20Not\
-SF:x20Found\r\nContent-Type:\x20text/html\r\nDate:\x20Mon,\x2014\x20Oct\x2
-SF:02024\x2012:24:44\x20GMT\r\nServer:\x20ECAcc\x20\(dce/2697\)\r\nContent
+SF:x20Found\r\nContent-Type:\x20text/html\r\nDate:\x20Thu,\x2014\x20Nov\x2
+SF:02024\x2012:24:54\x20GMT\r\nServer:\x20ECAcc\x20\(dce/2697\)\r\nContent
 SF:-Length:\x20345\r\nConnection:\x20close\r\n\r\n<\?xml\x20version=\"1\.0
 SF:\"\x20encoding=\"iso-8859-1\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W
 SF:3C//DTD\x20XHTML\x201\.0\x20Transitional//EN\"\n\x20\x20\x20\x20\x20\x2
@@ -201,8 +201,8 @@ SF:en\"\x20lang=\"en\">\n\t<head>\n\t\t<title>404\x20-\x20Not\x20Found</ti
 SF:tle>\n\t</head>\n\t<body>\n\t\t<h1>404\x20-\x20Not\x20Found</h1>\n\t</b
 SF:ody>\n</html>\n")%r(tor-versions,204,"HTTP/1\.0\x20501\x20Not\x20Implem
 SF:ented\r\nContent-Type:\x20text/html\r\nContent-Length:\x20357\r\nConnec
-SF:tion:\x20close\r\nDate:\x20Mon,\x2014\x20Oct\x202024\x2012:24:45\x20GMT
-SF:\r\nServer:\x20ECLF\x20\(dce/2696\)\r\n\r\n<\?xml\x20version=\"1\.0\"\x
+SF:tion:\x20close\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2012:24:54\x20GMT
+SF:\r\nServer:\x20ECLF\x20\(dce/268D\)\r\n\r\n<\?xml\x20version=\"1\.0\"\x
 SF:20encoding=\"iso-8859-1\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//
 SF:DTD\x20XHTML\x201\.0\x20Transitional//EN\"\n\x20\x20\x20\x20\x20\x20\x2
 SF:0\x20\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-transitional\.dtd\"
@@ -212,4 +212,4 @@ SF:title>\n\t</head>\n\t<body>\n\t\t<h1>501\x20-\x20Not\x20Implemented</h1
 SF:>\n\t</body>\n</html>\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon Oct 14 12:24:54 2024 -- 1 IP address (1 host up) scanned in 27.36 seconds
+# Nmap done at Thu Nov 14 12:25:03 2024 -- 1 IP address (1 host up) scanned in 26.38 seconds
