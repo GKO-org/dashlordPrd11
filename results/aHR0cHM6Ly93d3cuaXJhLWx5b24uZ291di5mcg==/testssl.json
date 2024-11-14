@@ -521,7 +521,7 @@
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "23C5C2A21CF9DE35957152BEAB7FBC80"
+              "finding"      : "3B8920E65A24FA4C402A444F11B719F0"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -535,21 +535,21 @@
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "050A3FB47E28634CB3A828E1B127504A4A92F551"
+              "finding"      : "3EAAC8C45C005D93FA1DA8A66CC7E1C58E76A746"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "8EB98ACE4F53052EDD306E77BC6FACA8E981D09E8BC0F1EB90E70A559588538F"
+              "finding"      : "F15281290702DBC3D40CEE0E0AE4D0796B5A5B642D3C1DEA97D916628EA5195C"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -604,22 +604,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (28)"
+              "severity"     : "OK",
+              "finding"      : "376 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-11-27 00:00"
+              "finding"      : "2024-10-25 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2024-11-11 23:59"
+              "severity"     : "OK",
+              "finding"      : "2025-11-25 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -703,35 +703,35 @@
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "8EB98ACE4F53052EDD306E77BC6FACA8E981D09E8BC0F1EB90E70A559588538F"
+              "finding"      : "F15281290702DBC3D40CEE0E0AE4D0796B5A5B642D3C1DEA97D916628EA5195C"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-11-27 00:00"
+              "finding"      : "2024-10-25 00:00"
           }
 ,         {
               "id"           : "intermediate_cert_notAfter <#1>",
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-11-11 23:59"
+              "severity"     : "OK",
+              "finding"      : "2025-11-25 23:59"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#1>",
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires <= 40 days"
+              "severity"     : "OK",
+              "finding"      : "ok > 40 days"
           }
 ,         {
               "id"           : "intermediate_cert_chain <#1>",
@@ -843,14 +843,14 @@
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-48 seconds from localtime"
+              "finding"      : "-101 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728908903"
+              "finding"      : "1731587172"
           }
 ,         {
               "id"           : "HSTS",
@@ -1023,7 +1023,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=8EB98ACE4F53052EDD306E77BC6FACA8E981D09E8BC0F1EB90E70A559588538F"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=F15281290702DBC3D40CEE0E0AE4D0796B5A5B642D3C1DEA97D916628EA5195C"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1429,6 +1429,6 @@
               "ip"           : "www.ira-lyon.gouv.fr/94.228.187.212",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "185"
+              "finding"      : "100"
           }
 ]
