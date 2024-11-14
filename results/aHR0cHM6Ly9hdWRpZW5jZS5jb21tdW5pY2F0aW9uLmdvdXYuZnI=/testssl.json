@@ -31,15 +31,15 @@
               "id"           : "TLS1",
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "offered (deprecated)"
+              "severity"     : "INFO",
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_1",
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "offered (deprecated)"
+              "severity"     : "INFO",
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_2",
@@ -132,34 +132,6 @@
               "finding"      : "offered"
           }
 ,         {
-              "id"           : "cipher_order-tls1",
-              "ip"           : "audience.communication.gouv.fr/172.67.197.13",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server"
-          }
-,         {
-              "id"           : "cipherorder_TLSv1",
-              "ip"           : "audience.communication.gouv.fr/172.67.197.13",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "ECDHE-ECDSA-AES128-SHA"
-          }
-,         {
-              "id"           : "cipher_order-tls1_1",
-              "ip"           : "audience.communication.gouv.fr/172.67.197.13",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server"
-          }
-,         {
-              "id"           : "cipherorder_TLSv1_1",
-              "ip"           : "audience.communication.gouv.fr/172.67.197.13",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "ECDHE-ECDSA-AES128-SHA"
-          }
-,         {
               "id"           : "cipher_order-tls1_2",
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
@@ -192,7 +164,7 @@
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-CHACHA20-POLY1305-OLD"
+              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA"
           }
 ,         {
               "id"           : "FS_ECDHE_curves",
@@ -241,7 +213,7 @@
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "off by 0 seconds from your localtime"
+              "finding"      : "random"
           }
 ,         {
               "id"           : "certificate_compression",
@@ -297,7 +269,7 @@
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "E22B9F6D825DB3AE0EC07A5350A343B3"
+              "finding"      : "04F9BA606E9843CA0E133764CEF5E453"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -311,21 +283,21 @@
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "D8868D7C38E86909FF78E578A7C6056BCC4D52E1"
+              "finding"      : "FCDA4029008E43067F8755E227227058A66BD0A5"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F7B60C88ECDFFBBC10172377AF6918CBB26FAF212B08BF1024DBACFA5F912ADB"
+              "finding"      : "A9A37A3056E4599C405E0369CEA5CB9E9D7727CF93DA739D8F9C02B6DD8293A3"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDwjCCA2mgAwIBAgIRAOIrn22CXbOuDsB6U1CjQ7MwCgYIKoZIzj0EAwIwOzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoGA1UEAxMDV0UxMB4XDTI0MDkxMTEwNTA0NloXDTI0MTIxMDEwNTA0NVowIDEeMBwGA1UEAxMVY29tbXVuaWNhdGlvbi5nb3V2LmZyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERgKbUwxsohf6ivOBh0Gl4KQ5yBvOI9yXip6Lytl0aCqL1s+iUUP5oIWygnBKrezmf0OhQw4W62N2FQnRzAU3sKOCAmcwggJjMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRUHDLM1OCUlXGnogiuLEzUNpN+IDAfBgNVHSMEGDAWgBSQd5I1Z8T/qMyp5nvZgHl7zJP5ODBeBggrBgEFBQcBAQRSMFAwJwYIKwYBBQUHMAGGG2h0dHA6Ly9vLnBraS5nb29nL3Mvd2UxLzRpczAlBggrBgEFBQcwAoYZaHR0cDovL2kucGtpLmdvb2cvd2UxLmNydDA5BgNVHREEMjAwghVjb21tdW5pY2F0aW9uLmdvdXYuZnKCFyouY29tbXVuaWNhdGlvbi5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jLnBraS5nb29nL3dlMS9YMk1fRkVkNlo3Yy5jcmwwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdQB2/4g/Crb7lVHCYcz1h7o0tKTNuyncaEIKn+ZnTFo6dAAAAZHg6/eaAAAEAwBGMEQCIAu1YtGo8Hq3FJ9U0JAhb2R2tu/ZSaNKd8TpOlxqk1C2AiBvxCRXlmVliVBdXfWoniHlEOcV2f6Hn3VpBf18nhsMZwB3ANq2v2s/tbYin5vCu1xr6HCRcWy7UYSFNL2kPTBI1/urAAABkeDr96oAAAQDAEgwRgIhAJqiPOY/qX/mbqs99NOH8YnGoicKa+Cr7f4sBQ36XHJNAiEA8yOJ5AgxJlWZjaxZ5JxnvrAGXi1f9anjJ8tezd6ptk4wCgYIKoZIzj0EAwIDRwAwRAIgCcr6ECL/zSqoOKtRXa8y9b5npWcQ/U5q0tthYKfB1uECIFTEo8oo0qjT8wAZNXWqbgVMoul0pSsBaG7vLvCvtyli\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDwjCCA2egAwIBAgIQBPm6YG6YQ8oOEzdkzvXkUzAKBggqhkjOPQQDAjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXRTEwHhcNMjQxMTA5MTMxNDMyWhcNMjUwMjA3MTMxNDMxWjAgMR4wHAYDVQQDExVjb21tdW5pY2F0aW9uLmdvdXYuZnIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARUhNEGiE+rcn4DQ9qMQGV6063IxAjh4J8CHtt7GD5aA8J6iL/oy1yEpF13yO/HjFDcpz7uGodKBJ+IaqQzMgquo4ICZjCCAmIwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFLRsCY6pDw7hsYU73VUledkUqpL4MB8GA1UdIwQYMBaAFJB3kjVnxP+ozKnme9mAeXvMk/k4MF4GCCsGAQUFBwEBBFIwUDAnBggrBgEFBQcwAYYbaHR0cDovL28ucGtpLmdvb2cvcy93ZTEvQlBrMCUGCCsGAQUFBzAChhlodHRwOi8vaS5wa2kuZ29vZy93ZTEuY3J0MDkGA1UdEQQyMDCCFWNvbW11bmljYXRpb24uZ291di5mcoIXKi5jb21tdW5pY2F0aW9uLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd2UxL1hXUGt5UVh2SG1RLmNybDCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AM8RVu7VLnyv84db2Wkum+kacWdKsBfsrAHSW3fOzDsIAAABkxFGzTUAAAQDAEcwRQIgcATRqpUaxCP7lp0GlhvVMmTASGKQpNq6+66GHT3ybxACIQDo3psh4KHDNOnvtwjiWeaDl0kW5xeSk3AbThxY2GrdywB1AMz7D2qFcQll/pWbU87psnwi6YVcDZeNtql+VMD+TA2wAAABkxFGzUsAAAQDAEYwRAIgL1xezDHl8AZJo1JgKDt49jIh34Mj2PozpUKX+hMzQbwCIGOSZfeXpeV16I/iIG+0WzVpsrc4y4K85Qb2QNuKphdkMAoGCCqGSM49BAMCA0kAMEYCIQDIu0LeBECoDsr5KWpU4FhvmFfGt52okcm4/U+Ugf2r5gIhANJAmHxImCKingl2Jt50z+JclBDBheaqzS3gdp3sOEqE\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -380,22 +352,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (56)"
+              "severity"     : "OK",
+              "finding"      : "85 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-09-11 10:50"
+              "finding"      : "2024-11-09 13:14"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-12-10 10:50"
+              "severity"     : "OK",
+              "finding"      : "2025-02-07 13:14"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -416,14 +388,14 @@
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://c.pki.goog/we1/X2M_FEd6Z7c.crl"
+              "finding"      : "http://c.pki.goog/we1/XWPkyQXvHmQ.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://o.pki.goog/s/we1/4is"
+              "finding"      : "http://o.pki.goog/s/we1/BPk"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -591,7 +563,7 @@
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728909746"
+              "finding"      : "1731588000"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -626,7 +598,7 @@
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "cloudflare"
+              "finding"      : "cloudflareserver-timing: cfL4;desc='?proto=TCP&rtt=1570&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3028&recv_bytes=755&delivery_rate=1969655&cwnd=252&unsent_bytes=0&cid=2e9b17aaad1cb571&ts=51235&x=0'"
           }
 ,         {
               "id"           : "banner_application",
@@ -784,7 +756,7 @@
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "supported"
+              "finding"      : "no protocol below TLS 1.2 offered"
           }
 ,         {
               "id"           : "SWEET32",
@@ -841,22 +813,13 @@
               "finding"      : "no DH key with <= TLS 1.2"
           }
 ,         {
-              "id"           : "BEAST_CBC_TLS1",
-              "ip"           : "audience.communication.gouv.fr/172.67.197.13",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "cve"          : "CVE-2011-3389",
-              "cwe"          : "CWE-20",
-              "finding"      : "ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-SHA"
-          }
-,         {
               "id"           : "BEAST",
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
-              "severity"     : "LOW",
+              "severity"     : "OK",
               "cve"          : "CVE-2011-3389",
               "cwe"          : "CWE-20",
-              "finding"      : "VULNERABLE -- but also supports higher protocols  TLSv1.1 TLSv1.2 (likely mitigated)"
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
           }
 ,         {
               "id"           : "LUCKY13",
@@ -890,7 +853,7 @@
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305-OLD"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_70",
@@ -974,7 +937,7 @@
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.0 ECDHE-ECDSA-AES128-SHA"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_8_xp",
@@ -1051,7 +1014,7 @@
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.0 ECDHE-ECDSA-AES128-SHA"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-java_8u161",
@@ -1149,14 +1112,14 @@
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "95"
+              "finding"      : "100"
           }
 ,         {
               "id"           : "protocol_support_score_weighted",
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "28"
+              "finding"      : "30"
           }
 ,         {
               "id"           : "key_exchange_score",
@@ -1191,28 +1154,14 @@
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "82"
+              "finding"      : "84"
           }
 ,         {
               "id"           : "overall_grade",
               "ip"           : "audience.communication.gouv.fr/172.67.197.13",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "B"
-          }
-,         {
-              "id"           : "grade_cap_reason_1",
-              "ip"           : "audience.communication.gouv.fr/172.67.197.13",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to B. TLS 1.1 offered"
-          }
-,         {
-              "id"           : "grade_cap_reason_2",
-              "ip"           : "audience.communication.gouv.fr/172.67.197.13",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to B. TLS 1.0 offered"
+              "severity"     : "OK",
+              "finding"      : "A+"
           }
 ,         {
               "id"           : "service",
@@ -1246,15 +1195,15 @@
               "id"           : "TLS1",
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "offered (deprecated)"
+              "severity"     : "INFO",
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_1",
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
-              "severity"     : "LOW",
-              "finding"      : "offered (deprecated)"
+              "severity"     : "INFO",
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "TLS1_2",
@@ -1347,34 +1296,6 @@
               "finding"      : "offered"
           }
 ,         {
-              "id"           : "cipher_order-tls1",
-              "ip"           : "audience.communication.gouv.fr/104.21.21.81",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server"
-          }
-,         {
-              "id"           : "cipherorder_TLSv1",
-              "ip"           : "audience.communication.gouv.fr/104.21.21.81",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "ECDHE-ECDSA-AES128-SHA"
-          }
-,         {
-              "id"           : "cipher_order-tls1_1",
-              "ip"           : "audience.communication.gouv.fr/104.21.21.81",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "server"
-          }
-,         {
-              "id"           : "cipherorder_TLSv1_1",
-              "ip"           : "audience.communication.gouv.fr/104.21.21.81",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "ECDHE-ECDSA-AES128-SHA"
-          }
-,         {
               "id"           : "cipher_order-tls1_2",
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
@@ -1407,7 +1328,7 @@
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA ECDHE-ECDSA-CHACHA20-POLY1305-OLD"
+              "finding"      : "ECDHE-ECDSA-AES128-GCM-SHA256 ECDHE-ECDSA-AES128-SHA256 ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-GCM-SHA384 ECDHE-ECDSA-AES256-SHA384 ECDHE-ECDSA-AES256-SHA"
           }
 ,         {
               "id"           : "FS_ECDHE_curves",
@@ -1456,7 +1377,7 @@
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "off by 0 seconds from your localtime"
+              "finding"      : "random"
           }
 ,         {
               "id"           : "certificate_compression",
@@ -1512,7 +1433,7 @@
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "E22B9F6D825DB3AE0EC07A5350A343B3"
+              "finding"      : "04F9BA606E9843CA0E133764CEF5E453"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -1526,21 +1447,21 @@
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "D8868D7C38E86909FF78E578A7C6056BCC4D52E1"
+              "finding"      : "FCDA4029008E43067F8755E227227058A66BD0A5"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F7B60C88ECDFFBBC10172377AF6918CBB26FAF212B08BF1024DBACFA5F912ADB"
+              "finding"      : "A9A37A3056E4599C405E0369CEA5CB9E9D7727CF93DA739D8F9C02B6DD8293A3"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDwjCCA2mgAwIBAgIRAOIrn22CXbOuDsB6U1CjQ7MwCgYIKoZIzj0EAwIwOzELMAkGA1UEBhMCVVMxHjAcBgNVBAoTFUdvb2dsZSBUcnVzdCBTZXJ2aWNlczEMMAoGA1UEAxMDV0UxMB4XDTI0MDkxMTEwNTA0NloXDTI0MTIxMDEwNTA0NVowIDEeMBwGA1UEAxMVY29tbXVuaWNhdGlvbi5nb3V2LmZyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAERgKbUwxsohf6ivOBh0Gl4KQ5yBvOI9yXip6Lytl0aCqL1s+iUUP5oIWygnBKrezmf0OhQw4W62N2FQnRzAU3sKOCAmcwggJjMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRUHDLM1OCUlXGnogiuLEzUNpN+IDAfBgNVHSMEGDAWgBSQd5I1Z8T/qMyp5nvZgHl7zJP5ODBeBggrBgEFBQcBAQRSMFAwJwYIKwYBBQUHMAGGG2h0dHA6Ly9vLnBraS5nb29nL3Mvd2UxLzRpczAlBggrBgEFBQcwAoYZaHR0cDovL2kucGtpLmdvb2cvd2UxLmNydDA5BgNVHREEMjAwghVjb21tdW5pY2F0aW9uLmdvdXYuZnKCFyouY29tbXVuaWNhdGlvbi5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly9jLnBraS5nb29nL3dlMS9YMk1fRkVkNlo3Yy5jcmwwggEEBgorBgEEAdZ5AgQCBIH1BIHyAPAAdQB2/4g/Crb7lVHCYcz1h7o0tKTNuyncaEIKn+ZnTFo6dAAAAZHg6/eaAAAEAwBGMEQCIAu1YtGo8Hq3FJ9U0JAhb2R2tu/ZSaNKd8TpOlxqk1C2AiBvxCRXlmVliVBdXfWoniHlEOcV2f6Hn3VpBf18nhsMZwB3ANq2v2s/tbYin5vCu1xr6HCRcWy7UYSFNL2kPTBI1/urAAABkeDr96oAAAQDAEgwRgIhAJqiPOY/qX/mbqs99NOH8YnGoicKa+Cr7f4sBQ36XHJNAiEA8yOJ5AgxJlWZjaxZ5JxnvrAGXi1f9anjJ8tezd6ptk4wCgYIKoZIzj0EAwIDRwAwRAIgCcr6ECL/zSqoOKtRXa8y9b5npWcQ/U5q0tthYKfB1uECIFTEo8oo0qjT8wAZNXWqbgVMoul0pSsBaG7vLvCvtyli\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDwjCCA2egAwIBAgIQBPm6YG6YQ8oOEzdkzvXkUzAKBggqhkjOPQQDAjA7MQswCQYDVQQGEwJVUzEeMBwGA1UEChMVR29vZ2xlIFRydXN0IFNlcnZpY2VzMQwwCgYDVQQDEwNXRTEwHhcNMjQxMTA5MTMxNDMyWhcNMjUwMjA3MTMxNDMxWjAgMR4wHAYDVQQDExVjb21tdW5pY2F0aW9uLmdvdXYuZnIwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAARUhNEGiE+rcn4DQ9qMQGV6063IxAjh4J8CHtt7GD5aA8J6iL/oy1yEpF13yO/HjFDcpz7uGodKBJ+IaqQzMgquo4ICZjCCAmIwDgYDVR0PAQH/BAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMBMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFLRsCY6pDw7hsYU73VUledkUqpL4MB8GA1UdIwQYMBaAFJB3kjVnxP+ozKnme9mAeXvMk/k4MF4GCCsGAQUFBwEBBFIwUDAnBggrBgEFBQcwAYYbaHR0cDovL28ucGtpLmdvb2cvcy93ZTEvQlBrMCUGCCsGAQUFBzAChhlodHRwOi8vaS5wa2kuZ29vZy93ZTEuY3J0MDkGA1UdEQQyMDCCFWNvbW11bmljYXRpb24uZ291di5mcoIXKi5jb21tdW5pY2F0aW9uLmdvdXYuZnIwEwYDVR0gBAwwCjAIBgZngQwBAgEwNgYDVR0fBC8wLTAroCmgJ4YlaHR0cDovL2MucGtpLmdvb2cvd2UxL1hXUGt5UVh2SG1RLmNybDCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AM8RVu7VLnyv84db2Wkum+kacWdKsBfsrAHSW3fOzDsIAAABkxFGzTUAAAQDAEcwRQIgcATRqpUaxCP7lp0GlhvVMmTASGKQpNq6+66GHT3ybxACIQDo3psh4KHDNOnvtwjiWeaDl0kW5xeSk3AbThxY2GrdywB1AMz7D2qFcQll/pWbU87psnwi6YVcDZeNtql+VMD+TA2wAAABkxFGzUsAAAQDAEYwRAIgL1xezDHl8AZJo1JgKDt49jIh34Mj2PozpUKX+hMzQbwCIGOSZfeXpeV16I/iIG+0WzVpsrc4y4K85Qb2QNuKphdkMAoGCCqGSM49BAMCA0kAMEYCIQDIu0LeBECoDsr5KWpU4FhvmFfGt52okcm4/U+Ugf2r5gIhANJAmHxImCKingl2Jt50z+JclBDBheaqzS3gdp3sOEqE\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -1595,22 +1516,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "expires < 60 days (56)"
+              "severity"     : "OK",
+              "finding"      : "85 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-09-11 10:50"
+              "finding"      : "2024-11-09 13:14"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "2024-12-10 10:50"
+              "severity"     : "OK",
+              "finding"      : "2025-02-07 13:14"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -1631,14 +1552,14 @@
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://c.pki.goog/we1/X2M_FEd6Z7c.crl"
+              "finding"      : "http://c.pki.goog/we1/XWPkyQXvHmQ.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://o.pki.goog/s/we1/4is"
+              "finding"      : "http://o.pki.goog/s/we1/BPk"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -1806,7 +1727,7 @@
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1728909786"
+              "finding"      : "1731588038"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1841,7 +1762,7 @@
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "cloudflare"
+              "finding"      : "cloudflareserver-timing: cfL4;desc='?proto=TCP&rtt=2040&sent=5&recv=6&lost=0&retrans=0&sent_bytes=3027&recv_bytes=755&delivery_rate=737032&cwnd=252&unsent_bytes=0&cid=429990fd35b2f04b&ts=526&x=0'"
           }
 ,         {
               "id"           : "banner_application",
@@ -1999,7 +1920,7 @@
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "supported"
+              "finding"      : "no protocol below TLS 1.2 offered"
           }
 ,         {
               "id"           : "SWEET32",
@@ -2056,22 +1977,13 @@
               "finding"      : "no DH key with <= TLS 1.2"
           }
 ,         {
-              "id"           : "BEAST_CBC_TLS1",
-              "ip"           : "audience.communication.gouv.fr/104.21.21.81",
-              "port"         : "443",
-              "severity"     : "MEDIUM",
-              "cve"          : "CVE-2011-3389",
-              "cwe"          : "CWE-20",
-              "finding"      : "ECDHE-ECDSA-AES128-SHA ECDHE-ECDSA-AES256-SHA"
-          }
-,         {
               "id"           : "BEAST",
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
-              "severity"     : "LOW",
+              "severity"     : "OK",
               "cve"          : "CVE-2011-3389",
               "cwe"          : "CWE-20",
-              "finding"      : "VULNERABLE -- but also supports higher protocols  TLSv1.1 TLSv1.2 (likely mitigated)"
+              "finding"      : "not vulnerable, no SSL3 or TLS1"
           }
 ,         {
               "id"           : "LUCKY13",
@@ -2105,7 +2017,7 @@
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 ECDHE-ECDSA-CHACHA20-POLY1305-OLD"
+              "finding"      : "TLSv1.2 ECDHE-ECDSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_70",
@@ -2189,7 +2101,7 @@
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.0 ECDHE-ECDSA-AES128-SHA"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-ie_8_xp",
@@ -2266,7 +2178,7 @@
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.0 ECDHE-ECDSA-AES128-SHA"
+              "finding"      : "No connection"
           }
 ,         {
               "id"           : "clientsimulation-java_8u161",
@@ -2364,14 +2276,14 @@
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "95"
+              "finding"      : "100"
           }
 ,         {
               "id"           : "protocol_support_score_weighted",
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "28"
+              "finding"      : "30"
           }
 ,         {
               "id"           : "key_exchange_score",
@@ -2406,34 +2318,20 @@
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "82"
+              "finding"      : "84"
           }
 ,         {
               "id"           : "overall_grade",
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "B"
-          }
-,         {
-              "id"           : "grade_cap_reason_1",
-              "ip"           : "audience.communication.gouv.fr/104.21.21.81",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to B. TLS 1.1 offered"
-          }
-,         {
-              "id"           : "grade_cap_reason_2",
-              "ip"           : "audience.communication.gouv.fr/104.21.21.81",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "Grade capped to B. TLS 1.0 offered"
+              "severity"     : "OK",
+              "finding"      : "A+"
           }
 ,         {
               "id"           : "scanTime",
               "ip"           : "audience.communication.gouv.fr/104.21.21.81",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "81"
+              "finding"      : "130"
           }
 ]
