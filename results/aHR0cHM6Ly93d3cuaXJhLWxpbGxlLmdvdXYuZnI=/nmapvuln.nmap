@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Mon Oct 14 12:24:40 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.ira-lille.gouv.fr
+# Nmap 7.92 scan initiated Thu Nov 14 12:24:44 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.ira-lille.gouv.fr
 Nmap scan report for www.ira-lille.gouv.fr (51.91.236.193)
 Host is up (0.086s latency).
 Other addresses for www.ira-lille.gouv.fr (not scanned): 2001:41d0:301::28
@@ -10,13 +10,13 @@ PORT    STATE SERVICE  VERSION
 |   GetRequest: 
 |     HTTP/1.1 404 Not Found
 |     server: nginx
-|     date: Mon, 14 Oct 2024 12:24:54 GMT
+|     date: Thu, 14 Nov 2024 12:24:58 GMT
 |     content-type: text/html; charset=utf8
-|     content-length: 4958
-|     x-ovh-webhosting-id: 2b5236e64ed1e299a5ac08b298aadd9c
+|     content-length: 4959
+|     x-ovh-webhosting-id: 3f8281381567319e816b2c0b9f85e030
 |     pragma: no-cache
 |     cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-|     x-iplb-request-id: 14392FF1:2043_335BECC1:0050_670D0D90_7085D:5757
+|     x-iplb-request-id: 14A14CEE:A443_335BECC1:0050_6735EC14_275CE:3671
 |     x-iplb-instance: 52396
 |     connection: close
 |     <html xml:lang="en-EN" lang="en-EN">
@@ -32,14 +32,14 @@ PORT    STATE SERVICE  VERSION
 |   HTTPOptions: 
 |     HTTP/1.1 404 Not Found
 |     server: nginx
-|     date: Mon, 14 Oct 2024 12:24:54 GMT
+|     date: Thu, 14 Nov 2024 12:24:58 GMT
 |     content-type: text/html; charset=utf8
-|     content-length: 4958
-|     x-ovh-webhosting-id: 9eb7e0e6000402a6ee8476b00959190a
+|     content-length: 4959
+|     x-ovh-webhosting-id: 8644b36eb6ec11520283fc22eaff67c1
 |     pragma: no-cache
 |     cache-control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
-|     x-iplb-request-id: 14392FF1:2008_335BECC1:0050_670D0D96_93698:54E1
-|     x-iplb-instance: 52342
+|     x-iplb-request-id: 14A14CEE:A402_335BECC1:0050_6735EC1A_3506A:5C13
+|     x-iplb-instance: 52473
 |     connection: close
 |     <html xml:lang="en-EN" lang="en-EN">
 |     <head>
@@ -57,14 +57,14 @@ PORT    STATE SERVICE  VERSION
 443/tcp open  ssl/http nginx
 |_http-server-header: Apache
 1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
-SF-Port80-TCP:V=7.92%I=7%D=10/14%Time=670D0D96%P=x86_64-alpine-linux-musl%
-SF:r(GetRequest,14F0,"HTTP/1\.1\x20404\x20Not\x20Found\r\nserver:\x20nginx
-SF:\r\ndate:\x20Mon,\x2014\x20Oct\x202024\x2012:24:54\x20GMT\r\ncontent-ty
-SF:pe:\x20text/html;\x20charset=utf8\r\ncontent-length:\x204958\r\nx-ovh-w
-SF:ebhosting-id:\x202b5236e64ed1e299a5ac08b298aadd9c\r\npragma:\x20no-cach
+SF-Port80-TCP:V=7.92%I=7%D=11/14%Time=6735EC1A%P=x86_64-alpine-linux-musl%
+SF:r(GetRequest,14F1,"HTTP/1\.1\x20404\x20Not\x20Found\r\nserver:\x20nginx
+SF:\r\ndate:\x20Thu,\x2014\x20Nov\x202024\x2012:24:58\x20GMT\r\ncontent-ty
+SF:pe:\x20text/html;\x20charset=utf8\r\ncontent-length:\x204959\r\nx-ovh-w
+SF:ebhosting-id:\x203f8281381567319e816b2c0b9f85e030\r\npragma:\x20no-cach
 SF:e\r\ncache-control:\x20no-store,\x20no-cache,\x20must-revalidate,\x20po
-SF:st-check=0,\x20pre-check=0\r\nx-iplb-request-id:\x2014392FF1:2043_335BE
-SF:CC1:0050_670D0D90_7085D:5757\r\nx-iplb-instance:\x2052396\r\nconnection
+SF:st-check=0,\x20pre-check=0\r\nx-iplb-request-id:\x2014A14CEE:A443_335BE
+SF:CC1:0050_6735EC14_275CE:3671\r\nx-iplb-instance:\x2052396\r\nconnection
 SF::\x20close\r\n\r\n<html\x20xml:lang=\"en-EN\"\x20lang=\"en-EN\">\n\x20\
 SF:x20\x20\x20<head>\n\x20\x20\x20\x20\x20\x20\x20\x20<title>Site\x20not\x
 SF:20installed\x20-\x20OVHcloud</title>\n\x20\x20\x20\x20\x20\x20\x20\x20<
@@ -77,13 +77,13 @@ SF:n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20name=\"robots\"\x20content=\"
 SF:noindex,\x20nofollow\">\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20name=
 SF:\"description\"\x20\x20qtlid=\"283606\"\x20content=\"Site\x20not\x20ins
 SF:talled\">\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20h")%r(HTTPOptions,1
-SF:4F0,"HTTP/1\.1\x20404\x20Not\x20Found\r\nserver:\x20nginx\r\ndate:\x20M
-SF:on,\x2014\x20Oct\x202024\x2012:24:54\x20GMT\r\ncontent-type:\x20text/ht
-SF:ml;\x20charset=utf8\r\ncontent-length:\x204958\r\nx-ovh-webhosting-id:\
-SF:x209eb7e0e6000402a6ee8476b00959190a\r\npragma:\x20no-cache\r\ncache-con
+SF:4F1,"HTTP/1\.1\x20404\x20Not\x20Found\r\nserver:\x20nginx\r\ndate:\x20T
+SF:hu,\x2014\x20Nov\x202024\x2012:24:58\x20GMT\r\ncontent-type:\x20text/ht
+SF:ml;\x20charset=utf8\r\ncontent-length:\x204959\r\nx-ovh-webhosting-id:\
+SF:x208644b36eb6ec11520283fc22eaff67c1\r\npragma:\x20no-cache\r\ncache-con
 SF:trol:\x20no-store,\x20no-cache,\x20must-revalidate,\x20post-check=0,\x2
-SF:0pre-check=0\r\nx-iplb-request-id:\x2014392FF1:2008_335BECC1:0050_670D0
-SF:D96_93698:54E1\r\nx-iplb-instance:\x2052342\r\nconnection:\x20close\r\n
+SF:0pre-check=0\r\nx-iplb-request-id:\x2014A14CEE:A402_335BECC1:0050_6735E
+SF:C1A_3506A:5C13\r\nx-iplb-instance:\x2052473\r\nconnection:\x20close\r\n
 SF:\r\n<html\x20xml:lang=\"en-EN\"\x20lang=\"en-EN\">\n\x20\x20\x20\x20<he
 SF:ad>\n\x20\x20\x20\x20\x20\x20\x20\x20<title>Site\x20not\x20installed\x2
 SF:0-\x20OVHcloud</title>\n\x20\x20\x20\x20\x20\x20\x20\x20<meta\x20name=\
@@ -98,4 +98,4 @@ SF:"\x20\x20qtlid=\"283606\"\x20content=\"Site\x20not\x20installed\">\n\x2
 SF:0\x20\x20\x20\x20\x20\x20\x20<meta\x20h");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Mon Oct 14 12:25:11 2024 -- 1 IP address (1 host up) scanned in 31.06 seconds
+# Nmap done at Thu Nov 14 12:25:13 2024 -- 1 IP address (1 host up) scanned in 28.68 seconds
