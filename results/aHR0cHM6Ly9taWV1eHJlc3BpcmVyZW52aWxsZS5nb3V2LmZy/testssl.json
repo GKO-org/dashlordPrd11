@@ -262,7 +262,7 @@
               "ip"           : "mieuxrespirerenville.gouv.fr/37.235.92.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "04B03EF6DDB1D95AEBD805371B3A22B9B16F"
+              "finding"      : "037B740E86543312DB498D069DB9BE525D80"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,21 +276,21 @@
               "ip"           : "mieuxrespirerenville.gouv.fr/37.235.92.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "CC202194D51355C6571FE63CCC274F0C9DBCCE76"
+              "finding"      : "1DFC74C1684F28CC22D6361ED55A121C018D73FC"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "mieuxrespirerenville.gouv.fr/37.235.92.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2E4D41F5D8BCD4C83940EC683D34C4A5865E454CFE2C835EF13E38515E0733C8"
+              "finding"      : "AC068F9B949301362035429A000712530E0169EA8D30AFF22DE9D2662903099D"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "mieuxrespirerenville.gouv.fr/37.235.92.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFKzCCBBOgAwIBAgISBLA+9t2x2Vrr2AU3GzoiubFvMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwHhcNMjQxMDI3MDExODA0WhcNMjUwMTI1MDExODAzWjAnMSUwIwYDVQQDExxtaWV1eHJlc3BpcmVyZW52aWxsZS5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsSbIjGiasN/VJwac/vLigepf2jyF+Abdn5CJ3rzRmP9xb2KQGBu6lH5oiyupKzN3Y9zi6mjyJKt8ICezagS9h/wuKbOp7qmVksCsQLQVQR/rYzXrEqNgjaNdAHZfpA6arzk6oew86c4wGnuxtZwsqrushi0qC32MzshOVCUuQ5gwJbxliY32z1uIX9VXYGlvk/L74K8gOBna/3L6FVyXemew3WTmYcBE7Au7EeZd4V1aQ5VUt0ePsHGCAJwsBwHF93NBrRrL+1dkFHNiMV/7Z8tBpBhBCtasvRhDXwvvBsd8Qi2bfv8XoRqGPd1ChUuiXJka0/sVqn8cIjaRTn9cUwIDAQABo4ICQzCCAj8wDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTdMJzEuqEXVIKkCKxaGzlD1nGw/zAfBgNVHSMEGDAWgBS7vMNHpeS8qcbDpHIMEI2iNeHI6DBXBggrBgEFBQcBAQRLMEkwIgYIKwYBBQUHMAGGFmh0dHA6Ly9yMTAuby5sZW5jci5vcmcwIwYIKwYBBQUHMAKGF2h0dHA6Ly9yMTAuaS5sZW5jci5vcmcvMEkGA1UdEQRCMECCHG1pZXV4cmVzcGlyZXJlbnZpbGxlLmdvdXYuZnKCIHd3dy5taWV1eHJlc3BpcmVyZW52aWxsZS5nb3V2LmZyMBMGA1UdIAQMMAowCAYGZ4EMAQIBMIIBBQYKKwYBBAHWeQIEAgSB9gSB8wDxAHcAzxFW7tUufK/zh1vZaS6b6RpxZ0qwF+ysAdJbd87MOwgAAAGSy8LO8gAABAMASDBGAiEAlb6GbUhertiWXAeJEKG+Trj+sjMDml9WVEoolUnJXm0CIQC/QWGv+SIwYgG0OmG2LB0LzsgNqHETUfyJOLVbaymuDgB2AOCSs/wMHcjnaDYf3mG5lk0KUngZinLWcsSwTaVtb1QEAAABksvCzscAAAQDAEcwRQIhAPf6mkV75roQyGsnIeAXQZDCADPJ7ZH/kqYVk+bkSw1uAiAteHa3CR54HTr/TOTzVaNQ9ciXJ88ZXZ4fQXmaYIQluzANBgkqhkiG9w0BAQsFAAOCAQEAatlNKn44DujrfJ567QbGb6Ok/PRHUFX6MZKIhoPywItMBwqhE85XHZZCFcIrt9YJj4MiodYuCbTpc9dmub0Oa5FDmY8DktGefEwn4KjSsOOZPKSa4Sz73zjmdFNd8apjOgEnDv+5MRwbau9x/Xb+uktyhdy5Qiv8qQVLVf2XIz29+8PoLxVQ03P/AG1zDKdV4qPtwnTU5dtl1ooX3VQxxgNGmXSt+l++vC6D2CDDJ92L37gNPEjZ4LOSqYcMM0gxHShiE7Ow+XDw/pDaSEQKXmThGPQbEZ7tOFM087yqGt7iXvslbBZq1tb9NazjObstgTwNQwllexB2IDM53NQgfg==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFTzCCBDegAwIBAgISA3t0DoZUMxLbSY0Gnbm+Ul2AMA0GCSqGSIb3DQEBCwUAMDMxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQwwCgYDVQQDEwNSMTAwHhcNMjQxMjAyMDczMTUyWhcNMjUwMzAyMDczMTUxWjAnMSUwIwYDVQQDExxtaWV1eHJlc3BpcmVyZW52aWxsZS5nb3V2LmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsSbIjGiasN/VJwac/vLigepf2jyF+Abdn5CJ3rzRmP9xb2KQGBu6lH5oiyupKzN3Y9zi6mjyJKt8ICezagS9h/wuKbOp7qmVksCsQLQVQR/rYzXrEqNgjaNdAHZfpA6arzk6oew86c4wGnuxtZwsqrushi0qC32MzshOVCUuQ5gwJbxliY32z1uIX9VXYGlvk/L74K8gOBna/3L6FVyXemew3WTmYcBE7Au7EeZd4V1aQ5VUt0ePsHGCAJwsBwHF93NBrRrL+1dkFHNiMV/7Z8tBpBhBCtasvRhDXwvvBsd8Qi2bfv8XoRqGPd1ChUuiXJka0/sVqn8cIjaRTn9cUwIDAQABo4ICZzCCAmMwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTdMJzEuqEXVIKkCKxaGzlD1nGw/zAfBgNVHSMEGDAWgBS7vMNHpeS8qcbDpHIMEI2iNeHI6DBXBggrBgEFBQcBAQRLMEkwIgYIKwYBBQUHMAGGFmh0dHA6Ly9yMTAuby5sZW5jci5vcmcwIwYIKwYBBQUHMAKGF2h0dHA6Ly9yMTAuaS5sZW5jci5vcmcvMG4GA1UdEQRnMGWCHG1pZXV4cmVzcGlyZXJlbnZpbGxlLmdvdXYuZnKCI3N0cmFwaS5taWV1eHJlc3BpcmVyZW52aWxsZS5nb3V2LmZygiB3d3cubWlldXhyZXNwaXJlcmVudmlsbGUuZ291di5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB2AH1ZHhLheCp7HGFnfF79+NCHXBSgTpWeuQMv2Q6MLnm4AAABk4Z99pwAAAQDAEcwRQIgFrpepmFfs5JhcE1vm5zQ18o9GfQbVaUrHAxHlANEPjkCIQCN9jt8J4f9hR9JSpR3C+dkbIy54AOuSIYdAeGsE7AKfwB2AKLjCuRF772tm3447Udnd1PXgluElNcrXhssxLlQpEfnAAABk4Z99p8AAAQDAEcwRQIgKACXBR/WqASunbYGNMtGrO1NSztK+RQW14QAwHzAC+8CIQDhobRedIcHVmycXYX1mO8bksW0DSMPl/mhO2D722Y9BzANBgkqhkiG9w0BAQsFAAOCAQEAJVPtFygBQjuLFRLXljv1HG/C/ZVXBt2lNZPw7K31ZA0O6MB/RHx1+ZYf6avz3WbTGR4m2m5rIk2XZ/zfczIx7fHzKYOq6ysZBciaxEp+7DQ5qs6RCuVaYLLiKR/Ibdhn5qlKdqr30opHY8VFNi+EBtGOKuh4PqjR3DF8Y3ChGeMZe1LOV+6INjJlZsU5p9/gqAR7QXlYw6FubQQQSItW5RzE52tHbPBUvoPCpqndAZfk+rtk5FwmpDN42XYF+Gpqf/D3CnRzT20KlEUhA2rRuPUNFAjMPZg0pOdvF8U3mmt0s1JVaGLh+CIitfllcYeaxjXxQ1hNwXKnNVjPru8llQ==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -311,7 +311,7 @@
               "ip"           : "mieuxrespirerenville.gouv.fr/37.235.92.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "mieuxrespirerenville.gouv.fr www.mieuxrespirerenville.gouv.fr"
+              "finding"      : "mieuxrespirerenville.gouv.fr strapi.mieuxrespirerenville.gouv.fr www.mieuxrespirerenville.gouv.fr"
           }
 ,         {
               "id"           : "cert_trust",
@@ -339,21 +339,21 @@
               "ip"           : "mieuxrespirerenville.gouv.fr/37.235.92.28",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "71 >= 30 days"
+              "finding"      : "77 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "mieuxrespirerenville.gouv.fr/37.235.92.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-10-27 01:18"
+              "finding"      : "2024-12-02 07:31"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "mieuxrespirerenville.gouv.fr/37.235.92.28",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2025-01-25 01:18"
+              "finding"      : "2025-03-02 07:31"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -535,14 +535,14 @@
               "ip"           : "mieuxrespirerenville.gouv.fr/37.235.92.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "mieuxrespirerenville.gouv.fr/37.235.92.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1731587478"
+              "finding"      : "1734179751"
           }
 ,         {
               "id"           : "ipv4_in_header",
@@ -550,7 +550,7 @@
               "port"         : "443",
               "severity"     : "MEDIUM",
               "cwe"          : "CWE-212",
-              "finding"      : "x-forwarded-for: 20.81.159.195 (check if it's your IP address or e.g. a cluster IP)"
+              "finding"      : "x-forwarded-for: 20.43.245.194 (check if it's your IP address or e.g. a cluster IP)"
           }
 ,         {
               "id"           : "ipv4_in_header",
@@ -558,7 +558,7 @@
               "port"         : "443",
               "severity"     : "MEDIUM",
               "cwe"          : "CWE-212",
-              "finding"      : "x-original-forwarded-for: 20.81.159.195"
+              "finding"      : "x-original-forwarded-for: 20.43.245.194"
           }
 ,         {
               "id"           : "ipv4_in_header",
@@ -566,14 +566,14 @@
               "port"         : "443",
               "severity"     : "MEDIUM",
               "cwe"          : "CWE-212",
-              "finding"      : "x-real-ip: 20.81.159.195"
+              "finding"      : "x-real-ip: 20.43.245.194"
           }
 ,         {
               "id"           : "HSTS_time",
               "ip"           : "mieuxrespirerenville.gouv.fr/37.235.92.28",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "182 days (=15724800 seconds) > 15552000 seconds"
+              "finding"      : "365 days (=31536000 seconds) > 15552000 seconds"
           }
 ,         {
               "id"           : "HSTS_subdomains",
@@ -636,7 +636,7 @@
               "ip"           : "mieuxrespirerenville.gouv.fr/37.235.92.28",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "default-src 'self' https://www.data.gouv.fr https://audience-sites.din.developpement-durable.gouv.fr https://static.data.gouv.fr; script-src 'self' https://audience-sites.din.developpement-durable.gouv.fr/ https://*.adform.net/ 'nonce-ZjlmODY1MjgtNzhiZi00MWY5LTg2ZjgtMDMxMTQzZGVkYjAx' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data: https://audience-sites.din.developpement-durable.gouv.fr/; font-src 'self' blob: data:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests;"
+              "finding"      : "default-src 'self' https://www.data.gouv.fr https://audience-sites.din.developpement-durable.gouv.fr https://static.data.gouv.fr; script-src 'self' https://audience-sites.din.developpement-durable.gouv.fr/ https://*.adform.net/ 'nonce-YzE1NDAxMGItZjhlMC00MTc5LTg0NGQtN2I2NzI2NTcyNWFk' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' blob: data: https://audience-sites.din.developpement-durable.gouv.fr/; font-src 'self' blob: data:; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'none'; upgrade-insecure-requests; frame-src 'self' https://*;"
           }
 ,         {
               "id"           : "Permissions-Policy",
@@ -665,7 +665,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "x-forwarded-for: 20.81.159.195x-forwarded-host: mieuxrespirerenville.gouv.frx-forwarded-port: 443x-forwarded-proto: httpsx-forwarded-scheme: https"
+              "finding"      : "x-forwarded-for: 20.43.245.194x-forwarded-host: mieuxrespirerenville.gouv.frx-forwarded-port: 443x-forwarded-proto: httpsx-forwarded-scheme: https"
           }
 ,         {
               "id"           : "heartbleed",
@@ -788,7 +788,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=2E4D41F5D8BCD4C83940EC683D34C4A5865E454CFE2C835EF13E38515E0733C8"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=AC068F9B949301362035429A000712530E0169EA8D30AFF22DE9D2662903099D"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1164,6 +1164,6 @@
               "ip"           : "mieuxrespirerenville.gouv.fr/37.235.92.28",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "74"
+              "finding"      : "147"
           }
 ]
