@@ -20,9 +20,9 @@
 #####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad </i>  [~183 ciphers]
-  on fv-az1780-945:/home/testssl/bin/openssl.Linux.x86_64
+  on fv-az788-895:/home/testssl/bin/openssl.Linux.x86_64
 
-<span style="color:white;background-color:black;"> Start 2024-11-14 12:28:47                --&gt;&gt; 213.32.73.124:443 (www.ira-nantes.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2024-12-14 12:28:55                --&gt;&gt; 213.32.73.124:443 (www.ira-nantes.gouv.fr) &lt;&lt;--</span>
 
  rDNS (213.32.73.124):   --
  Service detected:       HTTP
@@ -129,38 +129,39 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> TLS clock skew</span>               Random values, no fingerprinting possible 
 <span style="font-weight:bold;"> Certificate Compression      </span>none
 <span style="font-weight:bold;"> Client Authentication        </span>none
-<span style="font-weight:bold;"> Signature Algorithm          </span><span style="color:#008817;">SHA384 with RSA</span>
+<span style="font-weight:bold;"> Signature Algorithm          </span><span style="color:#008817;">SHA256 with RSA</span>
 <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
 <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
 <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication, TLS Web Client Authentication
-<span style="font-weight:bold;"> Serial                       </span>B2B2EE5208C29147859A82CA9038B0A1 (OK: length 16)
-<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 F32B41D515BD6796DACEEF7951B22D8A0CD40F02
-                              SHA256 BEFE51DDF75112183ADB23C09513A7B1F5027E541F18C74A4FA9C2F08F72F9AA
+<span style="font-weight:bold;"> Serial                       </span>01B734F1059970440014DC81701040C2 (OK: length 16)
+<span style="font-weight:bold;"> Fingerprints                 </span>SHA1 238CD3499C58B3F631B182968F0C5A67B39FD2B3
+                              SHA256 504FED77DD2062F00E527B3913CE25ED1A80AD12D42BE8DDEC9BE8ADF9788B32
 <span style="font-weight:bold;"> Common Name (CN)             </span><i>*.ira-nantes.gouv.fr </i>
 <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>*.ira-nantes.gouv.fr ira-nantes.gouv.fr </i>
 <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN wildcard and CN wildcard</span> (same w/o SNI)
                               <span style="color:#a86437;">wildcard certificate</span> could be problematic, see other hosts at
-                              https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=BEFE51DDF75112183ADB23C09513A7B1F5027E541F18C74A4FA9C2F08F72F9AA
+                              https://search.censys.io/search?resource=hosts&amp;virtual_hosts=INCLUDE&amp;q=504FED77DD2062F00E527B3913CE25ED1A80AD12D42BE8DDEC9BE8ADF9788B32
 <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
 <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#e52207;">expires &lt; 30 days (21)</span> (2023-11-27 00:00 --&gt; 2024-12-05 23:59)
+<span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">355 &gt;= 60 days</span> (2024-12-05 00:00 --&gt; 2025-12-04 23:59)
 <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
-<span style="font-weight:bold;"> Certificate Revocation List  </span>--
-<span style="font-weight:bold;"> OCSP URI                     </span>http://ocsp.sectigo.com
+<span style="font-weight:bold;"> Certificate Revocation List  </span>http://crl3.digicert.com/GandiCert.crl
+                              http://crl4.digicert.com/GandiCert.crl
+<span style="font-weight:bold;"> OCSP URI                     </span>http://ocsp.digicert.com
 <span style="font-weight:bold;"> OCSP stapling                </span><span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> OCSP must staple extension   </span>--
 <span style="font-weight:bold;"> DNS CAA RR</span> (experimental)    <span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Certificate Transparency     </span><span style="color:#008817;">yes</span> (certificate extension)
 <span style="font-weight:bold;"> Certificates provided</span>        2
-<span style="font-weight:bold;"> Issuer                       </span><i>Gandi RSA Domain Validation Secure Server CA 3</i> (<i>Gandi</i> from <i>FR</i>)
-<span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2033-08-01 23:59). <i>Gandi RSA Domain Validation Secure Server CA 3</i> &lt;-- <i>USERTrust RSA Certification Authority</i>
+<span style="font-weight:bold;"> Issuer                       </span><i>GandiCert</i> (<i>Gandi SAS</i> from <i>FR</i>)
+<span style="font-weight:bold;"> Intermediate cert validity   </span>#1: <span style="color:#008817;">ok &gt; 40 days</span> (2034-04-16 23:59). <i>GandiCert</i> &lt;-- <i>DigiCert Global Root G2</i>
 <span style="font-weight:bold;"> Intermediate Bad OCSP</span> (exp.) <span style="color:#008817;">Ok</span>
 
 
 <span style="text-decoration:underline;font-weight:bold;"> Testing HTTP header response @ &quot;/&quot; </span>
 
 <span style="font-weight:bold;"> HTTP Status Code           </span>  200 OK
-<span style="font-weight:bold;"> HTTP clock skew              </span>-1 sec from localtime
+<span style="font-weight:bold;"> HTTP clock skew              </span>0 sec from localtime
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#a86437;">not offered</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
 <span style="font-weight:bold;"> Server banner                </span>Apache/<span style="color:#8a7237;">2</span>.<span style="color:#8a7237;">4</span>.<span style="color:#8a7237;">6</span><span style="color:#8a7237;">2</span> (<span style="color:#8a7237;font-weight:bold;">Debian</span>)
@@ -187,7 +188,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=BEFE51DDF75112183ADB23C09513A7B1F5027E541F18C74A4FA9C2F08F72F9AA" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=BEFE51DDF75112183ADB23C09513A7B1F5027E541F18C74A4FA9C2F08F72F9AA</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=504FED77DD2062F00E527B3913CE25ED1A80AD12D42BE8DDEC9BE8ADF9788B32" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=504FED77DD2062F00E527B3913CE25ED1A80AD12D42BE8DDEC9BE8ADF9788B32</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      common prime with 2048 bits detected: <i>RFC3526/Oakley Group 14</i> (<span style="color:#008817;">2048 bits</span>),
                                            but no DH EXPORT ciphers
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
@@ -248,7 +249,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A</span>
 <span style="font-weight:bold;"> Grade cap reasons            </span>Grade capped to A. HSTS is not offered
 
-<span style="color:white;background-color:black;"> Done 2024-11-14 12:30:10 [  86s] --&gt;&gt; 213.32.73.124:443 (www.ira-nantes.gouv.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2024-12-14 12:30:40 [ 107s] --&gt;&gt; 213.32.73.124:443 (www.ira-nantes.gouv.fr) &lt;&lt;--</span>
 
 
 </pre>
