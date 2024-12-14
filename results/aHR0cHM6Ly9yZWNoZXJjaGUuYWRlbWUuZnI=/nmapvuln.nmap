@@ -1,121 +1,17 @@
-# Nmap 7.92 scan initiated Thu Nov 14 12:49:38 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln recherche.ademe.fr
-Nmap scan report for recherche.ademe.fr (20.74.54.57)
-Host is up (0.086s latency).
-Not shown: 998 filtered tcp ports (no-response)
-PORT    STATE SERVICE   VERSION
-80/tcp  open  http
-| fingerprint-strings: 
-|   FourOhFourRequest, GetRequest, HTTPOptions, RPCCheck, RTSPRequest, X11Probe: 
-|     HTTP/1.1 400 Bad Request
-|     Connection: Close
-|     Content-Type: text/html; charset=iso-8859-1
-|     <HTML><HEAD>
-|     <TITLE>400 Bad Request</TITLE>
-|     </HEAD><BODY>
-|     <H1>Bad Request</H1>
-|     Your browser sent a request that this server could not understand.<P><HR>
-|_    </BODY></HTML>
-443/tcp open  ssl/https
-| fingerprint-strings: 
-|   GetRequest: 
-|     HTTP/1.0 404 Not Found
-|     Content-Type: text/plain; charset=utf-8
-|     X-Content-Type-Options: nosniff
-|     Date: Thu, 14 Nov 2024 12:49:59 GMT
-|     Content-Length: 19
-|     X-FRAME-OPTIONS: SAMEORIGIN
-|     Set-Cookie: BNIS_vid=N8XK5JS68sH2m49r8g42dZ+5VTuybsfI79lqyWZsa/73bTJ/GsmJvbGTBFPr6QCBOcMjByq83RWxsRaDprDnPw==; Path=/
-|     Set-Cookie: BNIS___utm_is1=gplPdoDzvViTvRA2hvp2a/m/OQ91j7AcXxMe1cjuOeXfo4QzE9pM+3ENO9CqmtxFHkFnqymvufYIoJN1GpeBY0cJBokUcIDU73MMpdEcd95j6I8thsxBVw==; Max-Age=31536000; Path=/
-|     Set-Cookie: BNIS___utm_is2=wqt86ENXi/fRlefpXoB8FbEulkkGAbiTqI2ZRiglVOsg8PWJ+YwoFn1yPjKcAYs09q9n3U0wZJA=; Max-Age=10800; Path=/
-|     Set-Cookie: BNIS___utm_is3=SJM8D++86B12/ygIbhbAwMqph3CDK7607+tKvVWLrzwN4xLg6d0Y4mlgDJ9q0zDMQmjzA8ITokv3l8LOHU7jsCaPJYh2Z0mB51qXNTQj2wY=; Path=/
-|     Set-Cookie: BNIS_x-bni-jas=yKgLz4oV6SQBr2t2mYszXALllCTO51tNZRV4nX/zlkFHqSfocSVbX7bi7Bq1TEWsLMvTxDvXYyj2S/czkaYaL8yiwlnhkrLi3PKIIsDrlndI+7mL3lyZlg==;
-|   HTTPOptions: 
-|     HTTP/1.1 404 Not Found
-|     Connection: Close
-|     Content-Type: text/html
-|     cache-control: no-store, no-cache, must-revalidate
-|_    <!DOCTYPE html><html> <head> <title>Blocked</title> <style> body { font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; } p{ margin:0 } .header { color: white; background-color: red; text-decoration: none; display: flex; padding: 40px; margin: 0; } .header-flex-content { flex: 5 1 800px; display: flex; align-items: center; } .icon { margin-right: 20px; height: 60px; } @media screen and (max-width: 600px) {
-2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
-==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=11/14%Time=6735F1F0%P=x86_64-alpine-linux-musl%
-SF:r(GetRequest,104,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20
-SF:Close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<HTML
-SF:><HEAD>\n<TITLE>400\x20Bad\x20Request</TITLE>\n</HEAD><BODY>\n<H1>Bad\x
-SF:20Request</H1>\nYour\x20browser\x20sent\x20a\x20request\x20that\x20this
-SF:\x20server\x20could\x20not\x20understand\.<P><HR>\n</BODY></HTML>\n")%r
-SF:(HTTPOptions,104,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20
-SF:Close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<HTML
-SF:><HEAD>\n<TITLE>400\x20Bad\x20Request</TITLE>\n</HEAD><BODY>\n<H1>Bad\x
-SF:20Request</H1>\nYour\x20browser\x20sent\x20a\x20request\x20that\x20this
-SF:\x20server\x20could\x20not\x20understand\.<P><HR>\n</BODY></HTML>\n")%r
-SF:(RTSPRequest,104,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20
-SF:Close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<HTML
-SF:><HEAD>\n<TITLE>400\x20Bad\x20Request</TITLE>\n</HEAD><BODY>\n<H1>Bad\x
-SF:20Request</H1>\nYour\x20browser\x20sent\x20a\x20request\x20that\x20this
-SF:\x20server\x20could\x20not\x20understand\.<P><HR>\n</BODY></HTML>\n")%r
-SF:(X11Probe,104,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20Clo
-SF:se\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<HTML><H
-SF:EAD>\n<TITLE>400\x20Bad\x20Request</TITLE>\n</HEAD><BODY>\n<H1>Bad\x20R
-SF:equest</H1>\nYour\x20browser\x20sent\x20a\x20request\x20that\x20this\x2
-SF:0server\x20could\x20not\x20understand\.<P><HR>\n</BODY></HTML>\n")%r(Fo
-SF:urOhFourRequest,104,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\
-SF:x20Close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<H
-SF:TML><HEAD>\n<TITLE>400\x20Bad\x20Request</TITLE>\n</HEAD><BODY>\n<H1>Ba
-SF:d\x20Request</H1>\nYour\x20browser\x20sent\x20a\x20request\x20that\x20t
-SF:his\x20server\x20could\x20not\x20understand\.<P><HR>\n</BODY></HTML>\n"
-SF:)%r(RPCCheck,104,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nConnection:\x20
-SF:Close\r\nContent-Type:\x20text/html;\x20charset=iso-8859-1\r\n\r\n<HTML
-SF:><HEAD>\n<TITLE>400\x20Bad\x20Request</TITLE>\n</HEAD><BODY>\n<H1>Bad\x
-SF:20Request</H1>\nYour\x20browser\x20sent\x20a\x20request\x20that\x20this
-SF:\x20server\x20could\x20not\x20understand\.<P><HR>\n</BODY></HTML>\n");
-==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/14%Time=6735F1F7%P=x86_64-alpine-linu
-SF:x-musl%r(GetRequest,3A2,"HTTP/1\.0\x20404\x20Not\x20Found\r\nContent-Ty
-SF:pe:\x20text/plain;\x20charset=utf-8\r\nX-Content-Type-Options:\x20nosni
-SF:ff\r\nDate:\x20Thu,\x2014\x20Nov\x202024\x2012:49:59\x20GMT\r\nContent-
-SF:Length:\x2019\r\nX-FRAME-OPTIONS:\x20SAMEORIGIN\r\nSet-Cookie:\x20BNIS_
-SF:vid=N8XK5JS68sH2m49r8g42dZ\+5VTuybsfI79lqyWZsa/73bTJ/GsmJvbGTBFPr6QCBOc
-SF:MjByq83RWxsRaDprDnPw==;\x20Path=/\r\nSet-Cookie:\x20BNIS___utm_is1=gplP
-SF:doDzvViTvRA2hvp2a/m/OQ91j7AcXxMe1cjuOeXfo4QzE9pM\+3ENO9CqmtxFHkFnqymvuf
-SF:YIoJN1GpeBY0cJBokUcIDU73MMpdEcd95j6I8thsxBVw==;\x20Max-Age=31536000;\x2
-SF:0Path=/\r\nSet-Cookie:\x20BNIS___utm_is2=wqt86ENXi/fRlefpXoB8FbEulkkGAb
-SF:iTqI2ZRiglVOsg8PWJ\+YwoFn1yPjKcAYs09q9n3U0wZJA=;\x20Max-Age=10800;\x20P
-SF:ath=/\r\nSet-Cookie:\x20BNIS___utm_is3=SJM8D\+\+86B12/ygIbhbAwMqph3CDK7
-SF:607\+tKvVWLrzwN4xLg6d0Y4mlgDJ9q0zDMQmjzA8ITokv3l8LOHU7jsCaPJYh2Z0mB51qX
-SF:NTQj2wY=;\x20\x20Path=/\r\nSet-Cookie:\x20BNIS_x-bni-jas=yKgLz4oV6SQBr2
-SF:t2mYszXALllCTO51tNZRV4nX/zlkFHqSfocSVbX7bi7Bq1TEWsLMvTxDvXYyj2S/czkaYaL
-SF:8yiwlnhkrLi3PKIIsDrlndI\+7mL3lyZlg==;")%r(HTTPOptions,1F4F,"HTTP/1\.1\x
-SF:20404\x20Not\x20Found\r\nConnection:\x20Close\r\nContent-Type:\x20text/
-SF:html\r\ncache-control:\x20no-store,\x20no-cache,\x20must-revalidate\r\n
-SF:\r\n<!DOCTYPE\x20html><html>\x20\x20\x20\x20<head>\x20\x20\x20\x20\x20\
-SF:x20\x20\x20<title>Blocked</title>\x20\x20\x20\x20\x20\x20\x20\x20<style
-SF:>\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20body\x20{\x20\x20\x20\
-SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20font-family:\x20Robo
-SF:to,\x20Helvetica,\x20Arial,\x20sans-serif;\x20\x20\x20\x20\x20\x20\x20\
-SF:x20\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200;\x20\x20\x20\x20\x20\x2
-SF:0\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
-SF:x20p{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20ma
-SF:rgin:0\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20
-SF:\x20\x20\x20\x20\x20\x20\x20\x20\.header\x20{\x20\x20\x20\x20\x20\x20\x
-SF:20\x20\x20\x20\x20\x20\x20\x20\x20\x20color:\x20white;\x20\x20\x20\x20\
-SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20background-color:\x20red
-SF:;\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20text-d
-SF:ecoration:\x20none;\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
-SF:\x20\x20\x20display:\x20flex;\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x
-SF:20\x20\x20\x20\x20\x20padding:\x2040px;\x20\x20\x20\x20\x20\x20\x20\x20
-SF:\x20\x20\x20\x20\x20\x20\x20\x20margin:\x200;\x20\x20\x20\x20\x20\x20\x
-SF:20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20
-SF:\.header-flex-content\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\
-SF:x20\x20\x20\x20\x20flex:\x205\x201\x20800px;\x20\x20\x20\x20\x20\x20\x2
-SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20display:\x20flex;\x20\x20\x20\x20\
-SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20align-items:\x20center;\
-SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x2
-SF:0\x20\x20\x20\x20\x20\x20\.icon\x20{\x20\x20\x20\x20\x20\x20\x20\x20\x2
-SF:0\x20\x20\x20\x20\x20\x20\x20margin-right:\x2020px;\x20\x20\x20\x20\x20
-SF:\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20height:\x2060px;\x20\x20\x2
-SF:0\x20\x20\x20\x20\x20\x20\x20\x20\x20}\x20\x20\x20\x20\x20\x20\x20\x20\
-SF:x20\x20\x20\x20@media\x20screen\x20and\x20\(max-width:\x20600px\)\x20{\
-SF:x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20");
+# Nmap 7.92 scan initiated Sat Dec 14 12:54:01 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln recherche.ademe.fr
+Nmap scan report for recherche.ademe.fr (104.18.0.202)
+Host is up (0.0017s latency).
+Other addresses for recherche.ademe.fr (not scanned): 104.18.1.202 2606:4700::6812:1ca 2606:4700::6812:ca
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE SERVICE  VERSION
+80/tcp   open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+443/tcp  open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
+8080/tcp open  http     Cloudflare http proxy
+|_http-server-header: cloudflare
+8443/tcp open  ssl/http Cloudflare http proxy
+|_http-server-header: cloudflare
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Thu Nov 14 12:50:18 2024 -- 1 IP address (1 host up) scanned in 39.36 seconds
+# Nmap done at Sat Dec 14 12:54:23 2024 -- 1 IP address (1 host up) scanned in 21.70 seconds
