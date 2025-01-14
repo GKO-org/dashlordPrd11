@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sat Dec 14 12:37:17 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln mieuxrespirerenville.gouv.fr
+# Nmap 7.92 scan initiated Tue Jan 14 12:35:26 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln mieuxrespirerenville.gouv.fr
 Nmap scan report for mieuxrespirerenville.gouv.fr (37.235.92.28)
-Host is up (0.16s latency).
+Host is up (0.13s latency).
 rDNS record for 37.235.92.28: norsys-zfe-infra.dedie.ate.info
 Not shown: 996 filtered tcp ports (no-response)
 PORT     STATE  SERVICE        VERSION
@@ -11,4 +11,4 @@ PORT     STATE  SERVICE        VERSION
 Service Info: Device: load balancer
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sat Dec 14 12:40:13 2024 -- 1 IP address (1 host up) scanned in 175.66 seconds
+# Nmap done at Tue Jan 14 12:38:19 2025 -- 1 IP address (1 host up) scanned in 172.58 seconds
