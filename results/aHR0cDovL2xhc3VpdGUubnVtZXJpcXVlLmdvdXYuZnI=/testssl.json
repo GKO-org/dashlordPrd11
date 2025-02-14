@@ -328,6 +328,13 @@
               "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "lasuite.numerique.gouv.fr/109.232.233.130",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "lasuite.numerique.gouv.fr/109.232.233.130",
               "port"         : "443",
@@ -346,7 +353,7 @@
               "ip"           : "lasuite.numerique.gouv.fr/109.232.233.130",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "69 >= 30 days"
+              "finding"      : "38 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -507,7 +514,7 @@
               "ip"           : "lasuite.numerique.gouv.fr/109.232.233.130",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736858030"
+              "finding"      : "1739536630"
           }
 ,         {
               "id"           : "HSTS",
@@ -1387,6 +1394,13 @@
               "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "lasuite.numerique.gouv.fr/148.253.75.120",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "lasuite.numerique.gouv.fr/148.253.75.120",
               "port"         : "443",
@@ -1405,7 +1419,7 @@
               "ip"           : "lasuite.numerique.gouv.fr/148.253.75.120",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "69 >= 30 days"
+              "finding"      : "38 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -1566,7 +1580,7 @@
               "ip"           : "lasuite.numerique.gouv.fr/148.253.75.120",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736858125"
+              "finding"      : "1739536728"
           }
 ,         {
               "id"           : "HSTS",
@@ -2446,6 +2460,13 @@
               "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "lasuite.numerique.gouv.fr/109.232.236.90",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "lasuite.numerique.gouv.fr/109.232.236.90",
               "port"         : "443",
@@ -2464,7 +2485,7 @@
               "ip"           : "lasuite.numerique.gouv.fr/109.232.236.90",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "69 >= 30 days"
+              "finding"      : "38 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -2625,7 +2646,7 @@
               "ip"           : "lasuite.numerique.gouv.fr/109.232.236.90",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736858221"
+              "finding"      : "1739536828"
           }
 ,         {
               "id"           : "HSTS",
@@ -3383,7 +3404,7 @@
               "ip"           : "lasuite.numerique.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -3505,6 +3526,13 @@
               "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "lasuite.numerique.gouv.fr/5.104.101.30",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "lasuite.numerique.gouv.fr/5.104.101.30",
               "port"         : "443",
@@ -3523,7 +3551,7 @@
               "ip"           : "lasuite.numerique.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "69 >= 30 days"
+              "finding"      : "38 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -3677,14 +3705,14 @@
               "ip"           : "lasuite.numerique.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "lasuite.numerique.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736858316"
+              "finding"      : "1739536927"
           }
 ,         {
               "id"           : "HSTS",
@@ -4240,6 +4268,6 @@
               "ip"           : "lasuite.numerique.gouv.fr/5.104.101.30",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "386"
+              "finding"      : "403"
           }
 ]
