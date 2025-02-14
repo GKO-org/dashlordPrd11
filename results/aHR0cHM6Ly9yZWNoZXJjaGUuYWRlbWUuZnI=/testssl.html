@@ -10,7 +10,7 @@
 <pre>
 <span style="font-weight:bold;">
 #####################################################################</span>
-  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2rc3</span> from <a href="https://testssl.sh/dev/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/dev/</a>
+  <span style="font-weight:bold;">testssl.sh</span> version <span style="font-weight:bold;">3.2rc4</span> from <a href="https://testssl.sh/dev/" style="font-weight:bold;color:black;text-decoration:none;">https://testssl.sh/dev/</a>
 <span style="font-weight:bold;">
   This program is free software. Distribution and modification under
   GPLv2 permitted. USAGE w/o ANY WARRANTY. USE IT AT YOUR OWN RISK!</span>
@@ -20,13 +20,13 @@
 #####################################################################</span>
 
   Using <i>OpenSSL 1.0.2-bad </i>  [~183 ciphers]
-  on fv-az1959-414:/home/testssl/bin/openssl.Linux.x86_64
+  on fv-az1337-524:/home/testssl/bin/openssl.Linux.x86_64
 
 <span style="font-weight:bold;">Testing all IPv4 addresses (port 443): </span>104.18.0.202 104.18.1.202
 -----------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2025-01-14 12:46:53                --&gt;&gt; 104.18.0.202:443 (recherche.ademe.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2025-02-14 12:51:45                --&gt;&gt; 104.18.0.202:443 (recherche.ademe.fr) &lt;&lt;--</span>
 
- Further IP addresses:   104.18.1.202 2606:4700::6812:1ca 2606:4700::6812:ca 
+ Further IP addresses:   104.18.1.202 2606:4700::6812:ca 2606:4700::6812:1ca 
  rDNS (104.18.0.202):    --
  Service detected:       HTTP
 
@@ -89,6 +89,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> TLS extensions (standard)    </span>&quot;server name/#0&quot; &quot;renegotiation info/#65281&quot;
                               &quot;EC point formats/#11&quot; &quot;session ticket/#35&quot;
                               &quot;status request/#5&quot; &quot;next protocol/#13172&quot;
+                              &quot;signed certificate timestamps/#18&quot;
                               &quot;key share/#51&quot; &quot;supported versions/#43&quot;
                               &quot;extended master secret/#23&quot;
                               &quot;application layer protocol negotiation/#16&quot;
@@ -105,18 +106,18 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
   <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
   <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
   <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication
-  <span style="font-weight:bold;"> Serial                       </span>CFC6F75AEDD6BD600EB782B10490A7D3 (OK: length 16)
-  <span style="font-weight:bold;"> Fingerprints                 </span>SHA1 46DF884194C120EC910A8F1266F3529E935777A9
-                                SHA256 3E04F6F9BBA9A315C7639D7DB80FE62889BFA37BCEB64DD321B1449996DB49C0
+  <span style="font-weight:bold;"> Serial                       </span>FD62D9068FEEAC3F0DF22C5A92F526B0 (OK: length 16)
+  <span style="font-weight:bold;"> Fingerprints                 </span>SHA1 CF29F2BB891EA90198E66F44267E00FAEA733C43
+                                SHA256 57228CFD9B600E0A66E8D3B493ACD19BF74F8329F508EA9DB6AA3856AE2018A5
   <span style="font-weight:bold;"> Common Name (CN)             </span><i>recherche.ademe.fr </i> (request w/o SNI didn&apos;t succeed)
   <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>recherche.ademe.fr </i>
   <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
   <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
   <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-  <span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#c05600;">expires &lt; 60 days (49)</span> (2024-12-05 09:15 --&gt; 2025-03-05 10:12)
+  <span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">77 &gt;= 60 days</span> (2025-02-02 11:27 --&gt; 2025-05-03 12:24)
   <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
-  <span style="font-weight:bold;"> Certificate Revocation List  </span>http://c.pki.goog/wr1/ei5WS0gsifo.crl
-  <span style="font-weight:bold;"> OCSP URI                     </span>http://o.pki.goog/s/wr1/z8Y
+  <span style="font-weight:bold;"> Certificate Revocation List  </span>http://c.pki.goog/wr1/uBlQQO6Tx4k.crl
+  <span style="font-weight:bold;"> OCSP URI                     </span>http://o.pki.goog/s/wr1/_WI
   <span style="font-weight:bold;"> OCSP stapling                </span><span style="color:#008817;">offered</span>, <span style="color:#008817;">not revoked</span>
   <span style="font-weight:bold;"> OCSP must staple extension   </span>--
   <span style="font-weight:bold;"> DNS CAA RR</span> (experimental)    <span style="color:#a86437;">not offered</span>
@@ -132,18 +133,18 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
   <span style="font-weight:bold;"> Server key size              </span>EC <span style="color:#008817;">256</span> bits (curve P-256)
   <span style="font-weight:bold;"> Server key usage             </span>Digital Signature
   <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication
-  <span style="font-weight:bold;"> Serial                       </span>DE756BA3A8486C9A0DACA9B0F3F6D988 (OK: length 16)
-  <span style="font-weight:bold;"> Fingerprints                 </span>SHA1 C6993EB96D2613AE4F929580962C26574EE02532
-                                SHA256 82287A9ADC344706580866A91D1CC8AA525B6AEEFA23A6DD4B21160B2D9C2667
+  <span style="font-weight:bold;"> Serial                       </span>757E5276F248388113269473FBFB955A (OK: length 16)
+  <span style="font-weight:bold;"> Fingerprints                 </span>SHA1 27858AE057ADDFCAB1C8F3920C9796B3F096DCE3
+                                SHA256 03D56063A69F88E2F7A3E43398EC2D668DCEA6273A00079DF5FD1F3840963CAA
   <span style="font-weight:bold;"> Common Name (CN)             </span><i>recherche.ademe.fr </i> (request w/o SNI didn&apos;t succeed, usual for EC certificates)
   <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>recherche.ademe.fr </i>
   <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
   <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
   <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-  <span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#c05600;">expires &lt; 60 days (49)</span> (2024-12-05 09:15 --&gt; 2025-03-05 10:15)
+  <span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">77 &gt;= 60 days</span> (2025-02-02 11:27 --&gt; 2025-05-03 12:27)
   <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
-  <span style="font-weight:bold;"> Certificate Revocation List  </span>http://c.pki.goog/we1/2DqfS24kcdI.crl
-  <span style="font-weight:bold;"> OCSP URI                     </span>http://o.pki.goog/s/we1/3nU
+  <span style="font-weight:bold;"> Certificate Revocation List  </span>http://c.pki.goog/we1/K0UVAKe5N94.crl
+  <span style="font-weight:bold;"> OCSP URI                     </span>http://o.pki.goog/s/we1/dX4
   <span style="font-weight:bold;"> OCSP stapling                </span><span style="color:#008817;">offered</span>, <span style="color:#008817;">not revoked</span>
   <span style="font-weight:bold;"> OCSP must staple extension   </span>--
   <span style="font-weight:bold;"> DNS CAA RR</span> (experimental)    <span style="color:#a86437;">not offered</span>
@@ -158,12 +159,12 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="text-decoration:underline;font-weight:bold;"> Testing HTTP header response @ &quot;/&quot; </span>
 
 <span style="font-weight:bold;"> HTTP Status Code           </span>  200 OK
-<span style="font-weight:bold;"> HTTP clock skew              </span>-1 sec from localtime
-<span style="font-weight:bold;"> IPv4 address in header       </span><span style="color:#c05600;">Set-Cookie: __cf_bm=txyFpjE9HTE99dhvETvxGclr0D0aEKqiJDcnuYwI_jY-1736858830-1.0.1.1-QhSbX.7FpoL8gxtr2RIQY.ZEpN.y9qfsxV4tVX6OODSbNu5.NzZ.xJVZ1ZfoRClDmxO7bu.o7cIUuMtgL1vP9A; path=/; expires=Tue, 14-Jan-25 13:17:10 GMT; domain=.ademe.fr; HttpOnly; Secure; SameSite=None</span>
+<span style="font-weight:bold;"> HTTP clock skew              </span>0 sec from localtime
+<span style="font-weight:bold;"> IPv4 address in header       </span><span style="color:#c05600;">Set-Cookie: __cf_bm=mi.jiGbMayUoQkHwF0uRPtDCHYQ.wnY4i9udlhGRPEg-1739537524-1.0.1.1-tG_8TjNOazmZKrhqJioMR.yN3xdV5bslc0IqmWPrEYN8M8XaEhibW8B_0E2SmKjv6vLM4P2jIY1Z2Ii0OBvdFA; path=/; expires=Fri, 14-Feb-25 13:22:04 GMT; domain=.ademe.fr; HttpOnly; Secure; SameSite=None</span>
                               (check if it&apos;s your IP address or e.g. a cluster IP)
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#008817;">186 days</span>=16070400 s<span style="color:#008817;">, includeSubDomains</span><span style="color:#008817;">, preload</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
-<span style="font-weight:bold;"> Server banner                </span>cloudflare
+<span style="font-weight:bold;"> Server banner                </span>cloudflare&apos;
 <span style="font-weight:bold;"> Application banner           </span>--
 <span style="font-weight:bold;"> Cookie(s)                    </span>1 issued: <span style="color:#008817;">1/1</span> secure, <span style="color:#008817;">1/1</span> HttpOnly
 <span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">X-Frame-Options</span>: SAMEORIGIN
@@ -171,6 +172,8 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                               <span style="color:#008817;">Permissions-Policy</span>: geolocation=(self),
                                 microphone=(), camera=(), fullscreen=*
                               X-XSS-Protection: 1; mode=block
+                              Permissions-Policy: geolocation=(self),
+                                microphone=(), camera=(), fullscreen=*
                               Cache-Control: max-age=10800, public
 <span style="font-weight:bold;"> Reverse Proxy banner         </span>--
 
@@ -192,7 +195,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=3E04F6F9BBA9A315C7639D7DB80FE62889BFA37BCEB64DD321B1449996DB49C0" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=3E04F6F9BBA9A315C7639D7DB80FE62889BFA37BCEB64DD321B1449996DB49C0</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=57228CFD9B600E0A66E8D3B493ACD19BF74F8329F508EA9DB6AA3856AE2018A5" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=57228CFD9B600E0A66E8D3B493ACD19BF74F8329F508EA9DB6AA3856AE2018A5</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     potentially <span style="color:#a86437;">VULNERABLE</span>, uses cipher block chaining (CBC) ciphers with TLS. Check patches
@@ -251,12 +254,12 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Final Score                  </span>81
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2025-01-14 12:47:51 [  61s] --&gt;&gt; 104.18.0.202:443 (recherche.ademe.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2025-02-14 12:52:45 [  63s] --&gt;&gt; 104.18.0.202:443 (recherche.ademe.fr) &lt;&lt;--</span>
 
 -----------------------------------------------------
-<span style="color:white;background-color:black;"> Start 2025-01-14 12:47:51                --&gt;&gt; 104.18.1.202:443 (recherche.ademe.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Start 2025-02-14 12:52:45                --&gt;&gt; 104.18.1.202:443 (recherche.ademe.fr) &lt;&lt;--</span>
 
- Further IP addresses:   104.18.0.202 2606:4700::6812:1ca 2606:4700::6812:ca 
+ Further IP addresses:   104.18.0.202 2606:4700::6812:ca 2606:4700::6812:1ca 
  rDNS (104.18.1.202):    --
  Service detected:       HTTP
 
@@ -319,6 +322,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> TLS extensions (standard)    </span>&quot;server name/#0&quot; &quot;renegotiation info/#65281&quot;
                               &quot;EC point formats/#11&quot; &quot;session ticket/#35&quot;
                               &quot;status request/#5&quot; &quot;next protocol/#13172&quot;
+                              &quot;signed certificate timestamps/#18&quot;
                               &quot;key share/#51&quot; &quot;supported versions/#43&quot;
                               &quot;extended master secret/#23&quot;
                               &quot;application layer protocol negotiation/#16&quot;
@@ -335,18 +339,18 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
   <span style="font-weight:bold;"> Server key size              </span>RSA 2048 bits (exponent is 65537)
   <span style="font-weight:bold;"> Server key usage             </span>Digital Signature, Key Encipherment
   <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication
-  <span style="font-weight:bold;"> Serial                       </span>CFC6F75AEDD6BD600EB782B10490A7D3 (OK: length 16)
-  <span style="font-weight:bold;"> Fingerprints                 </span>SHA1 46DF884194C120EC910A8F1266F3529E935777A9
-                                SHA256 3E04F6F9BBA9A315C7639D7DB80FE62889BFA37BCEB64DD321B1449996DB49C0
+  <span style="font-weight:bold;"> Serial                       </span>FD62D9068FEEAC3F0DF22C5A92F526B0 (OK: length 16)
+  <span style="font-weight:bold;"> Fingerprints                 </span>SHA1 CF29F2BB891EA90198E66F44267E00FAEA733C43
+                                SHA256 57228CFD9B600E0A66E8D3B493ACD19BF74F8329F508EA9DB6AA3856AE2018A5
   <span style="font-weight:bold;"> Common Name (CN)             </span><i>recherche.ademe.fr </i> (request w/o SNI didn&apos;t succeed)
   <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>recherche.ademe.fr </i>
   <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
   <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
   <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-  <span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#c05600;">expires &lt; 60 days (49)</span> (2024-12-05 09:15 --&gt; 2025-03-05 10:12)
+  <span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">77 &gt;= 60 days</span> (2025-02-02 11:27 --&gt; 2025-05-03 12:24)
   <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
-  <span style="font-weight:bold;"> Certificate Revocation List  </span>http://c.pki.goog/wr1/ei5WS0gsifo.crl
-  <span style="font-weight:bold;"> OCSP URI                     </span>http://o.pki.goog/s/wr1/z8Y
+  <span style="font-weight:bold;"> Certificate Revocation List  </span>http://c.pki.goog/wr1/uBlQQO6Tx4k.crl
+  <span style="font-weight:bold;"> OCSP URI                     </span>http://o.pki.goog/s/wr1/_WI
   <span style="font-weight:bold;"> OCSP stapling                </span><span style="color:#008817;">offered</span>, <span style="color:#008817;">not revoked</span>
   <span style="font-weight:bold;"> OCSP must staple extension   </span>--
   <span style="font-weight:bold;"> DNS CAA RR</span> (experimental)    <span style="color:#a86437;">not offered</span>
@@ -362,18 +366,18 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
   <span style="font-weight:bold;"> Server key size              </span>EC <span style="color:#008817;">256</span> bits (curve P-256)
   <span style="font-weight:bold;"> Server key usage             </span>Digital Signature
   <span style="font-weight:bold;"> Server extended key usage    </span>TLS Web Server Authentication
-  <span style="font-weight:bold;"> Serial                       </span>DE756BA3A8486C9A0DACA9B0F3F6D988 (OK: length 16)
-  <span style="font-weight:bold;"> Fingerprints                 </span>SHA1 C6993EB96D2613AE4F929580962C26574EE02532
-                                SHA256 82287A9ADC344706580866A91D1CC8AA525B6AEEFA23A6DD4B21160B2D9C2667
+  <span style="font-weight:bold;"> Serial                       </span>757E5276F248388113269473FBFB955A (OK: length 16)
+  <span style="font-weight:bold;"> Fingerprints                 </span>SHA1 27858AE057ADDFCAB1C8F3920C9796B3F096DCE3
+                                SHA256 03D56063A69F88E2F7A3E43398EC2D668DCEA6273A00079DF5FD1F3840963CAA
   <span style="font-weight:bold;"> Common Name (CN)             </span><i>recherche.ademe.fr </i> (request w/o SNI didn&apos;t succeed, usual for EC certificates)
   <span style="font-weight:bold;"> subjectAltName (SAN)         </span><i>recherche.ademe.fr </i>
   <span style="font-weight:bold;"> Trust (hostname)             </span><span style="color:#008817;">Ok via SAN and CN</span> (SNI mandatory)
   <span style="font-weight:bold;"> Chain of trust</span>               <span style="color:#008817;">Ok   </span><span style="color:#cd00cd;"></span>
   <span style="font-weight:bold;"> EV cert</span> (experimental)       no 
-  <span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#c05600;">expires &lt; 60 days (49)</span> (2024-12-05 09:15 --&gt; 2025-03-05 10:15)
+  <span style="font-weight:bold;"> Certificate Validity (UTC)   </span><span style="color:#008817;">77 &gt;= 60 days</span> (2025-02-02 11:27 --&gt; 2025-05-03 12:27)
   <span style="font-weight:bold;"> ETS/&quot;eTLS&quot;</span>, visibility info  not present
-  <span style="font-weight:bold;"> Certificate Revocation List  </span>http://c.pki.goog/we1/2DqfS24kcdI.crl
-  <span style="font-weight:bold;"> OCSP URI                     </span>http://o.pki.goog/s/we1/3nU
+  <span style="font-weight:bold;"> Certificate Revocation List  </span>http://c.pki.goog/we1/K0UVAKe5N94.crl
+  <span style="font-weight:bold;"> OCSP URI                     </span>http://o.pki.goog/s/we1/dX4
   <span style="font-weight:bold;"> OCSP stapling                </span><span style="color:#008817;">offered</span>, <span style="color:#008817;">not revoked</span>
   <span style="font-weight:bold;"> OCSP must staple extension   </span>--
   <span style="font-weight:bold;"> DNS CAA RR</span> (experimental)    <span style="color:#a86437;">not offered</span>
@@ -389,11 +393,11 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 
 <span style="font-weight:bold;"> HTTP Status Code           </span>  200 OK
 <span style="font-weight:bold;"> HTTP clock skew              </span>0 sec from localtime
-<span style="font-weight:bold;"> IPv4 address in header       </span><span style="color:#c05600;">Set-Cookie: __cf_bm=QDjxr4Vdyc.xMD77eqxFvKzBL.JmyadtklHveM4n6_k-1736858888-1.0.1.1-MTRTD6c7jTTf9JseY7AJ5ug3KeQwFZlP6YTICsclKPoUSjwFhMg12Q5WcGLAaLtZbvbVS597NbxilMC3cWGgnQ; path=/; expires=Tue, 14-Jan-25 13:18:08 GMT; domain=.ademe.fr; HttpOnly; Secure; SameSite=None</span>
+<span style="font-weight:bold;"> IPv4 address in header       </span><span style="color:#c05600;">Set-Cookie: __cf_bm=rjPioYIarAi2UicDVcRyxnJx0r_5zxOEBj45CvdLBnA-1739537584-1.0.1.1-.TT_PplOnC6RpcTtTAdX8mxhwj9dRa5nSNDPcNo1di6gs.WN6oe87K.laCW1MGtbmYrXSCtYG93mO1sun8cNCg; path=/; expires=Fri, 14-Feb-25 13:23:04 GMT; domain=.ademe.fr; HttpOnly; Secure; SameSite=None</span>
                               (check if it&apos;s your IP address or e.g. a cluster IP)
 <span style="font-weight:bold;"> Strict Transport Security    </span><span style="color:#008817;">186 days</span>=16070400 s<span style="color:#008817;">, includeSubDomains</span><span style="color:#008817;">, preload</span>
 <span style="font-weight:bold;"> Public Key Pinning           </span>--
-<span style="font-weight:bold;"> Server banner                </span>cloudflare
+<span style="font-weight:bold;"> Server banner                </span>cloudflare&apos;
 <span style="font-weight:bold;"> Application banner           </span>--
 <span style="font-weight:bold;"> Cookie(s)                    </span>1 issued: <span style="color:#008817;">1/1</span> secure, <span style="color:#008817;">1/1</span> HttpOnly
 <span style="font-weight:bold;"> Security headers             </span><span style="color:#008817;">X-Frame-Options</span>: SAMEORIGIN
@@ -401,6 +405,8 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
                               <span style="color:#008817;">Permissions-Policy</span>: geolocation=(self),
                                 microphone=(), camera=(), fullscreen=*
                               X-XSS-Protection: 1; mode=block
+                              Permissions-Policy: geolocation=(self),
+                                microphone=(), camera=(), fullscreen=*
                               Cache-Control: max-age=10800, public
 <span style="font-weight:bold;"> Reverse Proxy banner         </span>--
 
@@ -422,7 +428,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> FREAK</span> (CVE-2015-0204)                     <span style="color:#008817;font-weight:bold;">not vulnerable (OK)</span>
 <span style="font-weight:bold;"> DROWN</span> (CVE-2016-0800, CVE-2016-0703)      <span style="color:#008817;font-weight:bold;">not vulnerable on this host and port (OK)</span>
                                            make sure you don&apos;t use this certificate elsewhere with SSLv2 enabled services, see
-                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=3E04F6F9BBA9A315C7639D7DB80FE62889BFA37BCEB64DD321B1449996DB49C0" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=3E04F6F9BBA9A315C7639D7DB80FE62889BFA37BCEB64DD321B1449996DB49C0</a>
+                                           <a href="https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=57228CFD9B600E0A66E8D3B493ACD19BF74F8329F508EA9DB6AA3856AE2018A5" style="color:black;text-decoration:none;">https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=57228CFD9B600E0A66E8D3B493ACD19BF74F8329F508EA9DB6AA3856AE2018A5</a>
 <span style="font-weight:bold;"> LOGJAM</span> (CVE-2015-4000), experimental      <span style="color:#008817;">not vulnerable (OK):</span> no DH EXPORT ciphers, no DH key detected with &lt;= TLS 1.2
 <span style="font-weight:bold;"> BEAST</span> (CVE-2011-3389)                     <span style="color:#008817;">not vulnerable (OK)</span>, no SSL3 or TLS1
 <span style="font-weight:bold;"> LUCKY13</span> (CVE-2013-0169), experimental     potentially <span style="color:#a86437;">VULNERABLE</span>, uses cipher block chaining (CBC) ciphers with TLS. Check patches
@@ -481,7 +487,7 @@ Hexcode  Cipher Suite Name (OpenSSL)       KeyExch.   Encryption  Bits     Ciphe
 <span style="font-weight:bold;"> Final Score                  </span>81
 <span style="font-weight:bold;"> Overall Grade                </span><span style="color:#008817;font-weight:bold;">A+</span>
 
-<span style="color:white;background-color:black;"> Done 2025-01-14 12:48:49 [ 119s] --&gt;&gt; 104.18.1.202:443 (recherche.ademe.fr) &lt;&lt;--</span>
+<span style="color:white;background-color:black;"> Done 2025-02-14 12:53:45 [ 123s] --&gt;&gt; 104.18.1.202:443 (recherche.ademe.fr) &lt;&lt;--</span>
 
 -----------------------------------------------------
 <span style="font-weight:bold;">Done testing now all IP addresses (on port 443): </span>104.18.0.202 104.18.1.202
