@@ -328,6 +328,13 @@
               "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
+              "id"           : "cert_trust_wildcard",
+              "ip"           : "pacte-industrie.ademe.fr/62.4.4.87",
+              "port"         : "443",
+              "severity"     : "LOW",
+              "finding"      : "trust is via wildcard"
+          }
+,         {
               "id"           : "cert_chain_of_trust",
               "ip"           : "pacte-industrie.ademe.fr/62.4.4.87",
               "port"         : "443",
@@ -345,8 +352,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "pacte-industrie.ademe.fr/62.4.4.87",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "59 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (28)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +366,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "pacte-industrie.ademe.fr/62.4.4.87",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-03-14 22:40"
           }
 ,         {
@@ -507,7 +514,7 @@
               "ip"           : "pacte-industrie.ademe.fr/62.4.4.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736858192"
+              "finding"      : "1739536670"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1070,6 +1077,6 @@
               "ip"           : "pacte-industrie.ademe.fr/62.4.4.87",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "100"
+              "finding"      : "94"
           }
 ]
