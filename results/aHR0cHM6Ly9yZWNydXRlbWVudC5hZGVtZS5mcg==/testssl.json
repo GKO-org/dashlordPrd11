@@ -136,7 +136,7 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "cipher_order",
@@ -157,7 +157,7 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "DHE-RSA-AES128-GCM-SHA256 DHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384"
+              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256 ECDHE-RSA-AES128-SHA256 ECDHE-RSA-AES256-GCM-SHA384 ECDHE-RSA-AES256-SHA384"
           }
 ,         {
               "id"           : "FS_ECDHE_curves",
@@ -171,7 +171,7 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'key share/#51' 'supported versions/#43' 'EC point formats/#11' 'extended master secret/#23'"
+              "finding"      : "'renegotiation info/#65281' 'server name/#0' 'EC point formats/#11' 'key share/#51' 'supported versions/#43' 'extended master secret/#23'"
           }
 ,         {
               "id"           : "TLS_session_ticket",
@@ -234,7 +234,7 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "SHA384 with RSA"
+              "finding"      : "SHA256 with RSA"
           }
 ,         {
               "id"           : "cert_keySize",
@@ -262,7 +262,7 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "BD3E71345AD77D91E5B994F31AA34B40"
+              "finding"      : "01A6B09DDD701DF96AFFA5F104981033"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -276,28 +276,28 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "5F28AF0A59FAD28F904B60BBD236AF8CE7328C41"
+              "finding"      : "F7C392702F7F939B5EA2BCA7B3F0D835C3A03F30"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "D9CC5116F4AD98FD647147CCAD38486139F6DEEC09EA9FFAD0C9D9A617C7CB4E"
+              "finding"      : "34855E14B6BD673BEE18F6662B483F4CE6C888B37E87D8E3BFA5BD86DEFA8A32"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "*.ademe.fr"
+              "finding"      : "recrutement.ademe.fr"
           }
 ,         {
               "id"           : "cert_commonName_wo_SNI",
@@ -311,14 +311,14 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "*.ademe.fr ademe.fr"
+              "finding"      : "recrutement.ademe.fr"
           }
 ,         {
               "id"           : "cert_trust",
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "Ok via SAN wildcard and CN wildcard (SNI mandatory)"
+              "finding"      : "Ok via SAN and CN (SNI mandatory)"
           }
 ,         {
               "id"           : "cert_trust_wildcard",
@@ -345,22 +345,22 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "expires < 30 days (17)"
+              "severity"     : "OK",
+              "finding"      : "342 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2024-01-10 00:00"
+              "finding"      : "2025-01-23 00:00"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
-              "severity"     : "HIGH",
-              "finding"      : "2025-01-31 23:59"
+              "severity"     : "OK",
+              "finding"      : "2026-01-22 23:59"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -381,14 +381,14 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "--"
+              "finding"      : "http://cdpd.digitalcertvalidation.com/TrustProviderBVTLSRSACAG1.crl"
           }
 ,         {
               "id"           : "cert_ocspURL",
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "http://ocsp.sectigo.com"
+              "finding"      : "http://statusd.digitalcertvalidation.com"
           }
 ,         {
               "id"           : "OCSP_stapling",
@@ -437,35 +437,35 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Gandi RSA Domain Validation Secure Server CA 3 (Gandi from FR)"
+              "finding"      : "Trust Provider B.V. TLS RSA CA G1 (Trust Provider B.V. from NL)"
           }
 ,         {
               "id"           : "intermediate_cert <#1>",
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\n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\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIEsjCCA5qgAwIBAgIQDsQR7fAC9zA2xOXULz408jANBgkqhkiG9w0BAQsFADBhMQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBHMjAeFw0xNzExMDIxMjI1MTBaFw0yNzExMDIxMjI1MTBaMHYxCzAJBgNVBAYTAk5MMRwwGgYDVQQKExNUcnVzdCBQcm92aWRlciBCLlYuMR0wGwYDVQQLExREb21haW4gVmFsaWRhdGVkIFNTTDEqMCgGA1UEAxMhVHJ1c3QgUHJvdmlkZXIgQi5WLiBUTFMgUlNBIENBIEcxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0CujVHP9uKBwWwNGWNUnrpcfTvudmYEXX3zI6r+voOQPvupdT8iwyYdDWVtqOaGPeUF2kxiNzeK1bxTHvbWr1VkhHGAF20H4z8G/SGFU9j7OaILnPCaUasoYphro6JUMnt2DqVJhQMeZDy1h+3fX5Qs5oxuVuwgcWciM21sKlpA335QzIh6Ir5EpJsulAha/0MTZyopCvQgBMGkNQelNlFp/58H0jt4RfRZ6Ad37PdNsZvnhyfflrhpJiZqnkJpVilguFda2HvR9fghsVtEi/7aeTypJb5EwS4ZlVbCI1yiT5ES3nMFcOZm3NZkF+1rWOxpK1weJ7+9inSl6+QcchQIDAQABo4IBTzCCAUswHQYDVR0OBBYEFPVWIh/Zv2tZJFKw4WrNwOFXZ+noMB8GA1UdIwQYMBaAFE4iVCAYlebjbuYP+vq5Eu0GF485MA4GA1UdDwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0TAQH/BAgwBgEB/wIBADA0BggrBgEFBQcBAQQoMCYwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBCBgNVHR8EOzA5MDegNaAzhjFodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRHbG9iYWxSb290RzIuY3JsMEwGA1UdIARFMEMwNwYJYIZIAYb9bAECMCowKAYIKwYBBQUHAgEWHGh0dHBzOi8vd3d3LmRpZ2ljZXJ0LmNvbS9DUFMwCAYGZ4EMAQIBMA0GCSqGSIb3DQEBCwUAA4IBAQCk3Aib9H7nhVT6wikbW6IKwSrj149fmNgw9HpF2oH7DjY5XL8Lt2gtImTan91fxVkmLM6pYzpGuAE/4MWUFArR9fqGzNTo1D/gl5k5wCbLFsw7vTDDM3qwiAvBSb+0hlIyW5rDRp2vRjl5kpuD9rD9exHOkhErpP4ztWgeRaCrY4oYG5urj6NuQlMtHn6eV8gR4d29mmKrjCLV/XMCIMtu5INrVzOoo0P1sB/Wwteg3HgQXTtI2177ANO+180PGAeG7gpIwjt/mhl18iyF7aYLP9rUBg+UEJ0s55VrTPKUDYyuAKXyODwgmtuYiZMDrQPcwGfRO1GDghIT3dI21ici\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "intermediate_cert_fingerprintSHA256 <#1>",
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "F0104FF17274608F1A18A1E1EABF8E68A51F500A87E2EFA22ECB622763FEF4CF"
+              "finding"      : "009871C3A4C607311E5AE92F01095F9BF76100B8794AB0A9A5210E6794C8607C"
           }
 ,         {
               "id"           : "intermediate_cert_notBefore <#1>",
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-08-02 00:00"
+              "finding"      : "2017-11-02 12:25"
           }
 ,         {
               "id"           : "intermediate_cert_notAfter <#1>",
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2033-08-01 23:59"
+              "finding"      : "2027-11-02 12:25"
           }
 ,         {
               "id"           : "intermediate_cert_expiration <#1>",
@@ -479,7 +479,7 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Gandi RSA Domain Validation Secure Server CA 3 <-- USERTrust RSA Certification Authority"
+              "finding"      : "Trust Provider B.V. TLS RSA CA G1 <-- DigiCert Global Root G2"
           }
 ,         {
               "id"           : "intermediate_cert_badOCSP",
@@ -507,7 +507,7 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1736858831"
+              "finding"      : "1739537447"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -743,16 +743,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=D9CC5116F4AD98FD647147CCAD38486139F6DEEC09EA9FFAD0C9D9A617C7CB4E"
-          }
-,         {
-              "id"           : "LOGJAM-common_primes",
-              "ip"           : "recrutement.ademe.fr/51.178.115.149",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "cve"          : "CVE-2015-4000",
-              "cwe"          : "CWE-310",
-              "finding"      : "RFC7919/ffdhe2048"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=34855E14B6BD673BEE18F6662B483F4CE6C888B37E87D8E3BFA5BD86DEFA8A32"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -762,6 +753,15 @@
               "cve"          : "CVE-2015-4000",
               "cwe"          : "CWE-310",
               "finding"      : "not vulnerable, no DH EXPORT ciphers,"
+          }
+,         {
+              "id"           : "LOGJAM-common_primes",
+              "ip"           : "recrutement.ademe.fr/51.178.115.149",
+              "port"         : "443",
+              "severity"     : "OK",
+              "cve"          : "CVE-2015-4000",
+              "cwe"          : "CWE-310",
+              "finding"      : "no DH key with <= TLS 1.2"
           }
 ,         {
               "id"           : "BEAST",
@@ -804,7 +804,7 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES128-GCM-SHA256"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-android_70",
@@ -902,14 +902,14 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_win81",
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES256-SHA384"
           }
 ,         {
               "id"           : "clientsimulation-ie_11_winphone81",
@@ -923,7 +923,7 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-edge_15_win10",
@@ -972,7 +972,7 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-java1102",
@@ -1000,21 +1000,21 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
           }
 ,         {
               "id"           : "clientsimulation-openssl_102e",
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-AES128-GCM-SHA256"
           }
 ,         {
               "id"           : "clientsimulation-openssl_110l",
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "TLSv1.2 DHE-RSA-AES256-GCM-SHA384"
+              "finding"      : "TLSv1.2 ECDHE-RSA-CHACHA20-POLY1305"
           }
 ,         {
               "id"           : "clientsimulation-openssl_111d",
@@ -1119,6 +1119,6 @@
               "ip"           : "recrutement.ademe.fr/51.178.115.149",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "62"
+              "finding"      : "100"
           }
 ]

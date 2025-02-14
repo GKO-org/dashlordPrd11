@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Tue Jan 14 12:47:42 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln recrutement.ademe.fr
+# Nmap 7.92 scan initiated Fri Feb 14 12:51:27 2025 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln recrutement.ademe.fr
 Nmap scan report for recrutement.ademe.fr (51.178.115.149)
-Host is up (0.090s latency).
+Host is up (0.15s latency).
 rDNS record for 51.178.115.149: ip149.ip-51-178-115.eu
 Not shown: 997 filtered tcp ports (no-response)
 PORT    STATE  SERVICE   VERSION
@@ -12,10 +12,10 @@ PORT    STATE  SERVICE   VERSION
 |     Last-Modified: Mon, 19 Oct 2015 12:38:42 GMT
 |     Accept-Ranges: bytes
 |     ETag: "0b528166bad11:0"
-|     Date: Tue, 14 Jan 2025 12:47:55 GMT
+|     Date: Fri, 14 Feb 2025 12:51:43 GMT
 |     Connection: close
 |     Content-Length: 2661
-|     Set-Cookie: BIGipServerTS_DEFAULT=!rp+DGuEI1+LpGj9I+oQgKEIpdTCxrPzy87YDEmJ3AzyNs7i+N6FABMblhgQICtDgcEDcmj4XNmtzmA==; path=/; Httponly
+|     Set-Cookie: BIGipServerTS_DEFAULT=!BR0LmfJjhUrzRJbglgoPKwJDj6gDE5PE+aXxNbHyjdRmxEBjbn8iPFwVVialFjMX0wxeEtAtSkxYJg==; path=/; Httponly
 |     <!DOCTYPE html>
 |     <html xmlns="http://www.w3.org/1999/xhtml">
 |     <head>
@@ -29,17 +29,17 @@ PORT    STATE  SERVICE   VERSION
 |     HTTP/1.1 200 OK
 |     Allow: OPTIONS, TRACE, GET, HEAD, POST
 |     Public: OPTIONS, TRACE, GET, HEAD, POST
-|     Date: Tue, 14 Jan 2025 12:47:55 GMT
+|     Date: Fri, 14 Feb 2025 12:51:44 GMT
 |     Connection: close
 |     Content-Length: 0
-|     Set-Cookie: BIGipServerTS_DEFAULT=!UMuFxycT8kww9AhI+oQgKEIpdTCxrEbNWmmu8t/j5UdHcGLlIsayDkOoNx4bR3rD51mB5x8DYtIsuw==; path=/; Httponly
+|     Set-Cookie: BIGipServerTS_DEFAULT=!IgH0KtJJnooReBCjCIcIVtGEkZOpT0pc61oy+QVN2fo8gF36Nm/lIV42Ja0VHj0avkgqepPi/zr/Vw==; path=/; Httponly
 |   RTSPRequest: 
 |     HTTP/1.1 400 Bad Request
 |     Content-Type: text/html; charset=us-ascii
-|     Date: Tue, 14 Jan 2025 12:47:55 GMT
+|     Date: Fri, 14 Feb 2025 12:51:44 GMT
 |     Connection: close
 |     Content-Length: 311
-|     Set-Cookie: BIGipServerTS_DEFAULT=!0csGT20AvPGjOOZI+oQgKEIpdTCxrHXzbkAitvZdnrD7XYP8iIraAx7IzZ8PkhFZM/i+wy+rA0ZD+g==; path=/; Httponly
+|     Set-Cookie: BIGipServerTS_DEFAULT=!KcWtH9x64NnEv1ejCIcIVtGEkZOpT/HEFDjDl5xprrQOcW0nJs1AXq5WMz+LB8ZJxlF0pSk6t0zOJw==; path=/; Httponly
 |     <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN""http://www.w3.org/TR/html4/strict.dtd">
 |     <HTML><HEAD><TITLE>Bad Request</TITLE>
 |     <META HTTP-EQUIV="Content-Type" Content="text/html; charset=us-ascii"></HEAD>
@@ -55,9 +55,9 @@ PORT    STATE  SERVICE   VERSION
 |     Last-Modified: Mon, 19 Oct 2015 12:38:42 GMT
 |     Accept-Ranges: bytes
 |     ETag: "0b528166bad11:0"
-|     Date: Tue, 14 Jan 2025 12:48:02 GMT
+|     Date: Fri, 14 Feb 2025 12:51:51 GMT
 |     Connection: close
-|     Set-Cookie: BIGipServerTS_DEFAULT=!wTj8eWQHAgCiw65I+oQgKEIpdTCxrA98ny1YBptkRCLVluwOwA6SrK0ehs7f8jo2R3P1NNJrlGyA/w==; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerTS_DEFAULT=!dVVITlXKwLV4Z03glgoPKwJDj6gDE2mJiF3+cC3WtnbsIrGCMBugFp65zSJzKaOxhSJHXgLMe5Tbdg==; path=/; Httponly; Secure; SameSite=None
 |     Referrer-Policy: strict-origin-when-cross-origin
 |     X-Content-Type-Options: nosniff
 |     <!DOCTYPE html>
@@ -68,16 +68,16 @@ PORT    STATE  SERVICE   VERSION
 |     <meta name="viewport" content="width=device-width, initial-scale=1">
 |     <meta name="robots" content="noindex, nofollow" />
 |     <title>Unknown site - TalentSoft</title>
-|     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXve
+|     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZl
 |   GetRequest: 
 |     HTTP/1.1 200 OK
 |     Content-Type: text/html
 |     Last-Modified: Mon, 19 Oct 2015 12:38:42 GMT
 |     Accept-Ranges: bytes
 |     ETag: "0b528166bad11:0"
-|     Date: Tue, 14 Jan 2025 12:48:01 GMT
+|     Date: Fri, 14 Feb 2025 12:51:50 GMT
 |     Connection: close
-|     Set-Cookie: BIGipServerTS_DEFAULT=!V0iVOY+d0V93QlZI+oQgKEIpdTCxrGRMIfVlMmqp9tZBeRy9vsom7mJ5HUmlSinZmIlwO9sg7YBjyg==; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerTS_DEFAULT=!D91y3hW7ISp1VVLglgoPKwJDj6gDE5dDUpt6FXeZBeVLEIqfAZAHcWC3Yq6au6bQu04LjI4j3oLkfw==; path=/; Httponly; Secure; SameSite=None
 |     Referrer-Policy: strict-origin-when-cross-origin
 |     X-Content-Type-Options: nosniff
 |     <!DOCTYPE html>
@@ -88,98 +88,98 @@ PORT    STATE  SERVICE   VERSION
 |     <meta name="viewport" content="width=device-width, initial-scale=1">
 |     <meta name="robots" content="noindex, nofollow" />
 |     <title>Unknown site - TalentSoft</title>
-|     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZlkHCEqatNoGiOXve
+|     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-MfvZl
 |   HTTPOptions: 
 |     HTTP/1.1 200 OK
 |     Allow: OPTIONS, TRACE, GET, HEAD, POST
 |     Public: OPTIONS, TRACE, GET, HEAD, POST
-|     Date: Tue, 14 Jan 2025 12:48:01 GMT
+|     Date: Fri, 14 Feb 2025 12:51:50 GMT
 |     Connection: close
 |     Content-Length: 0
-|     Set-Cookie: BIGipServerTS_DEFAULT=!JBfJ64U1mGIyWBRI+oQgKEIpdTCxrCEo9OOovU7Y8dZ4qlY39WOgOtI9fUwOGeIF2icGn5ZHG2q+Fg==; path=/; Httponly; Secure
+|     Set-Cookie: BIGipServerTS_DEFAULT=!8w79+0CDcYk2qTvglgoPKwJDj6gDE5kOOvtESBZXym2OU08OXm3XdFncPj2vD6QQi3KsdcVlGj7oPg==; path=/; Httponly; Secure; SameSite=None
 |     Referrer-Policy: strict-origin-when-cross-origin
 |_    X-Content-Type-Options: nosniff
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=1/14%Time=67865CFB%P=x86_64-alpine-linux-musl%r
+SF-Port80-TCP:V=7.92%I=7%D=2/14%Time=67AF3C60%P=x86_64-alpine-linux-musl%r
 SF:(GetRequest,BC3,"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x20text/html\r
 SF:\nLast-Modified:\x20Mon,\x2019\x20Oct\x202015\x2012:38:42\x20GMT\r\nAcc
-SF:ept-Ranges:\x20bytes\r\nETag:\x20\"0b528166bad11:0\"\r\nDate:\x20Tue,\x
-SF:2014\x20Jan\x202025\x2012:47:55\x20GMT\r\nConnection:\x20close\r\nConte
-SF:nt-Length:\x202661\r\nSet-Cookie:\x20BIGipServerTS_DEFAULT=!rp\+DGuEI1\
-SF:+LpGj9I\+oQgKEIpdTCxrPzy87YDEmJ3AzyNs7i\+N6FABMblhgQICtDgcEDcmj4XNmtzmA
-SF:==;\x20path=/;\x20Httponly\r\n\r\n\xef\xbb\xbf<!DOCTYPE\x20html>\r\n<ht
-SF:ml\x20xmlns=\"http://www\.w3\.org/1999/xhtml\">\r\n<head>\r\n\x20\x20\x
-SF:20\x20<meta\x20charset=\"utf-8\"\x20/>\r\n\x20\x20\x20\x20<meta\x20http
-SF:-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge\">\r\n\x20\x20\x20\x20<
-SF:meta\x20name=\"viewport\"\x20content=\"width=device-width,\x20initial-s
-SF:cale=1\">\r\n\x20\x20\x20\x20<meta\x20name=\"robots\"\x20content=\"noin
-SF:dex,\x20nofollow\"\x20/>\r\n\x20\x20\x20\x20<title>Unknown\x20site\x20-
-SF:\x20TalentSoft</title>\r\n\x20\x20\x20\x20<link\x20href=\"https://maxcd
-SF:n\.bootstrapcdn\.com/bootstrap/3\.3\.5/css/bootstrap\.min\.css\"\x20rel
-SF:=\"stylesheet\"\x20integrity=\"sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85
-SF:qfrfIFBfYc=\x20sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irIt")%r(HTTPOp
-SF:tions,136,"HTTP/1\.1\x20200\x20OK\r\nAllow:\x20OPTIONS,\x20TRACE,\x20GE
-SF:T,\x20HEAD,\x20POST\r\nPublic:\x20OPTIONS,\x20TRACE,\x20GET,\x20HEAD,\x
-SF:20POST\r\nDate:\x20Tue,\x2014\x20Jan\x202025\x2012:47:55\x20GMT\r\nConn
-SF:ection:\x20close\r\nContent-Length:\x200\r\nSet-Cookie:\x20BIGipServerT
-SF:S_DEFAULT=!UMuFxycT8kww9AhI\+oQgKEIpdTCxrEbNWmmu8t/j5UdHcGLlIsayDkOoNx4
-SF:bR3rD51mB5x8DYtIsuw==;\x20path=/;\x20Httponly\r\n\r\n")%r(RTSPRequest,2
-SF:52,"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html;\x
-SF:20charset=us-ascii\r\nDate:\x20Tue,\x2014\x20Jan\x202025\x2012:47:55\x2
-SF:0GMT\r\nConnection:\x20close\r\nContent-Length:\x20311\r\nSet-Cookie:\x
-SF:20BIGipServerTS_DEFAULT=!0csGT20AvPGjOOZI\+oQgKEIpdTCxrHXzbkAitvZdnrD7X
-SF:YP8iIraAx7IzZ8PkhFZM/i\+wy\+rA0ZD\+g==;\x20path=/;\x20Httponly\r\n\r\n<
-SF:!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\"htt
-SF:p://www\.w3\.org/TR/html4/strict\.dtd\">\r\n<HTML><HEAD><TITLE>Bad\x20R
-SF:equest</TITLE>\r\n<META\x20HTTP-EQUIV=\"Content-Type\"\x20Content=\"tex
-SF:t/html;\x20charset=us-ascii\"></HEAD>\r\n<BODY><h2>Bad\x20Request</h2>\
-SF:r\n<hr><p>HTTP\x20Error\x20400\.\x20The\x20request\x20is\x20badly\x20fo
-SF:rmed\.</p>\r\n</BODY></HTML>\r\n");
+SF:ept-Ranges:\x20bytes\r\nETag:\x20\"0b528166bad11:0\"\r\nDate:\x20Fri,\x
+SF:2014\x20Feb\x202025\x2012:51:43\x20GMT\r\nConnection:\x20close\r\nConte
+SF:nt-Length:\x202661\r\nSet-Cookie:\x20BIGipServerTS_DEFAULT=!BR0LmfJjhUr
+SF:zRJbglgoPKwJDj6gDE5PE\+aXxNbHyjdRmxEBjbn8iPFwVVialFjMX0wxeEtAtSkxYJg==;
+SF:\x20path=/;\x20Httponly\r\n\r\n\xef\xbb\xbf<!DOCTYPE\x20html>\r\n<html\
+SF:x20xmlns=\"http://www\.w3\.org/1999/xhtml\">\r\n<head>\r\n\x20\x20\x20\
+SF:x20<meta\x20charset=\"utf-8\"\x20/>\r\n\x20\x20\x20\x20<meta\x20http-eq
+SF:uiv=\"X-UA-Compatible\"\x20content=\"IE=edge\">\r\n\x20\x20\x20\x20<met
+SF:a\x20name=\"viewport\"\x20content=\"width=device-width,\x20initial-scal
+SF:e=1\">\r\n\x20\x20\x20\x20<meta\x20name=\"robots\"\x20content=\"noindex
+SF:,\x20nofollow\"\x20/>\r\n\x20\x20\x20\x20<title>Unknown\x20site\x20-\x2
+SF:0TalentSoft</title>\r\n\x20\x20\x20\x20<link\x20href=\"https://maxcdn\.
+SF:bootstrapcdn\.com/bootstrap/3\.3\.5/css/bootstrap\.min\.css\"\x20rel=\"
+SF:stylesheet\"\x20integrity=\"sha256-MfvZlkHCEqatNoGiOXveE8FIwMzZg4W85qfr
+SF:fIFBfYc=\x20sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irIt")%r(HTTPOptio
+SF:ns,136,"HTTP/1\.1\x20200\x20OK\r\nAllow:\x20OPTIONS,\x20TRACE,\x20GET,\
+SF:x20HEAD,\x20POST\r\nPublic:\x20OPTIONS,\x20TRACE,\x20GET,\x20HEAD,\x20P
+SF:OST\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2012:51:44\x20GMT\r\nConnect
+SF:ion:\x20close\r\nContent-Length:\x200\r\nSet-Cookie:\x20BIGipServerTS_D
+SF:EFAULT=!IgH0KtJJnooReBCjCIcIVtGEkZOpT0pc61oy\+QVN2fo8gF36Nm/lIV42Ja0VHj
+SF:0avkgqepPi/zr/Vw==;\x20path=/;\x20Httponly\r\n\r\n")%r(RTSPRequest,252,
+SF:"HTTP/1\.1\x20400\x20Bad\x20Request\r\nContent-Type:\x20text/html;\x20c
+SF:harset=us-ascii\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2012:51:44\x20GM
+SF:T\r\nConnection:\x20close\r\nContent-Length:\x20311\r\nSet-Cookie:\x20B
+SF:IGipServerTS_DEFAULT=!KcWtH9x64NnEv1ejCIcIVtGEkZOpT/HEFDjDl5xprrQOcW0nJ
+SF:s1AXq5WMz\+LB8ZJxlF0pSk6t0zOJw==;\x20path=/;\x20Httponly\r\n\r\n<!DOCTY
+SF:PE\x20HTML\x20PUBLIC\x20\"-//W3C//DTD\x20HTML\x204\.01//EN\"\"http://ww
+SF:w\.w3\.org/TR/html4/strict\.dtd\">\r\n<HTML><HEAD><TITLE>Bad\x20Request
+SF:</TITLE>\r\n<META\x20HTTP-EQUIV=\"Content-Type\"\x20Content=\"text/html
+SF:;\x20charset=us-ascii\"></HEAD>\r\n<BODY><h2>Bad\x20Request</h2>\r\n<hr
+SF:><p>HTTP\x20Error\x20400\.\x20The\x20request\x20is\x20badly\x20formed\.
+SF:</p>\r\n</BODY></HTML>\r\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=1/14%Time=67865D02%P=x86_64-alpine-linux
-SF:-musl%r(GetRequest,C0A,"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x20text
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=2/14%Time=67AF3C66%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,C19,"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x20text
 SF:/html\r\nLast-Modified:\x20Mon,\x2019\x20Oct\x202015\x2012:38:42\x20GMT
 SF:\r\nAccept-Ranges:\x20bytes\r\nETag:\x20\"0b528166bad11:0\"\r\nDate:\x2
-SF:0Tue,\x2014\x20Jan\x202025\x2012:48:01\x20GMT\r\nConnection:\x20close\r
-SF:\nSet-Cookie:\x20BIGipServerTS_DEFAULT=!V0iVOY\+d0V93QlZI\+oQgKEIpdTCxr
-SF:GRMIfVlMmqp9tZBeRy9vsom7mJ5HUmlSinZmIlwO9sg7YBjyg==;\x20path=/;\x20Http
-SF:only;\x20Secure\r\nReferrer-Policy:\x20strict-origin-when-cross-origin\
-SF:r\nX-Content-Type-Options:\x20nosniff\r\n\r\n\xef\xbb\xbf<!DOCTYPE\x20h
-SF:tml>\r\n<html\x20xmlns=\"https://www\.w3\.org/1999/xhtml\">\r\n<head>\r
-SF:\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\"\x20/>\r\n\x20\x20\x20\x20<
-SF:meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge\">\r\n\x20\
-SF:x20\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=device-width,\
-SF:x20initial-scale=1\">\r\n\x20\x20\x20\x20<meta\x20name=\"robots\"\x20co
-SF:ntent=\"noindex,\x20nofollow\"\x20/>\r\n\x20\x20\x20\x20<title>Unknown\
-SF:x20site\x20-\x20TalentSoft</title>\r\n\x20\x20\x20\x20<link\x20href=\"h
-SF:ttps://maxcdn\.bootstrapcdn\.com/bootstrap/3\.3\.5/css/bootstrap\.min\.
-SF:css\"\x20rel=\"stylesheet\"\x20integrity=\"sha256-MfvZlkHCEqatNoGiOXve"
-SF:)%r(HTTPOptions,191,"HTTP/1\.1\x20200\x20OK\r\nAllow:\x20OPTIONS,\x20TR
-SF:ACE,\x20GET,\x20HEAD,\x20POST\r\nPublic:\x20OPTIONS,\x20TRACE,\x20GET,\
-SF:x20HEAD,\x20POST\r\nDate:\x20Tue,\x2014\x20Jan\x202025\x2012:48:01\x20G
-SF:MT\r\nConnection:\x20close\r\nContent-Length:\x200\r\nSet-Cookie:\x20BI
-SF:GipServerTS_DEFAULT=!JBfJ64U1mGIyWBRI\+oQgKEIpdTCxrCEo9OOovU7Y8dZ4qlY39
-SF:WOgOtI9fUwOGeIF2icGn5ZHG2q\+Fg==;\x20path=/;\x20Httponly;\x20Secure\r\n
-SF:Referrer-Policy:\x20strict-origin-when-cross-origin\r\nX-Content-Type-O
-SF:ptions:\x20nosniff\r\n\r\n")%r(FourOhFourRequest,C0A,"HTTP/1\.1\x20200\
-SF:x20OK\r\nContent-Type:\x20text/html\r\nLast-Modified:\x20Mon,\x2019\x20
-SF:Oct\x202015\x2012:38:42\x20GMT\r\nAccept-Ranges:\x20bytes\r\nETag:\x20\
-SF:"0b528166bad11:0\"\r\nDate:\x20Tue,\x2014\x20Jan\x202025\x2012:48:02\x2
-SF:0GMT\r\nConnection:\x20close\r\nSet-Cookie:\x20BIGipServerTS_DEFAULT=!w
-SF:Tj8eWQHAgCiw65I\+oQgKEIpdTCxrA98ny1YBptkRCLVluwOwA6SrK0ehs7f8jo2R3P1NNJ
-SF:rlGyA/w==;\x20path=/;\x20Httponly;\x20Secure\r\nReferrer-Policy:\x20str
-SF:ict-origin-when-cross-origin\r\nX-Content-Type-Options:\x20nosniff\r\n\
-SF:r\n\xef\xbb\xbf<!DOCTYPE\x20html>\r\n<html\x20xmlns=\"https://www\.w3\.
-SF:org/1999/xhtml\">\r\n<head>\r\n\x20\x20\x20\x20<meta\x20charset=\"utf-8
-SF:\"\x20/>\r\n\x20\x20\x20\x20<meta\x20http-equiv=\"X-UA-Compatible\"\x20
-SF:content=\"IE=edge\">\r\n\x20\x20\x20\x20<meta\x20name=\"viewport\"\x20c
-SF:ontent=\"width=device-width,\x20initial-scale=1\">\r\n\x20\x20\x20\x20<
-SF:meta\x20name=\"robots\"\x20content=\"noindex,\x20nofollow\"\x20/>\r\n\x
-SF:20\x20\x20\x20<title>Unknown\x20site\x20-\x20TalentSoft</title>\r\n\x20
-SF:\x20\x20\x20<link\x20href=\"https://maxcdn\.bootstrapcdn\.com/bootstrap
-SF:/3\.3\.5/css/bootstrap\.min\.css\"\x20rel=\"stylesheet\"\x20integrity=\
-SF:"sha256-MfvZlkHCEqatNoGiOXve");
+SF:0Fri,\x2014\x20Feb\x202025\x2012:51:50\x20GMT\r\nConnection:\x20close\r
+SF:\nSet-Cookie:\x20BIGipServerTS_DEFAULT=!D91y3hW7ISp1VVLglgoPKwJDj6gDE5d
+SF:DUpt6FXeZBeVLEIqfAZAHcWC3Yq6au6bQu04LjI4j3oLkfw==;\x20path=/;\x20Httpon
+SF:ly;\x20Secure;\x20SameSite=None\r\nReferrer-Policy:\x20strict-origin-wh
+SF:en-cross-origin\r\nX-Content-Type-Options:\x20nosniff\r\n\r\n\xef\xbb\x
+SF:bf<!DOCTYPE\x20html>\r\n<html\x20xmlns=\"https://www\.w3\.org/1999/xhtm
+SF:l\">\r\n<head>\r\n\x20\x20\x20\x20<meta\x20charset=\"utf-8\"\x20/>\r\n\
+SF:x20\x20\x20\x20<meta\x20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=
+SF:edge\">\r\n\x20\x20\x20\x20<meta\x20name=\"viewport\"\x20content=\"widt
+SF:h=device-width,\x20initial-scale=1\">\r\n\x20\x20\x20\x20<meta\x20name=
+SF:\"robots\"\x20content=\"noindex,\x20nofollow\"\x20/>\r\n\x20\x20\x20\x2
+SF:0<title>Unknown\x20site\x20-\x20TalentSoft</title>\r\n\x20\x20\x20\x20<
+SF:link\x20href=\"https://maxcdn\.bootstrapcdn\.com/bootstrap/3\.3\.5/css/
+SF:bootstrap\.min\.css\"\x20rel=\"stylesheet\"\x20integrity=\"sha256-MfvZl
+SF:")%r(HTTPOptions,1A0,"HTTP/1\.1\x20200\x20OK\r\nAllow:\x20OPTIONS,\x20T
+SF:RACE,\x20GET,\x20HEAD,\x20POST\r\nPublic:\x20OPTIONS,\x20TRACE,\x20GET,
+SF:\x20HEAD,\x20POST\r\nDate:\x20Fri,\x2014\x20Feb\x202025\x2012:51:50\x20
+SF:GMT\r\nConnection:\x20close\r\nContent-Length:\x200\r\nSet-Cookie:\x20B
+SF:IGipServerTS_DEFAULT=!8w79\+0CDcYk2qTvglgoPKwJDj6gDE5kOOvtESBZXym2OU08O
+SF:Xm3XdFncPj2vD6QQi3KsdcVlGj7oPg==;\x20path=/;\x20Httponly;\x20Secure;\x2
+SF:0SameSite=None\r\nReferrer-Policy:\x20strict-origin-when-cross-origin\r
+SF:\nX-Content-Type-Options:\x20nosniff\r\n\r\n")%r(FourOhFourRequest,C19,
+SF:"HTTP/1\.1\x20200\x20OK\r\nContent-Type:\x20text/html\r\nLast-Modified:
+SF:\x20Mon,\x2019\x20Oct\x202015\x2012:38:42\x20GMT\r\nAccept-Ranges:\x20b
+SF:ytes\r\nETag:\x20\"0b528166bad11:0\"\r\nDate:\x20Fri,\x2014\x20Feb\x202
+SF:025\x2012:51:51\x20GMT\r\nConnection:\x20close\r\nSet-Cookie:\x20BIGipS
+SF:erverTS_DEFAULT=!dVVITlXKwLV4Z03glgoPKwJDj6gDE2mJiF3\+cC3WtnbsIrGCMBugF
+SF:p65zSJzKaOxhSJHXgLMe5Tbdg==;\x20path=/;\x20Httponly;\x20Secure;\x20Same
+SF:Site=None\r\nReferrer-Policy:\x20strict-origin-when-cross-origin\r\nX-C
+SF:ontent-Type-Options:\x20nosniff\r\n\r\n\xef\xbb\xbf<!DOCTYPE\x20html>\r
+SF:\n<html\x20xmlns=\"https://www\.w3\.org/1999/xhtml\">\r\n<head>\r\n\x20
+SF:\x20\x20\x20<meta\x20charset=\"utf-8\"\x20/>\r\n\x20\x20\x20\x20<meta\x
+SF:20http-equiv=\"X-UA-Compatible\"\x20content=\"IE=edge\">\r\n\x20\x20\x2
+SF:0\x20<meta\x20name=\"viewport\"\x20content=\"width=device-width,\x20ini
+SF:tial-scale=1\">\r\n\x20\x20\x20\x20<meta\x20name=\"robots\"\x20content=
+SF:\"noindex,\x20nofollow\"\x20/>\r\n\x20\x20\x20\x20<title>Unknown\x20sit
+SF:e\x20-\x20TalentSoft</title>\r\n\x20\x20\x20\x20<link\x20href=\"https:/
+SF:/maxcdn\.bootstrapcdn\.com/bootstrap/3\.3\.5/css/bootstrap\.min\.css\"\
+SF:x20rel=\"stylesheet\"\x20integrity=\"sha256-MfvZl");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Tue Jan 14 12:50:26 2025 -- 1 IP address (1 host up) scanned in 164.54 seconds
+# Nmap done at Fri Feb 14 12:54:19 2025 -- 1 IP address (1 host up) scanned in 172.19 seconds
